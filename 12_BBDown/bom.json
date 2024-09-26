@@ -1,0 +1,303 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:42a10498-a158-48a7-9af9-8d77758d7ee2",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-17T21:26:15Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "3.0.8.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "BBDown@0.0.0",
+      "name": "BBDown",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Google.Protobuf@3.21.5",
+      "author": "Google Inc.",
+      "name": "Google.Protobuf",
+      "version": "3.21.5",
+      "description": "C# runtime library for Protocol Buffers - Google\u0027s data interchange format.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "09B998972A1D1117834053450DA2B64C7197D9A5672A04758FBB5EAB7E0A66905FDF280C1FD16DBDC67764366855F7625A2FF7A43F7D3FC278BA4F756BDD4E21"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "copyright": "Copyright 2015, Google Inc.",
+      "purl": "pkg:nuget/Google.Protobuf@3.21.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/protocolbuffers/protobuf",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/protocolbuffers/protobuf.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Grpc.Tools@2.47.0",
+      "author": "The gRPC Authors",
+      "name": "Grpc.Tools",
+      "version": "2.47.0",
+      "description": "gRPC and Protocol Buffer compiler for managed C# and native C\u002B\u002B projects.\n\nAdd this package to a project that contains .proto files to be compiled to code.\nIt contains the compilers, include files and project system integration for gRPC\nand Protocol buffer service description files necessary to build them on Windows,\nLinux and MacOS. Managed runtime is supplied separately in the Grpc.Core package.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DF7F73282D042B24C2EE7419ED2F56748B9568EF0A37A86A619A8664E275BDD70A70FDD28F7E4901DECB8DC9B9B88D755143F67C8530F10F20A05A13C339A7B4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright 2018 The gRPC Authors",
+      "purl": "pkg:nuget/Grpc.Tools@2.47.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/grpc/grpc",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/grpc/grpc.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.DotNet.ILCompiler@8.0.8",
+      "author": "Microsoft",
+      "name": "Microsoft.DotNet.ILCompiler",
+      "version": "8.0.8",
+      "description": "Provides a native AOT compiler and runtime for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D9DA7304E1A107B5B3A299889301BBE0DBF7D0D02FDF4E29ECE37EFBA2624FB2173753C0177138D727C214D5CB98AC6AF2F56AFD68F7996791C2BAF245B997BE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.DotNet.ILCompiler@8.0.8",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NET.ILLink.Tasks@8.0.8",
+      "author": "Microsoft",
+      "name": "Microsoft.NET.ILLink.Tasks",
+      "version": "8.0.8",
+      "description": "MSBuild tasks for running the IL Linker",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1C2A41E709BC210E925FADC90E8BCD23A389329EF989CD19783F06DC81A520753B4E99F54749AD85B5792763896A02A6CBFAD03EE02EFAAF94FB14FA96ED7114"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NET.ILLink.Tasks@8.0.8",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/QRCoder@1.4.3",
+      "author": "Raffael Herrmann",
+      "name": "QRCoder",
+      "version": "1.4.3",
+      "description": "QRCoder is a simple library, written in C#.NET, which enables you to create QR codes.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B44D2F5998F827E0178B844797EB57C1802E2B33FB77D88D607917C370D0618E2393F5938829AFF9095C6C951FF19228B09B672C0FE41113C50B6E8BF6DD29DE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/QRCoder@1.4.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/codebude/QRCoder/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/codebude/QRCoder.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SharpZipLib@1.4.2",
+      "author": "ICSharpCode",
+      "name": "SharpZipLib",
+      "version": "1.4.2",
+      "description": "SharpZipLib (#ziplib, formerly NZipLib) is a compression library for Zip, GZip, BZip2, and Tar written entirely in C# for .NET. It is implemented as an assembly (installable in the GAC), and thus can easily be incorporated into other projects (in any .NET language)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4E080196E9B20427D1B5ABE23943D647C365611247CF571D3CF2575808BE7294B9957050AED57FA34326EF8965BBB314E03944693216502D0EB990253DFC94F4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 2000-2022 SharpZipLib Contributors",
+      "purl": "pkg:nuget/SharpZipLib@1.4.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/icsharpcode/SharpZipLib",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/icsharpcode/SharpZipLib",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.CommandLine@2.0.0-beta4.22272.1",
+      "author": "Microsoft",
+      "name": "System.CommandLine",
+      "version": "2.0.0-beta4.22272.1",
+      "description": "This package includes a powerful command line parser and other tools for building command line applications, including:\n    \n    * Shell-agnostic support for command line completions\n    * Method invocation and an extensible middleware pipeline\n    * Constructor- and property-based model binding for complex types\n    * Test and debug support",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "979A7E66BA29E17BC5BEC42E926ED15362E23AE403E498C955E09DFFC4D3BAA14777A06F95E25D591FC9757A0EAA18DEB9E4662A1CA1663FA300F509A4A0383C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.CommandLine@2.0.0-beta4.22272.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/command-line-api",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/command-line-api",
+          "type": "vcs"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "BBDown@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/Google.Protobuf@3.21.5",
+        "pkg:nuget/Microsoft.DotNet.ILCompiler@8.0.8",
+        "pkg:nuget/Microsoft.NET.ILLink.Tasks@8.0.8",
+        "pkg:nuget/QRCoder@1.4.3",
+        "pkg:nuget/SharpZipLib@1.4.2",
+        "pkg:nuget/System.CommandLine@2.0.0-beta4.22272.1",
+        "pkg:nuget/Grpc.Tools@2.47.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Google.Protobuf@3.21.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Grpc.Tools@2.47.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.DotNet.ILCompiler@8.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NET.ILLink.Tasks@8.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/QRCoder@1.4.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/SharpZipLib@1.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.CommandLine@2.0.0-beta4.22272.1",
+      "dependsOn": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿[
+    {
+        "Soup":  "Mono.Cecil",
+        "Author":  "Jb Evain",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "0.11.4",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "0.11.5.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Cecil is a library written by Jb Evain to generate and inspect programs and libraries in the ECMA CIL format.",
+        "ExternalReferences":  "http://github.com/jbevain/cecil/"
+    },
+    {
+        "Soup":  "NDesk.Options",
+        "Author":  "NDesk",
+        "LicenseType":  "Unknown - See URL, http://www.opensource.org/licenses/mit-license.php",
+        "UsedVersion":  "0.2.1",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "0.2.1.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "NDesk.Options is a callback-based program option parser for C#.",
+        "ExternalReferences":  "Unable to parse a ExternalReferences"
+    },
+    {
+        "Soup":  "Newtonsoft.Json",
+        "Author":  "James Newton-King",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "13.0.1",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "13.0.3.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Json.NET is a popular high-performance JSON framework for .NET",
+        "ExternalReferences":  "https://www.newtonsoft.com/json, https://github.com/JamesNK/Newtonsoft.Json"
+    }
+]

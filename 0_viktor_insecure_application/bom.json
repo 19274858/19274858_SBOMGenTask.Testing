@@ -1,0 +1,342 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:af1dccf6-2d9e-4a1a-9b0a-5c9ef196993c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-15T07:30:45Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "3.0.8.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "InsecureApplication@0.0.0",
+      "name": "InsecureApplication",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+      "author": "Microsoft",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "8.0.0",
+      "description": "Abstractions for dependency injection.\n\nCommonly Used Types:\nMicrosoft.Extensions.DependencyInjection.IServiceCollection",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "94BC05ED29755109565D9CDFC901087EE1FA08302DDA393106BC9A0BD7384F0DC2B6C2F123C1BD53FCE06BABDBFA845DC6D22A163C4B0646C5251DCC5AEAC282"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+      "author": "Microsoft",
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "8.0.0",
+      "description": "Logging abstractions for Microsoft.Extensions.Logging.\n\nCommonly Used Types:\nMicrosoft.Extensions.Logging.ILogger\nMicrosoft.Extensions.Logging.ILoggerFactory\nMicrosoft.Extensions.Logging.ILogger\u003CTCategoryName\u003E\nMicrosoft.Extensions.Logging.LogLevel\nMicrosoft.Extensions.Logging.Logger\u003CT\u003E\nMicrosoft.Extensions.Logging.LoggerMessage\nMicrosoft.Extensions.Logging.Abstractions.NullLogger",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "50A0ADD96D30D90580FB8E02A25CEA0AA15F4D22744279B5ACFE18CC8568B74402AA062D5DB13CC5887A08BFD24E07CBC88B2FC10EE8EEC2C37EDF3BCDA7F8A7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "author": "Microsoft",
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "5.0.0",
+      "description": "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8493FE11648C7ECC20B6530490D30FD63744961345C0501A7A10B11046661DA09B783DDCEB8B3208AE52A72A8A94CAFDCE8DC1BD6073C32081E30D0E7407F174"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Win32.SystemEvents@5.0.0",
+      "author": "Microsoft",
+      "name": "Microsoft.Win32.SystemEvents",
+      "version": "5.0.0",
+      "description": "Provides access to Windows system event notifications.\n\nCommonly Used Types:\nMicrosoft.Win32.SystemEvents\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "08EF93ECE2A24B144AAD116FBBFA01DB53EC6661DC13C1649291ECFDCB7E00009D6FFA7BF9EADFAC51254EF741C8715984A1E839EC03C17F3A6D1E238DFCB271"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Win32.SystemEvents@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@12.0.3",
+      "author": "James Newton-King",
+      "name": "Newtonsoft.Json",
+      "version": "12.0.3",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6934665F0479C58BBE996C44F2BF16D435A72F4D92795F0BC1D40CB0BC1358FF0E660AC20B24EABCE01EE6145BD553506178E59FBAABD0F2A94B23BFA5C735F5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 James Newton-King 2008",
+      "purl": "pkg:nuget/Newtonsoft.Json@12.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.newtonsoft.com/json",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Npgsql@8.0.0",
+      "author": "Shay Rojansky,Nikita Kazmin,Brar Piening,Nino Floris,Yoh Deadfall,Austin Drenski,Emil Lenngren,Francisco Figueiredo Jr.,Kenji Uno",
+      "name": "Npgsql",
+      "version": "8.0.0",
+      "description": "Npgsql is the open source .NET data provider for PostgreSQL.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AE50470A1C7770B6FE04E6552BD4F2811E166849E201209BCDEC299C9077914B06DF129E2147E30E843C2567CFC927B351808B215E04522A613E111B9D3E01DD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "PostgreSQL"
+          }
+        }
+      ],
+      "copyright": "Copyright 2023 \u00A9 The Npgsql Development Team",
+      "purl": "pkg:nuget/Npgsql@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/npgsql/npgsql",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/npgsql/npgsql",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Drawing.Common@5.0.0",
+      "author": "Microsoft",
+      "name": "System.Drawing.Common",
+      "version": "5.0.0",
+      "description": "Provides access to GDI\u002B graphics functionality.\n\nCommonly Used Types:\nSystem.Drawing.Bitmap\nSystem.Drawing.BitmapData\nSystem.Drawing.Brush\nSystem.Drawing.Font\nSystem.Drawing.Graphics\nSystem.Drawing.Icon\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2EF8BA76099C4ABFD6AAC04B18FF74AEBCD9C08E0ADB59B2A005142F0CC0A3F00BC5551714289666708DEF0E6EDF46954CA31FDB34DD07FD93E1EEF45FE428F6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Drawing.Common@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/TinyMCE@7.0.0",
+      "author": "Ephox Corporation DBA Tiny Technologies, Inc",
+      "name": "TinyMCE",
+      "version": "7.0.0",
+      "description": "TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under GNU General Public License Version 2 or later by Tiny Technologies, Inc.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "32E2FD7302CBD7C32399FDB9EB222EC69B702422D0EB06C8903743DDDFA5DC86D79BBE303404C95CEEB2F8A597C10DD3495E16DB1B0483E27C3F9C3D4C768263"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/TinyMCE@7.0.0",
+      "externalReferences": [
+        {
+          "url": "https://www.tiny.cloud/",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "InsecureApplication@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/Newtonsoft.Json@12.0.3",
+        "pkg:nuget/Npgsql@8.0.0",
+        "pkg:nuget/System.Drawing.Common@5.0.0",
+        "pkg:nuget/TinyMCE@7.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Win32.SystemEvents@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@12.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Npgsql@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Drawing.Common@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Win32.SystemEvents@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/TinyMCE@7.0.0",
+      "dependsOn": []
+    }
+  ]
+}

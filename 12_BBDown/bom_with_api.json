@@ -1,0 +1,79 @@
+﻿[
+    {
+        "Soup":  "Google.Protobuf",
+        "Author":  "Google Inc.",
+        "LicenseType":  "BSD-3-Clause",
+        "UsedVersion":  "3.21.5",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "4.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "C# runtime library for Protocol Buffers - Google\u0027s data interchange format.",
+        "ExternalReferences":  "https://github.com/protocolbuffers/protobuf, https://github.com/protocolbuffers/protobuf.git"
+    },
+    {
+        "Soup":  "Grpc.Tools",
+        "Author":  "The gRPC Authors",
+        "LicenseType":  "Apache-2.0",
+        "UsedVersion":  "2.47.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "2.66.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "gRPC and Protocol Buffer compiler for managed C# and native C++ projects.\n\nAdd this package to a project that contains .proto files to be compiled to code.\nIt contains the compilers, include files and project system integration for gRPC\nand Protocol buffer service description files necessary to build them on Windows,\nLinux and MacOS. Managed runtime is supplied separately in the Grpc.Core package.",
+        "ExternalReferences":  "https://github.com/grpc/grpc, https://github.com/grpc/grpc.git"
+    },
+    {
+        "Soup":  "Microsoft.DotNet.ILCompiler",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "8.0.8",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "9.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Provides a native AOT compiler and runtime for .NET",
+        "ExternalReferences":  "https://dot.net/, https://github.com/dotnet/runtime"
+    },
+    {
+        "Soup":  "Microsoft.NET.ILLink.Tasks",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "8.0.8",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "9.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "MSBuild tasks for running the IL Linker",
+        "ExternalReferences":  "https://dot.net/, https://github.com/dotnet/runtime"
+    },
+    {
+        "Soup":  "QRCoder",
+        "Author":  "Raffael Herrmann",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "1.4.3",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "1.6.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "QRCoder is a simple library, written in C#.NET, which enables you to create QR codes.",
+        "ExternalReferences":  "https://github.com/codebude/QRCoder/, https://github.com/codebude/QRCoder.git"
+    },
+    {
+        "Soup":  "SharpZipLib",
+        "Author":  "ICSharpCode",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "1.4.2",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "1.4.2.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "SharpZipLib (#ziplib, formerly NZipLib) is a compression library for Zip, GZip, BZip2, and Tar written entirely in C# for .NET. It is implemented as an assembly (installable in the GAC), and thus can easily be incorporated into other projects (in any .NET language)",
+        "ExternalReferences":  "https://github.com/icsharpcode/SharpZipLib, https://github.com/icsharpcode/SharpZipLib"
+    },
+    {
+        "Soup":  "System.CommandLine",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "2.0.0-beta4.22272.1",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "2.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "This package includes a powerful command line parser and other tools for building command line applications, including:\n    \n    * Shell-agnostic support for command line completions\n    * Method invocation and an extensible middleware pipeline\n    * Constructor- and property-based model binding for complex types\n    * Test and debug support",
+        "ExternalReferences":  "https://github.com/dotnet/command-line-api, https://github.com/dotnet/command-line-api"
+    }
+]

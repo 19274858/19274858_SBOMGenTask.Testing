@@ -1,0 +1,450 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f4dba855-da14-46c1-8b64-4883c7fbf821",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-17T19:51:20Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "3.0.8.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "Quasar@0.0.0",
+      "name": "Quasar",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/ILRepack.Lib.MSBuild.Task@2.0.18.2",
+      "author": "RBSoft",
+      "name": "ILRepack.Lib.MSBuild.Task",
+      "version": "2.0.18.2",
+      "description": "MSBuild task for ILRepack which is an open-source alternative to ILMerge.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "61D303117146D5C791D5E3C084D9810FE76A7CA424985CB5D548D32FD739FD845DDA0FF2EC7B42F19ED041D6E6499374EB29D365BB9062E68E0D335FF280E9A4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "RBSoft",
+      "purl": "pkg:nuget/ILRepack.Lib.MSBuild.Task@2.0.18.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/ravibpatel/ILRepack.Lib.MSBuild.Task",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeCoverage@17.3.2",
+      "author": "Microsoft",
+      "name": "Microsoft.CodeCoverage",
+      "version": "17.3.2",
+      "description": "Microsoft.CodeCoverage package brings infra for collecting code coverage from vstest.console.exe and \u0022dotnet test\u0022.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B50F71A789E3E26B05A8EB70207F480CAD09A620DF9DC878863F901B7B8D8221AF41940575666F0E7D942461E89CB1C37C7085FBC7D120352756F30350BC01BD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeCoverage@17.3.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.3.2",
+      "author": "Microsoft",
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "17.3.2",
+      "description": "The MSbuild targets and properties for building .NET test projects.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8B1800F835F0B6F1AB5028367A8BA3452254837A84B20CD587E8452748623AAD96F368ABD732295BCD959F5F1895431FA8BDD1AC73AEBC802CA9FC5AE0141D85"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NET.Test.Sdk@17.3.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Mono.Cecil@0.11.4",
+      "author": "Jb Evain",
+      "name": "Mono.Cecil",
+      "version": "0.11.4",
+      "description": "Cecil is a library written by Jb Evain to generate and inspect programs and libraries in the ECMA CIL format.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0A78F050C9851E749C346F1EFF80D1650417EBB1F96A37A4443B9D999E85CB58C22E1C87D638F36D008E1058412DAD8D8CF590A4C17E447741258F1AEC682694"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Mono.Cecil@0.11.4",
+      "externalReferences": [
+        {
+          "url": "http://github.com/jbevain/cecil/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MouseKeyHook@5.6.0",
+      "author": "George Mamaladze",
+      "name": "MouseKeyHook",
+      "version": "5.6.0",
+      "description": "This library allows you to tap keyboard and mouse, to detect and record their activity even when an application is inactive and runs in background.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "A013BF1985BCB5C1281E3FB910BBD4F08D0D55B15D583FDE4DA4756CEF9094344EAC1525DB9D4C3E611466DFDE4BFD6436FDF44E2F7594B805B99CFEB1AB9CFD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/gmamaladze/globalmousekeyhook/blob/master/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "(c) George Mamaladze 2000-2018",
+      "purl": "pkg:nuget/MouseKeyHook@5.6.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/gmamaladze/globalmousekeyhook",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MSTest.TestAdapter@2.2.10",
+      "author": "Microsoft",
+      "name": "MSTest.TestAdapter",
+      "version": "2.2.10",
+      "description": "The adapter to discover and execute MSTest Framework based tests.\n\n      Supported platforms:\n      - .NET 4.5.0\u002B\n      - .NET Core 1.0\u002B (Universal Windows Apps 10\u002B) (Visual Studio 2017)\n      - .NET 5.0 (Visual Studio 2019)\n      - .NET 5.0 Windows.18362\u002B (WinUI Desktop Apps) (Visual Studio 2019)\n      - ASP.NET Core 1.0\u002B (Visual Studio 2017)",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D215AF07E783180CC196B3DB33BE819BC5063F131EBB71D072DB77DF6376D8EDC750231A4342794D15E0CF909390DDF8A017F766473E1783A08B9B834865A662"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/MSTest.TestAdapter@2.2.10",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MSTest.TestFramework@2.2.10",
+      "author": "Microsoft",
+      "name": "MSTest.TestFramework",
+      "version": "2.2.10",
+      "description": "This is MSTest V2, the evolution of Microsoft\u0027s Test Framework.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CF677547E4CEDD1100AD971D1AA8DF432D959E35F6F0B68EEE2816A81204CBB07E85FF15A70784E95767DA002256C78352BFDE957FC53099B9A9CC46D0A6B5C2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/MSTest.TestFramework@2.2.10",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Open.NAT@2.1.0",
+      "author": "Alan McGovern, Ben Motmans, Lucas Ontivero",
+      "name": "Open.NAT",
+      "version": "2.1.0",
+      "description": "Library to allow port forwarding in NAT devices that support UPNP and/or PMP.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "53E1E0D1FC8FD0AD22B064E89EAC28140F7A718E4CFF5B8524A58BD298DA1A1D28100BF57B0B732C27D0C26417F39F024D516C3A90E009E79B9E14BBF118AAEA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "copyright": "Please see LICENSE for more details.",
+      "purl": "pkg:nuget/Open.NAT@2.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lontivero/Open.NAT",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Portable.BouncyCastle@1.9.0",
+      "author": "Claire Novotny",
+      "name": "Portable.BouncyCastle",
+      "version": "1.9.0",
+      "description": "BouncyCastle portable version with support for .NET 4, .NET Standard 2.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "27350A87568CF16A53BDB4D8994DCB14AC502F1859D0EC3AAE9E671F8E5A5D603252E1102DCD37E67887004766822E4125C5DC150CB9FCCFC7C51285C9E85ACD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://www.bouncycastle.org/csharp/licence.html"
+          }
+        }
+      ],
+      "copyright": "\u00A9 2000-2021 Legion of the Bouncy Castle Inc.",
+      "purl": "pkg:nuget/Portable.BouncyCastle@1.9.0",
+      "externalReferences": [
+        {
+          "url": "https://www.bouncycastle.org/csharp/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/novotnyllc/bc-csharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/protobuf-net@2.4.8",
+      "author": "Marc Gravell",
+      "name": "protobuf-net",
+      "version": "2.4.8",
+      "description": "Provides simple access to fast and efficient \u0022Protocol Buffers\u0022 serialization from .NET applications",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FB5F722A3BDB19F51AF580988F5319E45E2427AC9FBF664BE53F27D063F042B4118AD1EC93AFB7D05D3D4F46968B850454757F60C3AF53E56224A0943C8C2F17"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "See https://github.com/mgravell/protobuf-net",
+      "purl": "pkg:nuget/protobuf-net@2.4.8",
+      "externalReferences": [
+        {
+          "url": "https://github.com/mgravell/protobuf-net",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mgravell/protobuf-net",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Vestris.ResourceLib@2.1.0",
+      "author": "dblock, icnocop, thoemmi",
+      "name": "Vestris.ResourceLib",
+      "version": "2.1.0",
+      "description": "C# File Resource Management Library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DFC6EB39A02BE530AED676EFB9ED163CF41986EEE01C621ED0323B0B6C1DF11344F4197BA065C62BD0D9D8506A7BCDA710BE5F946D0FADEFEE469E9418947010"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/resourcelib/resourcelib/blob/master/LICENSE"
+          }
+        }
+      ],
+      "copyright": "Copyright 2016-2017",
+      "purl": "pkg:nuget/Vestris.ResourceLib@2.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/resourcelib/resourcelib",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/resourcelib/resourcelib",
+          "type": "vcs"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:nuget/ILRepack.Lib.MSBuild.Task@2.0.18.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeCoverage@17.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.3.2",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CodeCoverage@17.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Mono.Cecil@0.11.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/MouseKeyHook@5.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/MSTest.TestAdapter@2.2.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/MSTest.TestFramework@2.2.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Open.NAT@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Portable.BouncyCastle@1.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/protobuf-net@2.4.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Vestris.ResourceLib@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "Quasar@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/Mono.Cecil@0.11.4",
+        "pkg:nuget/MouseKeyHook@5.6.0",
+        "pkg:nuget/Open.NAT@2.1.0",
+        "pkg:nuget/Portable.BouncyCastle@1.9.0",
+        "pkg:nuget/protobuf-net@2.4.8",
+        "pkg:nuget/Vestris.ResourceLib@2.1.0",
+        "pkg:nuget/ILRepack.Lib.MSBuild.Task@2.0.18.2",
+        "pkg:nuget/Microsoft.NET.Test.Sdk@17.3.2",
+        "pkg:nuget/MSTest.TestAdapter@2.2.10",
+        "pkg:nuget/MSTest.TestFramework@2.2.10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0319a3d7-56c5-4eaf-8af2-073b80dee0d1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-17T19:57:27Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "3.0.8.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "Dependencies@0.0.0",
+      "name": "Dependencies",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Mono.Cecil@0.11.4",
+      "author": "Jb Evain",
+      "name": "Mono.Cecil",
+      "version": "0.11.4",
+      "description": "Cecil is a library written by Jb Evain to generate and inspect programs and libraries in the ECMA CIL format.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "52C70932F78E3B3E449AAF7405FAD9C5E4EAD82DD55FA0A78730BB677FD5CA1F79E2C9D83F99DF2A02BF5115B79E393C36F7EC209BB1C37BAE05682885036D8C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Mono.Cecil@0.11.4",
+      "externalReferences": [
+        {
+          "url": "http://github.com/jbevain/cecil/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NDesk.Options@0.2.1",
+      "author": "NDesk",
+      "name": "NDesk.Options",
+      "version": "0.2.1",
+      "description": "NDesk.Options is a callback-based program option parser for C#.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F5D2A2D91C2477789A25E7045B269D241F6F1C7DEB4A2CED0818802E1B2F6B936899562443C83427CD8249AEF5B0C0267EA3E2118E85D0E6479836A0BFF2379D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/NDesk.Options@0.2.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "author": "James Newton-King",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.1",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AF4C1A7044A3D1EB6BC58236D4624689374D18D54428BC22CF9847D8FBF87FC92D80B90201BE79E55C02330A3A21E0E910C8C87497F64C2901451CE1E459EF4D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 James Newton-King 2008",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.newtonsoft.com/json",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json",
+          "type": "vcs"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Dependencies@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/Mono.Cecil@0.11.4",
+        "pkg:nuget/NDesk.Options@0.2.1",
+        "pkg:nuget/Newtonsoft.Json@13.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Mono.Cecil@0.11.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NDesk.Options@0.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "dependsOn": []
+    }
+  ]
+}

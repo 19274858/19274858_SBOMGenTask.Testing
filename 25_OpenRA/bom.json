@@ -1,0 +1,2517 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:335161a0-43d2-417d-aa2b-b10835aeb8a5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-26T15:45:58Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "4.0.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "OpenRA@0.0.0",
+      "name": "OpenRA",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/DiscordRichPresence@1.2.1.24",
+      "authors": [
+        {
+          "name": "Lachee"
+        }
+      ],
+      "name": "DiscordRichPresence",
+      "version": "1.2.1.24",
+      "description": "Discord Rich Presence for your .NET project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6AAA67D7A7FF242CB4AD2660FF983FE7DA4E48F4E4372DDE26F5F24983752B123D1D8BB2BAA881ED3DD26BDC52F50F756140AB8A7C0260D9320BD2F2BC3C68AE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/DiscordRichPresence@1.2.1.24",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Lachee/discord-rpc-csharp",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Linguini.Bundle@0.8.1",
+      "authors": [
+        {
+          "name": "Daniel Fath"
+        }
+      ],
+      "name": "Linguini.Bundle",
+      "version": "0.8.1",
+      "description": "Linguini Bundle is the C# implementation of Project Fluent, a localization system developed by Mozilla\n\nIt provides easy to use and extend system for describing translations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B93E6AC897700383A587A2D86D40EDB4A431B081DDFBA61116FA5A0D77DFB6D71577CA95E1440BAE325A6E1264E65357B17A5C5FF1E96AB4CE1BC780B7BEEC94"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) Daniel Fath 2021",
+      "purl": "pkg:nuget/Linguini.Bundle@0.8.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Ygg01/Linguini",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Ygg01/Linguini",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Linguini.Shared@0.8.0",
+      "authors": [
+        {
+          "name": "Daniel Fath"
+        }
+      ],
+      "name": "Linguini.Shared",
+      "version": "0.8.0",
+      "description": "Shared package used for Linguini, a C# Fluent localization implementation",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "04B497F428DBFBEECCC44BF1C083049108A2CDC6BB3A78E1E1E7CF85AC0AA70E3199AAFAE6D056FF36D6918CEA74D77BE6AEB6C798503428BB54E562E31DC740"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) Daniel Fath 2021",
+      "purl": "pkg:nuget/Linguini.Shared@0.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Ygg01/Linguini",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Ygg01/Linguini",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Linguini.Syntax@0.8.0",
+      "authors": [
+        {
+          "name": "Daniel Fath"
+        }
+      ],
+      "name": "Linguini.Syntax",
+      "version": "0.8.0",
+      "description": "Linguini Syntax provides a module for parsing input using zero-copy Fluent parser.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3389250ED36ED27516E56FB4EFF2618DA52533E69D4CF7BC634C23E956ADC0A639F5ECEEBA8908DEFEE2E1CC873ACCFBA0BD7781FDB47E3D47BE0DBCF09700E2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) Daniel Fath 2021",
+      "purl": "pkg:nuget/Linguini.Syntax@0.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Ygg01/Linguini",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Ygg01/Linguini",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeCoverage@17.10.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.CodeCoverage",
+      "version": "17.10.0",
+      "description": "Microsoft.CodeCoverage package brings infra for collecting code coverage from vstest.console.exe and \u0022dotnet test\u0022.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "479DD9D459C4A7B62A20943AFD29E982800CF61E21220BB2D1ACDA4CCAD7239E613450ADE8819B6B06FB8F3F33FB51DECB27CE68DCF3BC5B61FB70D7E480A25A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeCoverage@17.10.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyModel@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.DependencyModel",
+      "version": "6.0.0",
+      "description": "Abstractions for reading \u0060.deps\u0060 files.\n\nCommonly Used Types:\nMicrosoft.Extensions.DependencyModel.DependencyContext",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4222E75931C6E471E40966D3CB47ED73987B1BF9082D6753EF41A0EC6C6011DF654847B540BC67ACCFE24B258FA2EA188BE5C4E4458849AFE7BFF1D376E78789"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyModel@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.10.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "17.10.0",
+      "description": "The MSbuild targets and properties for building .NET test projects.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "63933DCE26E5E3E7D59133F4B4EEF9B28AB618F6186BC69D46AE3C2AF6078C840B80D9000530AE8BFF2245852E79B8A05E1914A123FB2C7D35EA99D190D10D70"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NET.Test.Sdk@17.10.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "1.1.0",
+      "description": "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6BF892C274596FE2C7164E3D8503B24E187F64D0B7BEC6D9B05EB95F04086FCEB7A85EA6B2685D42DC465C52F6F0E6F636C0B3FDDAC48F6F0125DFD83E92D106"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "5.0.0",
+      "description": "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8493FE11648C7ECC20B6530490D30FD63744961345C0501A7A10B11046661DA09B783DDCEB8B3208AE52A72A8A94CAFDCE8DC1BD6073C32081E30D0E7407F174"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NETCore.Targets",
+      "version": "1.1.0",
+      "description": "Provides supporting infrastructure for portable projects: support identifiers that define framework and runtime for support targets and packages that reference the minimum supported package versions when targeting these. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1EF033A68688AAB9997EC1C0378ACB1638B4AFB618E533FCAF749D93389737BA94F4A0A94481BECDF701C7E988AE2FE390136A8EAE225887EE60DB45063490FE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.10.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.TestPlatform.ObjectModel",
+      "version": "17.10.0",
+      "description": "The Microsoft Test Platform Object Model.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3B7F8038F6CD77389B1923F1B19936AEAAA8226E784228686ECE42B16C4F77FB23B523BB7ACFB085C32ED8492B0880C798A1BA980E20C9ED23CEFFCCA35359DD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.10.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.10.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.TestPlatform.TestHost",
+      "version": "17.10.0",
+      "description": "Testplatform host executes the test using specified adapter.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B400651BDB20D38FFF63C381328801363DF1B8FF9F26E3564BBE39C37251818BEB96F0C2C19B4FF7586383FA84FFB05FC3CD755859B755380CD2A2E4FB04DA53"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.10.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Win32.Registry",
+      "version": "5.0.0",
+      "description": "Provides support for accessing and modifying the Windows Registry.\n\nCommonly Used Types:\nMicrosoft.Win32.RegistryKey\nMicrosoft.Win32.Registry\nMicrosoft.Win32.RegistryValueKind\nMicrosoft.Win32.RegistryHive\nMicrosoft.Win32.RegistryView\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "471E66567CE59CC86475AECE7815D05261264CE114E0C1688BA2551DD51494901FA72DD7A8F74F8E8F0F3DBA74AF8595F177552F3C06ABB4BFCE76692197076E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Mono.Nat@3.0.4",
+      "authors": [
+        {
+          "name": "Alan McGovern, Ben Motmans, Nicholas Terry"
+        }
+      ],
+      "name": "Mono.Nat",
+      "version": "3.0.4",
+      "description": "Mono.Nat is a modern and full-featured library which supports both the UPNP (Universal Plug and Play) and NAT-PMP (Port Mapping Protocol) protocols for port forwarding.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B2909720DC40CD459741E4AD9AF16CF8289DD43F5FE1F90A28F26937DA8D8EC4621D3B296019A94BFE5C871EF12B41F49DC85C415E656D5376A3B1FA48D63973"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Alan McGovern, Ben Motmans, Nicholas Terry",
+      "purl": "pkg:nuget/Mono.Nat@3.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/mono/Mono.Nat",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/Mono.Nat",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MP3Sharp@1.0.5",
+      "authors": [
+        {
+          "name": "Robert Burke,Zane Dubya"
+        }
+      ],
+      "name": "MP3Sharp",
+      "version": "1.0.5",
+      "description": "Decode MP3 files to PCM bitstreams entirely in .NET managed code.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1541E2272451D6352D77D1A75871B899B5C74E17B61AFF4AFC02BBE8CC50F18744A44745B7CC9382C06F660FFC1152788219E613CF29F704F8ACF3BB48E19DF9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://www.gnu.org/licenses/lgpl-3.0.en.html"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/MP3Sharp@1.0.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Nihlus/MP3Sharp",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Nihlus/MP3Sharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NETStandard.Library@2.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "NETStandard.Library",
+      "version": "2.0.0",
+      "description": "A set of standard .NET APIs that are prescribed to be used and supported together. \nd318b764a689cfe285d8484bda918646905664e7 \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "E3D64072B9CD9F9E86209C06A22688ECDA7070427C9A35327D2A9560824C0E1381CCF7BC1D21D2EF8B301761F4BFC7F38FBA712DF7188D2F4FE4F748AAC4D0C7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/standard/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": ".NET Foundation and Contributors",
+      "purl": "pkg:nuget/NETStandard.Library@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "authors": [
+        {
+          "name": "James Newton-King"
+        }
+      ],
+      "name": "Newtonsoft.Json",
+      "version": "13.0.1",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83731B662EAF05379A23F8446EF47BBC111349DD4358B7BD8B51383FE9CF637E2FE62F78CEA52A0D7BDD582DC6FBBB5837D4A7B1D53DCF37A0AE7473E21EE7B1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 James Newton-King 2008",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.newtonsoft.com/json",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NuGet.CommandLine@4.4.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "NuGet.CommandLine",
+      "version": "4.4.1",
+      "description": "NuGet Command Line Tool",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "221134C2A0A41226B0D35335AAC25AA83A05F9F05B4E3A6DA01C1595210B014E8B4E46ACBB6A8F3DF125FAD66968A6A2B9C535744B635F7B2EC4FBD4920C0AC3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/NuGet/NuGet.Client/dev/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 .NET Foundation. All rights reserved.",
+      "purl": "pkg:nuget/NuGet.CommandLine@4.4.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/NuGet/NuGet.Client",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit@3.13.3",
+      "authors": [
+        {
+          "name": "Charlie Poole, Rob Prouse"
+        }
+      ],
+      "name": "NUnit",
+      "version": "3.13.3",
+      "description": "NUnit is a unit-testing framework for all .NET languages with a strong TDD focus.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "09DFCA502D636C3123ADF93331732DB354E9E280935D1BBD7923D710F5B29ADF82D41EFC763E2CE8781DDE01D81BBB21AF168D897D5820A53C15A0F9BCF11F20"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2022 Charlie Poole, Rob Prouse",
+      "purl": "pkg:nuget/NUnit@3.13.3",
+      "externalReferences": [
+        {
+          "url": "https://nunit.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit.Console@3.16.3",
+      "authors": [
+        {
+          "name": "Charlie Poole, Rob Prouse"
+        }
+      ],
+      "name": "NUnit.Console",
+      "version": "3.16.3",
+      "description": "Console runner for the NUnit 3 unit-testing framework with selected extensions.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7D9715DD56A48BD5185F1F0292A7D5C534353C8C14D21B994EC4D8DEF1649663A645EEF7F59312844B6BF21B61ADC1E5E7D592012A1B02A1EB2D2BF68C08BE42"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2021 Charlie Poole, Rob Prouse",
+      "purl": "pkg:nuget/NUnit.Console@3.16.3",
+      "externalReferences": [
+        {
+          "url": "https://nunit.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit-console",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit.ConsoleRunner@3.16.3",
+      "authors": [
+        {
+          "name": "Charlie Poole, Rob Prouse"
+        }
+      ],
+      "name": "NUnit.ConsoleRunner",
+      "version": "3.16.3",
+      "description": "Console runner for the NUnit 3 unit-testing framework, without any extensions.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "365CC135EF5FD5A318E74A99192199D7158D046D852217B516FDB218BE308E63A7A1C2B391BD5B0D0D18CA41FF1EBF43F1975C12B6DDA2AB10447451B7D07925"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2021 Charlie Poole, Rob Prouse",
+      "purl": "pkg:nuget/NUnit.ConsoleRunner@3.16.3",
+      "externalReferences": [
+        {
+          "url": "https://nunit.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit-console",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit.Extension.NUnitProjectLoader@3.6.0",
+      "authors": [
+        {
+          "name": "Charlie Poole"
+        }
+      ],
+      "name": "NUnit.Extension.NUnitProjectLoader",
+      "version": "3.6.0",
+      "description": "NUnit Engine extension for loading NUnit projects.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FB61B48B2784087230E7F40FC0A3D2B6AA2755013838FE20B5F83C59A38BA4687915486DBD382FB32270F5F8CA95A0DE437C949B68418FCB193A89DEA1E4F781"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://nunit.org/nuget/nunit3-license.txt"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016 Charlie Poole",
+      "purl": "pkg:nuget/NUnit.Extension.NUnitProjectLoader@3.6.0",
+      "externalReferences": [
+        {
+          "url": "http://nunit.org/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit.Extension.NUnitV2Driver@3.8.0",
+      "authors": [
+        {
+          "name": "Charlie Poole"
+        }
+      ],
+      "name": "NUnit.Extension.NUnitV2Driver",
+      "version": "3.8.0",
+      "description": "NUnit Engine extension allowing execution of tests using NUnit 2.x.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "69811B57DDB2AE247437269614CFA017518438A6EB861D6C6BA894AD45B97ADB25535870783509353EE22D4EA5BFB480187570C45AA605EA2A81488E30D1F748"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://nunit.org/nuget/nunit3-license.txt"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2014-2019 Charlie Poole",
+      "purl": "pkg:nuget/NUnit.Extension.NUnitV2Driver@3.8.0",
+      "externalReferences": [
+        {
+          "url": "http://nunit.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit-v2-framework-driver",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit.Extension.NUnitV2ResultWriter@3.6.0",
+      "authors": [
+        {
+          "name": "Charlie Poole"
+        }
+      ],
+      "name": "NUnit.Extension.NUnitV2ResultWriter",
+      "version": "3.6.0",
+      "description": "NUnit Engine extension for writing test result files in NUnit V2 format.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "A6BE0D40794D648DC43CB8030FDF49FEF5E4EC6F8C2577A23B7DC6ECA1F61487B1B3613A83E27C5F08D579EA2172196063A1CF8916EDA8438DAF36F6C6F9B6D3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://nunit.org/nuget/nunit3-license.txt"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016 Charlie Poole",
+      "purl": "pkg:nuget/NUnit.Extension.NUnitV2ResultWriter@3.6.0",
+      "externalReferences": [
+        {
+          "url": "http://nunit.org/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit.Extension.TeamCityEventListener@1.0.7",
+      "authors": [
+        {
+          "name": "Charlie Poole,Nikolay Pianikov"
+        }
+      ],
+      "name": "NUnit.Extension.TeamCityEventListener",
+      "version": "1.0.7",
+      "description": "NUnit Team City Event Listener extension for TeamCity.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "852515730CF239366E2E53F21AF26DD305758A24AE6E7ED6469B88BF3AB594DAB5F59B3CBB7356BB4EFA8A77005EE01CB12BC156B7CE2184F0809941D7DF1A74"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://nunit.org/nuget/nunit3-license.txt"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2017 Charlie Poole",
+      "purl": "pkg:nuget/NUnit.Extension.TeamCityEventListener@1.0.7",
+      "externalReferences": [
+        {
+          "url": "http://nunit.org/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit.Extension.VSProjectLoader@3.8.0",
+      "authors": [
+        {
+          "name": "Charlie Poole"
+        }
+      ],
+      "name": "NUnit.Extension.VSProjectLoader",
+      "version": "3.8.0",
+      "description": "NUnit Engine extension for loading Visual Studio formatted projects.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0700FFAA0FB89917F0B28006AAE01CFFF9675B22499A8FFE846A25859677A3A3621A8D93824DAE024A5C3B9E8300C45A1D522B341A241FC5246320EC98DBEAA1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://nunit.org/nuget/nunit3-license.txt"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2018 Charlie Poole",
+      "purl": "pkg:nuget/NUnit.Extension.VSProjectLoader@3.8.0",
+      "externalReferences": [
+        {
+          "url": "http://nunit.org/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit3TestAdapter@4.5.0",
+      "authors": [
+        {
+          "name": "Charlie Poole, Terje Sandstrom"
+        }
+      ],
+      "name": "NUnit3TestAdapter",
+      "version": "4.5.0",
+      "description": "NUnit3 adapter for running tests in Visual Studio and DotNet. Works with NUnit 3.x, use the NUnit 2 adapter for 2.x tests.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "BE32FD672C3AB18BC948F7A6D9C41F79BDABC1FD8D2B6AD9106C14499B35A613EBF05A720959AAE4507C2CC10ADAB45E79F48AA731C6506C716D300193D69154"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2011-2021 Charlie Poole, 2014-2023 Terje Sandstrom",
+      "purl": "pkg:nuget/NUnit3TestAdapter@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://docs.nunit.org/articles/vs-test-adapter/Index.html",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit3-vs-adapter",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NVorbis@0.10.5",
+      "authors": [
+        {
+          "name": "Andrew Ward"
+        }
+      ],
+      "name": "NVorbis",
+      "version": "0.10.5",
+      "description": "A fully managed implementation of a Xiph.org Foundation Ogg Vorbis decoder.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "385AA2BB177F9BA834FFE4CC6AEAC1EF226F56EC76C3A5BE4560697E08233800A6FBD623E724203F4F4FD124F9ADB04E0A781CE83EF39B56FDE22197E4B6CF7A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 Andrew Ward 2021",
+      "purl": "pkg:nuget/NVorbis@0.10.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/NVorbis/NVorbis",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/NVorbis/NVorbis",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenRA-Eluant@1.0.22",
+      "authors": [
+        {
+          "name": "OpenRA"
+        }
+      ],
+      "name": "OpenRA-Eluant",
+      "version": "1.0.22",
+      "description": "This is a version of Eluant modified and packaged for OpenRA.\n    The package includes the C# wrapper (Eluant) and the native binaries for Lua and targets version 5.1.5 of the native project.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "127111D51E8E09FEA1C6E4631270A2B23E1AB438A9CB892C6BF0D386A32EE5FA2DF3EEE5D0814B58C317B8668AECFBF1573A8947659D96A4E98E7890B06988D4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "- Copyright (c) 2013 Chris Howie\n    - Copyright (c) The OpenRA Developers and Contributors",
+      "purl": "pkg:nuget/OpenRA-Eluant@1.0.22",
+      "externalReferences": [
+        {
+          "url": "https://github.com/OpenRA/Eluant",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenRA-Freetype6@1.0.11",
+      "authors": [
+        {
+          "name": "OpenRA"
+        }
+      ],
+      "name": "OpenRA-Freetype6",
+      "version": "1.0.11",
+      "description": "This is a version of FreeType patched and packaged for OpenRA.\n    The package includes the native binaries for FreeType 2.13.0.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F1F1989AC7159D395D2FF693AAAAAE56C7CD4F0F6785171C93FD458EB0C4D24552939DDF2704775C3EEDD1507E7071E329D59CE842FDA3C2C6426179F52C3EC6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "FTL"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "copyright": "Copyright (C) 2013-2023 by David Turner, Robert Wilhelm, and Werner Lemberg",
+      "purl": "pkg:nuget/OpenRA-Freetype6@1.0.11",
+      "externalReferences": [
+        {
+          "url": "https://github.com/OpenRA/FreeType",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenRA-FuzzyLogicLibrary@1.0.1",
+      "authors": [
+        {
+          "name": "teinarss"
+        }
+      ],
+      "name": "OpenRA-FuzzyLogicLibrary",
+      "version": "1.0.1",
+      "description": "FuzzyLogicLibrary modified for OpenRA",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "51E684792FEB15F348C83D0DF5FF863B48A8C2D92D5E9F2618449B59118AF489BCF00134CDCBA0C641D127AA8AF9A7454305A0D0C5C33B05C1B7C52AA17AF3ED"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL"
+          }
+        }
+      ],
+      "copyright": "Copyright 2019",
+      "purl": "pkg:nuget/OpenRA-FuzzyLogicLibrary@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/OpenRA/fuzzynet",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenRA-OpenAL-CS@1.0.22",
+      "authors": [
+        {
+          "name": "OpenRA"
+        }
+      ],
+      "name": "OpenRA-OpenAL-CS",
+      "version": "1.0.22",
+      "description": "This is a version of OpenAL-CS modified and packaged for OpenRA.\n    The package includes the C# wrapper (OpenAL-CS) and the native binaries for OpenAL-Soft and targets version 1.23.1 of the native project.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6A0EE8CE5FD894581420F218EE1902FECED0ED1DA69F8E4043F19FA2D6A9BE0B29FFE396F8316CE8B94F92DDA644F8A06CC9C1F786590AD0F4979CB54B743A94"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "copyright": "- Copyright (c) 2014-2015 Ethan Lee\n    - Copyright (c) Creative Labs",
+      "purl": "pkg:nuget/OpenRA-OpenAL-CS@1.0.22",
+      "externalReferences": [
+        {
+          "url": "https://github.com/OpenRA/OpenAL-CS",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenRA-SDL2-CS@1.0.40",
+      "authors": [
+        {
+          "name": "OpenRA"
+        }
+      ],
+      "name": "OpenRA-SDL2-CS",
+      "version": "1.0.40",
+      "description": "This is a version of SDL2-CS modified and packaged for OpenRA.\n    The package includes the C# wrapper (SDL2-CS) and the native binaries for SDL2 and targets version 2.0.22 of the native project.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "915DB8841FCECE51AD6954EF71C03EB2F757AD554286D7BD2AF954795A3CE7D1D8964E6AE6D959DF52AB721E512F40AC56E453E8C83B5087060CC125A358B74C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "copyright": "- Copyright (c) 2013-2021 Ethan Lee\n    - Copyright (c) the SDL developers and contributors",
+      "purl": "pkg:nuget/OpenRA-SDL2-CS@1.0.40",
+      "externalReferences": [
+        {
+          "url": "https://github.com/OpenRA/SDL2-CS",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Pfim@0.11.3",
+      "authors": [
+        {
+          "name": "Nick Babcock"
+        }
+      ],
+      "name": "Pfim",
+      "version": "0.11.3",
+      "description": "A simple and fast .NET Standard image decoder for targa (.tga) and direct draw surface (.dds) images",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DCEF79D47A47E30611FEDF59E08FFFE544C0B221ECDCB69F260E66CB3230BEFDE6CA3C2DFA0DB5A7BDB47481E66C4865D1FA3811F55037F905AA6FB8852DD70D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/nickbabcock/Pfim/master/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "Nick Babcock",
+      "purl": "pkg:nuget/Pfim@0.11.3",
+      "externalReferences": [
+        {
+          "url": "https://nickbabcock.github.io/Pfim/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nickbabcock/Pfim",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/rix0rrr.BeaconLib@1.0.2",
+      "authors": [
+        {
+          "name": "BeaconLib"
+        }
+      ],
+      "name": "rix0rrr.BeaconLib",
+      "version": "1.0.2",
+      "description": "Simple automatic (local) network discovery in C#",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D4F1104C1F76C082365C57F6B4182EC0B8F7F9A4E825D1C99ECEE068CFFB1F40396689E0C652B40D92BC21D355E1E7E63A58D8203E2EFAFBA84A2668D7412641"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/rix0rrr/beacon/blob/master/LICENSE"
+          }
+        }
+      ],
+      "copyright": "Copyright 2017",
+      "purl": "pkg:nuget/rix0rrr.BeaconLib@1.0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rix0rrr/beacon",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/rix0rrr/beacon",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Roslynator.Analyzers@4.2.0",
+      "authors": [
+        {
+          "name": "Josef Pihrt"
+        }
+      ],
+      "name": "Roslynator.Analyzers",
+      "version": "4.2.0",
+      "description": "A collection of 200\u002B analyzers for C#, powered by Roslyn.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "06D1B94A65FD474E8AFFF1BF71ED9D848A2405E86BF4EEE9A33656866723F037CFE936862F3EF3C4C21FA43EDEA8E1420F270CF701468ADE7CE80A56B26510A8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016-2022 Josef Pihrt",
+      "purl": "pkg:nuget/Roslynator.Analyzers@4.2.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/josefpihrt/roslynator",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/josefpihrt/roslynator.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Roslynator.Formatting.Analyzers@4.2.0",
+      "authors": [
+        {
+          "name": "Josef Pihrt"
+        }
+      ],
+      "name": "Roslynator.Formatting.Analyzers",
+      "version": "4.2.0",
+      "description": "A collection of formatting analyzers, powered by Roslyn.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CD2400F20B2FD35BB0CA9E147C0737B6078760232D36B7DB5680C102F27F037CB9982AA19465996880789FDB0838B8458187C0993082FB00748A8006CF8619F3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016-2022 Josef Pihrt",
+      "purl": "pkg:nuget/Roslynator.Formatting.Analyzers@4.2.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/josefpihrt/roslynator",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/josefpihrt/roslynator.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SharpZipLib@1.4.2",
+      "authors": [
+        {
+          "name": "ICSharpCode"
+        }
+      ],
+      "name": "SharpZipLib",
+      "version": "1.4.2",
+      "description": "SharpZipLib (#ziplib, formerly NZipLib) is a compression library for Zip, GZip, BZip2, and Tar written entirely in C# for .NET. It is implemented as an assembly (installable in the GAC), and thus can easily be incorporated into other projects (in any .NET language)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4E080196E9B20427D1B5ABE23943D647C365611247CF571D3CF2575808BE7294B9957050AED57FA34326EF8965BBB314E03944693216502D0EB990253DFC94F4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 2000-2022 SharpZipLib Contributors",
+      "purl": "pkg:nuget/SharpZipLib@1.4.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/icsharpcode/SharpZipLib",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/icsharpcode/SharpZipLib",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/StyleCop.Analyzers@1.2.0-beta.435",
+      "authors": [
+        {
+          "name": "Sam Harwell et. al."
+        }
+      ],
+      "name": "StyleCop.Analyzers",
+      "version": "1.2.0-beta.435",
+      "description": "An implementation of StyleCop\u0027s rules using Roslyn analyzers and code fixes",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2EDE8D9352A51861A5B2550010FF55DA8241381A6FA6CC49E025F1C289B230B8C0177E93850DE4EA8B6F702C1F2D50D81A9F4D890CA9441C257B614F2A5E05DD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2015 Tunnel Vision Laboratories, LLC",
+      "purl": "pkg:nuget/StyleCop.Analyzers@1.2.0-beta.435",
+      "externalReferences": [
+        {
+          "url": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/StyleCop.Analyzers.Unstable@1.2.0.435",
+      "authors": [
+        {
+          "name": "Sam Harwell et. al."
+        }
+      ],
+      "name": "StyleCop.Analyzers.Unstable",
+      "version": "1.2.0.435",
+      "description": "An implementation of StyleCop\u0027s rules using Roslyn analyzers and code fixes",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F51E39A1821DF5AA9F0E80F90ECD287991850BAAFA49E8EF5AC45A32C36B48A0C93EC3012C575ED7AD25EC867A51CE31F189DFAF2BCD8214C1626A5FEA1E58B8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2015 Tunnel Vision Laboratories, LLC",
+      "purl": "pkg:nuget/StyleCop.Analyzers.Unstable@1.2.0.435",
+      "externalReferences": [
+        {
+          "url": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Buffers@4.5.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Buffers",
+      "version": "4.5.1",
+      "description": "Provides resource pooling of any type for performance-critical applications that allocate and deallocate objects frequently.\n\nCommonly Used Types:\nSystem.Buffers.ArrayPool\u003CT\u003E\n \n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "80DA6158E55B9BCF7E0B5E6379B9CF45A632914F037B53C5BF5609576E3CD7821F7861956B73D74470D2D0C2E56DD235A5EF4CA6FFE7E192B820DC2D023AAFF2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Buffers@4.5.1",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.IO",
+      "version": "4.3.0",
+      "description": "Provides base input and output (I/O) types, including System.IO.Stream, System.IO.StreamReader and System.IO.StreamWriter, that allow reading and writing to data streams\n\nCommonly Used Types:\nSystem.IO.Stream\nSystem.IO.EndOfStreamException\nSystem.IO.MemoryStream\nSystem.IO.StreamReader\nSystem.IO.StreamWriter\nSystem.IO.StringWriter\nSystem.IO.TextWriter\nSystem.IO.TextReader\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "BFCA5A21E3E1986B9765B13DC6FBCD6F8B89E4C1383855D1D7EF256BF1BF2F51889769DB5365859DD7606FBF6454ADD4DAEB3BAB56994FFB98FD1D03FE8BC1E6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.IO@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Memory@4.5.4",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Memory",
+      "version": "4.5.4",
+      "description": "Provides types for efficient representation and pooling of managed, stack, and native memory segments and sequences of such segments, along with primitives to parse and format UTF-8 encoded text stored in those memory segments.\n\nCommonly Used Types:\nSystem.Span\nSystem.ReadOnlySpan\nSystem.Memory\nSystem.ReadOnlyMemory\nSystem.Buffers.MemoryPool\nSystem.Buffers.ReadOnlySequence\nSystem.Buffers.Text.Utf8Parser\nSystem.Buffers.Text.Utf8Formatter\n \n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8ECE5491EB0FE332BC190F40CF76B3BEEE0C5F996325034861BE221FDB0FF02FD59E4F7020B3C4A1F29A457F76FF76C4C95D46D38555E4F48C7A3BF172D87966"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Memory@4.5.4",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Reflection",
+      "version": "4.3.0",
+      "description": "Provides types that retrieve information about assemblies, modules, members, parameters, and other entities in managed code by examining their metadata. These types also can be used to manipulate instances of loaded types, for example to hook up events or to invoke methods.\n\nCommonly Used Types:\nSystem.Reflection.MethodInfo\nSystem.Reflection.PropertyInfo\nSystem.Reflection.ParameterInfo\nSystem.Reflection.FieldInfo\nSystem.Reflection.ConstructorInfo\nSystem.Reflection.Assembly\nSystem.Reflection.MemberInfo\nSystem.Reflection.EventInfo\nSystem.Reflection.Module\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2325B67ED60DCE0302807064F25422CBE1B7FB275B539B44FBA3C4A8CE4926F21D78529A5C34B31C03D80D110F7BACE9AF9589D457266BEAC014220057AF8333"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Reflection@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Reflection.Metadata",
+      "version": "1.6.0",
+      "description": "This packages provides a low-level .NET (ECMA-335) metadata reader and writer. It\u0027s geared for performance and is the ideal choice for building higher-level libraries that intend to provide their own object model, such as compilers.\n\nCommonly Used Types:\nSystem.Reflection.Metadata.MetadataReader\nSystem.Reflection.PortableExecutable.PEReader\nSystem.Reflection.Metadata.Ecma335.MetadataBuilder\nSystem.Reflection.PortableExecutable.PEBuilder\nSystem.Reflection.PortableExecutable.ManagedPEBuilder\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F5227666EDC6BB1DA78B8A8E86A68E9BD647CAA2EC6A1580C14A4A5E1FE5CFDE3BDAF0D8C23DC210C405A55F83CEB6ADD1A9ADAB149DC065B38CFDDC9B01BA20"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Primitives@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Reflection.Primitives",
+      "version": "4.3.0",
+      "description": "Provides common enumerations for reflection-based libraries.\n\nCommonly Used Types:\nSystem.Reflection.FieldAttributes\nSystem.Reflection.Emit.OpCode\nSystem.Reflection.TypeAttributes\nSystem.Reflection.MethodAttributes\nSystem.Reflection.CallingConventions\nSystem.Reflection.PropertyAttributes\nSystem.Reflection.EventAttributes\nSystem.Reflection.ParameterAttributes\nSystem.Reflection.GenericParameterAttributes\nSystem.Reflection.MethodImplAttributes\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D4B9CC905F5A5CAB900206338E889068BF66C18EE863A29D68EFF3CDE2CCCA734112A2A851F2E2E5388A21EC28005FA19317C64D9B23923B05D6344BE2E49EAA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Reflection.Primitives@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Runtime",
+      "version": "4.3.0",
+      "description": "Provides the fundamental primitives, classes and base classes that define commonly-used value and reference data types, events and event handlers, interfaces, attributes, and exceptions. This packages represents the core package, and provides the minimal set of types required to build a managed application.\n\nCommonly Used Types:\nSystem.Object\nSystem.Exception\nSystem.Int16\nSystem.Int32\nSystem.Int64\nSystem.Enum\nSystem.String\nSystem.Char\nSystem.Boolean\nSystem.SByte\nSystem.Byte\nSystem.DateTime\nSystem.DateTimeOffset\nSystem.Single\nSystem.Double\nSystem.UInt16\nSystem.UInt32\nSystem.UInt64\nSystem.IDisposable\nSystem.Uri\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "92AB2249F08073CFAFDC4CFBD7DB36D651AD871B8D8BA961006982187DE374BF4A30AF93F15F73B05AF343F7A70CBD484B04D646570587636AE72171EB0714FB"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Runtime.CompilerServices.Unsafe",
+      "version": "6.0.0",
+      "description": "Provides the System.Runtime.CompilerServices.Unsafe class, which provides generic, low-level functionality for manipulating pointers.\n\nCommonly Used Types:\nSystem.Runtime.CompilerServices.Unsafe",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D4057301BE4EC4936F24B9CE003B5EC4D99681AB6D9B65D5393DD38D04CDEC37784AAA12C1A8B50AC3767ED878DAE425749490773FEC01E734F93CF1045822B3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.Loader@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Runtime.Loader",
+      "version": "4.3.0",
+      "description": "Provides the System.Runtime.Loader.AssemblyLoadContext class, which provides members for loading assemblies.\n\nCommonly Used Types:\nSystem.Runtime.Loader.AssemblyLoadContext\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1BA5A6BC023DC8E122E46396B594F7FA92561D719A6ADE7DA99290ED9EF97C6A5A72594F98B8B334566F6578F70B2B12C8C91006C9B9D1BF714CCFF1F4BDF209"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime.Loader@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.AccessControl",
+      "version": "5.0.0",
+      "description": "Provides base classes that enable managing access and audit control lists on securable objects.\n\nCommonly Used Types:\nSystem.Security.AccessControl.AccessRule\nSystem.Security.AccessControl.AuditRule\nSystem.Security.AccessControl.ObjectAccessRule\nSystem.Security.AccessControl.ObjectAuditRule\nSystem.Security.AccessControl.ObjectSecurity\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AE6B03AD029D3EB6818A6C8BB56CF4904013FA535A67B8E621B783A029DD88AA2E471E002CBC7D720381AD8BC8C6B93111A08F6CE2D271AF6D974BF4D02B6C81"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Principal.Windows",
+      "version": "5.0.0",
+      "description": "Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.\n\nCommonly Used Types:\nSystem.Security.Principal.WindowsIdentity\nSystem.Security.Principal.SecurityIdentifier\nSystem.Security.Principal.NTAccount\nSystem.Security.Principal.WindowsPrincipal\nSystem.Security.Principal.IdentityReference\nSystem.Security.Principal.IdentityNotMappedException\nSystem.Security.Principal.WindowsBuiltInRole\nSystem.Security.Principal.WellKnownSidType\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "44A920AAAF22B2172D41319BB57AB2B8E1A4531D5F02192A6F53A81D875125195B60BA0B5A44A45981D137FD7B0F3A65B12959B5FD97AFC0578CD84EF27467CD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Encoding",
+      "version": "4.3.0",
+      "description": "Provides base abstract encoding classes for converting blocks of characters to and from blocks of bytes.\n\nCommonly Used Types:\nSystem.Text.Encoding\nSystem.Text.DecoderFallbackException\nSystem.Text.Decoder\nSystem.Text.EncoderFallbackException\nSystem.Text.Encoder\nSystem.Text.EncoderFallback\nSystem.Text.EncoderFallbackBuffer\nSystem.Text.DecoderFallback\nSystem.Text.DecoderFallbackBuffer\nSystem.Text.DecoderExceptionFallback\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6FF7FEEC7313A7121F795EC7D376E4B8728C17294219FAFDFD4EA078F9DF1455B4685F0B3962C3810098E95D68594A8392C0B799D36EC8284CD6FCBD4CFE2C67"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Encodings.Web",
+      "version": "6.0.0",
+      "description": "Provides types for encoding and escaping strings for use in JavaScript, HyperText Markup Language (HTML), and uniform resource locators (URL).\n\nCommonly Used Types:\nSystem.Text.Encodings.Web.HtmlEncoder\nSystem.Text.Encodings.Web.UrlEncoder\nSystem.Text.Encodings.Web.JavaScriptEncoder",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0F26AFEEAA709EA1F05EF87058408DD9DF640C869D7398B2C9C270268DDF21A9208CD7D2BFA1F7FBD8A5CEAB735DD22D470A3689627C9C4FADC0EA5FE76237FA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Json@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Json",
+      "version": "6.0.0",
+      "description": "Provides high-performance and low-allocating types that serialize objects to JavaScript Object Notation (JSON) text and deserialize JSON text to objects, with UTF-8 support built-in. Also provides types to read and write JSON text encoded as UTF-8, and to create an in-memory document object model (DOM), that is read-only, for random access of the JSON elements within a structured view of the data.\n\nCommonly Used Types:\nSystem.Text.Json.JsonSerializer\nSystem.Text.Json.JsonDocument\nSystem.Text.Json.JsonElement\nSystem.Text.Json.Utf8JsonWriter\nSystem.Text.Json.Utf8JsonReader",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "167B4EE8D1277A5D8BD6B4FBE0A3B3A708519235FB005EA98CAFDD5B30E17758EFEB0A87DCD068AF289400D841F4D2CD24550DF882D1927C47EC6FF4FB8781FF"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Json@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Channels@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Threading.Channels",
+      "version": "6.0.0",
+      "description": "Provides types for passing data between producers and consumers.\n\nCommonly Used Types:\nSystem.Threading.Channel\nSystem.Threading.Channel\u003CT\u003E",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "32ADFF895C57AB9EF864CF89660403F041B07841BE7C44A0C3C2C8451A1DA076A8C1B4DCF1C993B585304AD7549AFA408A0F797AD6814D0F14EB748A1FC9CE03"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Threading.Channels@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Tasks@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Threading.Tasks",
+      "version": "4.3.0",
+      "description": "Provides types that simplify the work of writing concurrent and asynchronous code.\n\nCommonly Used Types:\nSystem.Threading.Tasks.Task\u003CTResult\u003E\nSystem.Runtime.CompilerServices.TaskAwaiter\u003CTResult\u003E\nSystem.Threading.Tasks.TaskCompletionSource\u003CTResult\u003E\nSystem.Threading.Tasks.Task\nSystem.OperationCanceledException\nSystem.AggregateException\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7D488FF82CB20A3B3CEF6380F2DAE5EA9F7BAA66BF75AD711AADE1E3301B25993CCF2694E33C847EA5B9BDB90FF34C46FCD8A6BA7D6F95605BA0C124ED7C5D13"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Threading.Tasks@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.ValueTuple@4.5.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.ValueTuple",
+      "version": "4.5.0",
+      "description": "Provides the System.ValueTuple structs, which implement the underlying types for tuples in C# and Visual Basic.\n\nCommonly Used Types:\nSystem.ValueTuple\nSystem.ValueTuple\u003CT1\u003E\nSystem.ValueTuple\u003CT1, T2\u003E\nSystem.ValueTuple\u003CT1, T2, T3\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6, T7\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6, T7, TRest\u003E\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FA00EBB5045D12C51274F64411C551981BECEB1266A8606A4731063109B95EA1F15939197BF3D2BA899DB61E593DC39BFCE876908BBA34286823525093AE3D8E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.ValueTuple@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/TagLibSharp@2.3.0",
+      "authors": [
+        {
+          "name": "Brian Nickel, Gabriel Burt, Stephen Shaw, etc"
+        }
+      ],
+      "name": "TagLibSharp",
+      "version": "2.3.0",
+      "description": "A library for for reading and writing metadata in media files, including video, audio, and photo formats.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9BE37F6431F6EAD36BABE78DC6527340D7B4B0FE444736AAEAE5AEF3651191D4E0421D9D671106AEA544888695D7841000FB12F8A44AAB1B5FE93FB7C90D983F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2006-2007 Brian Nickel.  Copyright (c) 2009-2020 Other contributors",
+      "purl": "pkg:nuget/TagLibSharp@2.3.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/mono/taglib-sharp",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/taglib-sharp",
+          "type": "vcs"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "OpenRA@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/Linguini.Bundle@0.8.1",
+        "pkg:nuget/Microsoft.Extensions.DependencyModel@6.0.0",
+        "pkg:nuget/Mono.Nat@3.0.4",
+        "pkg:nuget/OpenRA-Eluant@1.0.22",
+        "pkg:nuget/Roslynator.Analyzers@4.2.0",
+        "pkg:nuget/Roslynator.Formatting.Analyzers@4.2.0",
+        "pkg:nuget/SharpZipLib@1.4.2",
+        "pkg:nuget/StyleCop.Analyzers@1.2.0-beta.435",
+        "pkg:nuget/System.Runtime.Loader@4.3.0",
+        "pkg:nuget/System.Threading.Channels@6.0.0",
+        "pkg:nuget/DiscordRichPresence@1.2.1.24",
+        "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+        "pkg:nuget/MP3Sharp@1.0.5",
+        "pkg:nuget/NVorbis@0.10.5",
+        "pkg:nuget/OpenRA-FuzzyLogicLibrary@1.0.1",
+        "pkg:nuget/Pfim@0.11.3",
+        "pkg:nuget/rix0rrr.BeaconLib@1.0.2",
+        "pkg:nuget/TagLibSharp@2.3.0",
+        "pkg:nuget/OpenRA-Freetype6@1.0.11",
+        "pkg:nuget/OpenRA-OpenAL-CS@1.0.22",
+        "pkg:nuget/OpenRA-SDL2-CS@1.0.40",
+        "pkg:nuget/Microsoft.NET.Test.Sdk@17.10.0",
+        "pkg:nuget/NUnit@3.13.3",
+        "pkg:nuget/NUnit.Console@3.16.3",
+        "pkg:nuget/NUnit3TestAdapter@4.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/DiscordRichPresence@1.2.1.24",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+        "pkg:nuget/Newtonsoft.Json@13.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Linguini.Bundle@0.8.1",
+      "dependsOn": [
+        "pkg:nuget/Linguini.Shared@0.8.0",
+        "pkg:nuget/Linguini.Syntax@0.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Linguini.Shared@0.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Linguini.Syntax@0.8.0",
+      "dependsOn": [
+        "pkg:nuget/Linguini.Shared@0.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeCoverage@17.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.DependencyModel@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Buffers@4.5.1",
+        "pkg:nuget/System.Memory@4.5.4",
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0",
+        "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+        "pkg:nuget/System.Text.Json@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.10.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CodeCoverage@17.10.0",
+        "pkg:nuget/Microsoft.TestPlatform.TestHost@17.10.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.10.0",
+      "dependsOn": [
+        "pkg:nuget/System.Reflection.Metadata@1.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.10.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.10.0",
+        "pkg:nuget/Newtonsoft.Json@13.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Security.AccessControl@5.0.0",
+        "pkg:nuget/System.Security.Principal.Windows@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Mono.Nat@3.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/MP3Sharp@1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NETStandard.Library@2.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NuGet.CommandLine@4.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit.Console@3.16.3",
+      "dependsOn": [
+        "pkg:nuget/NUnit.ConsoleRunner@3.16.3",
+        "pkg:nuget/NUnit.Extension.NUnitProjectLoader@3.6.0",
+        "pkg:nuget/NUnit.Extension.NUnitV2Driver@3.8.0",
+        "pkg:nuget/NUnit.Extension.NUnitV2ResultWriter@3.6.0",
+        "pkg:nuget/NUnit.Extension.TeamCityEventListener@1.0.7",
+        "pkg:nuget/NUnit.Extension.VSProjectLoader@3.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NUnit.ConsoleRunner@3.16.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit.Extension.NUnitProjectLoader@3.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit.Extension.NUnitV2Driver@3.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit.Extension.NUnitV2ResultWriter@3.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit.Extension.TeamCityEventListener@1.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit.Extension.VSProjectLoader@3.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit@3.13.3",
+      "dependsOn": [
+        "pkg:nuget/NETStandard.Library@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NUnit3TestAdapter@4.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NVorbis@0.10.5",
+      "dependsOn": [
+        "pkg:nuget/System.Memory@4.5.4",
+        "pkg:nuget/System.ValueTuple@4.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/OpenRA-Eluant@1.0.22",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/OpenRA-Freetype6@1.0.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/OpenRA-FuzzyLogicLibrary@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/OpenRA-OpenAL-CS@1.0.22",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/OpenRA-SDL2-CS@1.0.40",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Pfim@0.11.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/rix0rrr.BeaconLib@1.0.2",
+      "dependsOn": [
+        "pkg:nuget/NuGet.CommandLine@4.4.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Roslynator.Analyzers@4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Roslynator.Formatting.Analyzers@4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/SharpZipLib@1.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/StyleCop.Analyzers.Unstable@1.2.0.435",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/StyleCop.Analyzers@1.2.0-beta.435",
+      "dependsOn": [
+        "pkg:nuget/StyleCop.Analyzers.Unstable@1.2.0.435"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Buffers@4.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.IO@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+        "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+        "pkg:nuget/System.Runtime@4.3.0",
+        "pkg:nuget/System.Text.Encoding@4.3.0",
+        "pkg:nuget/System.Threading.Tasks@4.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Memory@4.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Reflection.Primitives@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+        "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+        "pkg:nuget/System.Runtime@4.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Reflection@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+        "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+        "pkg:nuget/System.IO@4.3.0",
+        "pkg:nuget/System.Reflection.Primitives@4.3.0",
+        "pkg:nuget/System.Runtime@4.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.Loader@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/System.IO@4.3.0",
+        "pkg:nuget/System.Reflection@4.3.0",
+        "pkg:nuget/System.Runtime@4.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+        "pkg:nuget/Microsoft.NETCore.Targets@1.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+        "pkg:nuget/System.Security.Principal.Windows@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+        "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+        "pkg:nuget/System.Runtime@4.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Json@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0",
+        "pkg:nuget/System.Text.Encodings.Web@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Threading.Channels@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Threading.Tasks@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+        "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+        "pkg:nuget/System.Runtime@4.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.ValueTuple@4.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/TagLibSharp@2.3.0",
+      "dependsOn": []
+    }
+  ]
+}

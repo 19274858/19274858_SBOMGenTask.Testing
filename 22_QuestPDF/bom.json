@@ -1,0 +1,4025 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:d7bb2021-a6ce-4393-8948-793211ed5123",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-26T12:06:29Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "4.0.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "QuestPDF@0.0.0",
+      "name": "QuestPDF",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4F1257839DBF29B674E6BEBE263DB4674D6B50098AF47FE5E8E7B05C05A9C3879CD6541B441C73E1C8D14D501085C7A23815312B800E507FA755A96E611C26D6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.Angle.Windows.Natives@2.1.0.2023020321",
+      "authors": [
+        {
+          "name": "Avalonia"
+        }
+      ],
+      "name": "Avalonia.Angle.Windows.Natives",
+      "version": "2.1.0.2023020321",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4EC227F1C4DA9CFFBCCCF2273171B51792C52F3E83F2A808904C559563A73F0AD63E6199C5FD82474101E03AC10718AAB1877C1B4B051CF80D3ED88D41DE7D06"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright 2023 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.Angle.Windows.Natives@2.1.0.2023020321",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/angle/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.BuildServices@0.0.29",
+      "authors": [
+        {
+          "name": "Avalonia.BuildServices"
+        }
+      ],
+      "name": "Avalonia.BuildServices",
+      "version": "0.0.29",
+      "description": "Package Description",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9485E64C84B087BEAF0803C049E9C057216B889BB8D452F0339149DBDE65B2C9F1CCA2F2B119C3D1EB8C6EB135F582EDC72516095BB6BE9A2D3B530D3AA3D639"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Avalonia.BuildServices@0.0.29"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.Desktop@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.Desktop",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D78DD37FD4024DEB71314FADAADF403247870AB5ACFA1E374FE32FE34F5031E9D2AE99FD0734C36EDA12FA6B5812792264DE16FFE65DDA5BB82459D3E609A4A7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.Desktop@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.Fonts.Inter@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.Fonts.Inter",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C750B2F41467F09C912390B71A9F9A01AB6EAB75DCDB92F6759CA065FEC53681F9513A91CC01D7EA0CB4D312238F8CA69E9F87F5C36380836E5A5AF6BE993AC7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.Fonts.Inter@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.FreeDesktop@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.FreeDesktop",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0B4A19571D2A189264D0F6B884643C8DA1F11186D4B3793D0BA1CEA373394A5AD356F026DADB185C9DBD36768BB9E53E1BD7F5A0E2C05956064B92979F4EF046"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.FreeDesktop@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.Native@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.Native",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0A7871AE45DA39EA7CEE13FB24D26BDC597355B1DF90FF4CA49CF099DC6C1801898CDF6D3A572A9E06E4B9DD8A710AB5F7A94EA5A1CE4DD8F4045F15B4408B56"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.Native@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.ReactiveUI@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.ReactiveUI",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "22B0399CFADFE32070C8863FFFFF432BB6F0DCA314AE3A35E426E390557D81120569906ED7E64E839A85954E5D36975C2FE26018AF88DA35DDD4308CCBDF7591"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.ReactiveUI@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.Remote.Protocol@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.Remote.Protocol",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DB41D5EAD49501303D116BC2E9E1889272815BA791445231BAA0819F102B9161A25F7198B433E9EE20EE4A0731AD8B1061D8046B1BF60B28B196B1EF9A647E32"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.Remote.Protocol@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.Skia@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.Skia",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1C7634E50827C8B7AD2092EA37058774207C7427BACA3EE58FD1B1781366C5379FFD5AD15DBDBEED1E99FD0BA93E8BE16DC5BCF65ABFCD26D641F395BB7BB178"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.Skia@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.Themes.Fluent@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.Themes.Fluent",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "19CC2D983656C5D0B94024E4219EA90EFEAF41EE052EB5AAD9BD7087AC9362A0DB496617D0D2313FF7AC646CFD16DB73387165199CCD78C635662FF2FCA785BF"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.Themes.Fluent@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.Win32@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.Win32",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DBDFD2C3618937094EB40A4EC31F9648C5842E12CEC61945B1870D8189D0607AD897D2A799BE8DE2FD9F3895D33BC048A696E4B6CB9262CB134CD847DDB60080"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.Win32@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Avalonia.X11@11.0.13",
+      "authors": [
+        {
+          "name": "Avalonia Team"
+        }
+      ],
+      "name": "Avalonia.X11",
+      "version": "11.0.13",
+      "description": "Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, macOS and with experimental support for Android, iOS and WebAssembly.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "360459C6F5A0B3C21A078B0164A24B1FCB66159BAC491EE3C7EB310AAC0373FC8E66550FBADC7062303D33EA147C71764D200DC75121C8548C645165A431881D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024 \u00A9 The AvaloniaUI Project",
+      "purl": "pkg:nuget/Avalonia.X11@11.0.13",
+      "externalReferences": [
+        {
+          "url": "https://avaloniaui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AvaloniaUI/Avalonia/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/BenchmarkDotNet@0.14.0",
+      "authors": [
+        {
+          "name": ".NET Foundation and contributors"
+        }
+      ],
+      "name": "BenchmarkDotNet",
+      "version": "0.14.0",
+      "description": "Powerful .NET library for benchmarking",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "14BAA1188A311697847A738CDC331DAD8365F40B46E950D683335E730A8EC685FF7D2A4D8E7F4EED19ADFE08D7B86A50E9B4ED4498F64886FE6AAC0D551A7E12"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": ".NET Foundation and contributors",
+      "purl": "pkg:nuget/BenchmarkDotNet@0.14.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/BenchmarkDotNet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/BenchmarkDotNet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/BenchmarkDotNet.Annotations@0.14.0",
+      "authors": [
+        {
+          "name": ".NET Foundation and contributors"
+        }
+      ],
+      "name": "BenchmarkDotNet.Annotations",
+      "version": "0.14.0",
+      "description": "Powerful .NET library for benchmarking",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7739666D7AAA281756AB9D9510971AEE45D711D4B8C276B50F7A98C5239D9AE1BEFBF0DA58D0F3A260093B9E78D714E535787311E688C3BEAB58D32A9E03D135"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": ".NET Foundation and contributors",
+      "purl": "pkg:nuget/BenchmarkDotNet.Annotations@0.14.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/BenchmarkDotNet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/BenchmarkDotNet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/CommandLineParser@2.9.1",
+      "authors": [
+        {
+          "name": "gsscoder,nemec,ericnewton76,moh-hassan"
+        }
+      ],
+      "name": "CommandLineParser",
+      "version": "2.9.1",
+      "description": "Terse syntax C# command line parser for .NET.  For FSharp support see CommandLineParser.FSharp.  The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4F364E45C9668C7E7CC6A922B488F3FA523033C20D7A432694F0A6AF05CE528EA0481D8375E2F4F1032C6990347B4803CE9A0E48068C6FE15EC46FB1254F085D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2005 - 2020 Giacomo Stelluti Scala \u0026 Contributors",
+      "purl": "pkg:nuget/CommandLineParser@2.9.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/commandlineparser/commandline",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/DynamicData@7.9.5",
+      "authors": [
+        {
+          "name": "Roland Pheasant"
+        }
+      ],
+      "name": "DynamicData",
+      "version": "7.9.5",
+      "description": "Bring the power of Rx to collections using Dynamic Data.\nDynamic Data is a comprehensive caching and data manipulation solution which introduces domain centric observable collections.\n      Linq extensions enable dynamic filtering, sorting, grouping, transforms, binding, pagination, data virtualisation, expiration, disposal management plus more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "707184583C6878778258E588B1726A8BBBC4901DE60F3AB728CC2F12243EAFF283B6716E452C7ABEFF747E6F6AA309AC30A12E0C2BB76BF4CA868A4491B673E8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) Roland Pheasant 2011-2022",
+      "purl": "pkg:nuget/DynamicData@7.9.5",
+      "externalReferences": [
+        {
+          "url": "http://dynamic-data.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/reactiveui/DynamicData",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/ExCSS@4.2.3",
+      "authors": [
+        {
+          "name": "Tyler Brinks"
+        }
+      ],
+      "name": "ExCSS",
+      "version": "4.2.3",
+      "description": "ExCSS is a CSS 2.1 and CSS 3 parser for .NET. \n\t\t\tExCSS makes it easy to read and parse stylesheets into a friendly object model with full LINQ support.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FCB06D04937A6BD864060E8BDF4A65970C7450CDBDD3279465851310AC8BF12B645CAC54CE8B7A8039C7CA9309BA3D9EE4E23827599479C4140F7755E119CAA9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/ExCSS@4.2.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/TylerBrinks/ExCSS",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/TylerBrinks/ExCSS",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/FluentAssertions@6.12.0",
+      "authors": [
+        {
+          "name": "Dennis Doomen,Jonas Nyrup"
+        }
+      ],
+      "name": "FluentAssertions",
+      "version": "6.12.0",
+      "description": "A very extensive set of extension methods that allow you to more naturally specify the expected outcome of a TDD or\n      BDD-style unit tests. Targets .NET Framework 4.7, .NET Core 2.1 and 3.0, .NET 6, as well as .NET Standard 2.0 and 2.1.\n      Supports the unit test frameworks MSTest2, NUnit3, XUnit2, MSpec, and NSpec3.\n\n      Supported by InfoSupport B.V.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B99ECD0C8AC555EE086A59248A7B41767559EBD753A4D337D2252BDB138D48399AE88C368927DC1382C162A2D8FBF027A33E326C6C662DFB7E0D015EF8A42FC0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright Dennis Doomen 2010-2023",
+      "purl": "pkg:nuget/FluentAssertions@6.12.0",
+      "externalReferences": [
+        {
+          "url": "https://www.fluentassertions.com/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/fluentassertions/fluentassertions",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Gee.External.Capstone@2.3.0",
+      "authors": [
+        {
+          "name": "Ahmed Garhy (@9ee1)"
+        }
+      ],
+      "name": "Gee.External.Capstone",
+      "version": "2.3.0",
+      "description": "Capstone.NET is a .NET Core and a .NET Framework binding for the Capstone disassembly framework. It is written in C#, supports Capstone 4, and has a friendly and simple type safe API that is ridiculously easy to learn and quick to pick up.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9079D5705D591C3B819127B2E0B763DACABB212314E9F96B2F632F62B45A9F3E1C208F136DF91A4834DD1838A38AC2FD2161CE8B545FE70F8078B66FC66C4AA8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) Ahmed Garhy",
+      "purl": "pkg:nuget/Gee.External.Capstone@2.3.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/9ee1/Capstone.NET",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/9ee1/Capstone.NET",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/HarfBuzzSharp@7.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "HarfBuzzSharp",
+      "version": "7.3.0",
+      "description": "HarfBuzzSharp is a cross-platform OpenType text shaping engine for .NET platforms.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5D1887B3CDC22334132F8FFF8B2AC1F57CB54E9FCD25D21D32F8F86C7C694E86739C067E8B1AE3DA10C1B1B3417F27B640B0E7890101EE2D420FBA3FEBA580B5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/HarfBuzzSharp@7.3.0",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/HarfBuzzSharp@7.3.0.2",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "HarfBuzzSharp",
+      "version": "7.3.0.2",
+      "description": "HarfBuzzSharp is a cross-platform OpenType text shaping engine for .NET platforms.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9628AEB042563CE1640A79A2577AF8F6E3C0BD0A6B6DE89A530A44B21FFA7DEACF256C86D368221199811EC7F6F18683383BBFE8EBE07CE4236DBDDA229C2572"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/HarfBuzzSharp@7.3.0.2",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.Linux@7.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "HarfBuzzSharp.NativeAssets.Linux",
+      "version": "7.3.0",
+      "description": "HarfBuzzSharp is a cross-platform OpenType text shaping engine for .NET platforms.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "48A4BF98B9F59181EF1885A3D4D3EE605B63AEAB3B49248A3E49A6BBBDCDAE4BCB974073492319789F17EB92EDEBC1DDF050C5D0724EDDC5EA3277D5C2054731"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/HarfBuzzSharp.NativeAssets.Linux@7.3.0",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.macOS@7.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "HarfBuzzSharp.NativeAssets.macOS",
+      "version": "7.3.0",
+      "description": "HarfBuzzSharp is a cross-platform OpenType text shaping engine for .NET platforms.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "803ACE4C95A3AE0C69E30003D3F6DC1B409FF0390B94C37D8DBC1A5321DCA74B5D7B2A8AEFAAB0A792CD47D4E3C2D24E733ED313E0597D80A7EF81B67BC413EE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/HarfBuzzSharp.NativeAssets.macOS@7.3.0",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.macOS@7.3.0.2",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "HarfBuzzSharp.NativeAssets.macOS",
+      "version": "7.3.0.2",
+      "description": "HarfBuzzSharp is a cross-platform OpenType text shaping engine for .NET platforms.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8A97410CD28F2613F67CEA9236D6F2921165E5644FCE5A3FCD05CA11B670FC596BA4B422871AD0792CF59572EA6F05AE68028CB10983F1547B4EDFE81CAECB1A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/HarfBuzzSharp.NativeAssets.macOS@7.3.0.2",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.WebAssembly@7.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "HarfBuzzSharp.NativeAssets.WebAssembly",
+      "version": "7.3.0",
+      "description": "HarfBuzzSharp is a cross-platform OpenType text shaping engine for .NET platforms.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "EB0925B18271E435F1B90FABBEFEF4D01BF4D1443628509F66B4F4ECF8603BBA91ABAC29B3B19A09170F491986C89D7A37D43F854D15379D9E74B27CBAD6FAE8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/HarfBuzzSharp.NativeAssets.WebAssembly@7.3.0",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.Win32@7.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "HarfBuzzSharp.NativeAssets.Win32",
+      "version": "7.3.0",
+      "description": "HarfBuzzSharp is a cross-platform OpenType text shaping engine for .NET platforms.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3F477B5CB4D70DF1333F69272C885C31DC43118EBF4EDC990AE6EA8F29DB0A3D4886A74B6D7AD2778D1DB6BF7660BF0AE0EB23030C0B9C65710C5BAA2389B00C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/HarfBuzzSharp.NativeAssets.Win32@7.3.0",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.Win32@7.3.0.2",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "HarfBuzzSharp.NativeAssets.Win32",
+      "version": "7.3.0.2",
+      "description": "HarfBuzzSharp is a cross-platform OpenType text shaping engine for .NET platforms.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "88C7980861DFE3DD50E1E4730FA152BA37386DEF115ED2AEE2A859C2BF9F33C9612D750982C093CB9E09893047D0F5BD20168F83914A09C311EBB5C5B37136CD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/HarfBuzzSharp.NativeAssets.Win32@7.3.0.2",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Iced@1.17.0",
+      "authors": [
+        {
+          "name": "iced project and contributors \u003Chttps://github.com/icedland\u003E"
+        }
+      ],
+      "name": "Iced",
+      "version": "1.17.0",
+      "description": "iced is a blazing fast and correct x86 (16/32/64-bit) instruction decoder, disassembler and assembler written in C#.\n\n- \uD83D\uDC4D Supports all Intel and AMD instructions\n- \uD83D\uDC4D Correct: All instructions are tested and iced has been tested against other disassemblers/assemblers (xed, gas, objdump, masm, dumpbin, nasm, ndisasm) and fuzzed\n- \uD83D\uDC4D 100% C# code\n- \uD83D\uDC4D The formatter supports masm, nasm, gas (AT\u0026T), Intel (XED) and there are many options to customize the output\n- \uD83D\uDC4D The decoder is 2x\u002B faster than other similar libraries and doesn\u0027t allocate any memory\n- \uD83D\uDC4D Small decoded instructions, only 32 bytes\n- \uD83D\uDC4D Create instructions with code assembler, eg. \u0060asm.mov(eax, edx)\u0060\n- \uD83D\uDC4D The encoder can be used to re-encode decoded instructions at any address\n- \uD83D\uDC4D API to get instruction info, eg. read/written registers, memory and rflags bits; CPUID feature flag, control flow info, etc\n- \uD83D\uDC4D Supports \u0060.NET Standard 2.0/2.1\u002B\u0060 and \u0060.NET Framework 4.5\u002B\u0060\n- \uD83D\uDC4D License: MIT",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6404BF5518B3D7A7C74478EDD56C2C2F194CCADD1CFDE3AE7C13C332E442779B817B99744AAE19DD4C6400A205055EEE7DFC16B43A2F97D0F5200A9BC6C97549"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (C) 2018-present iced project and contributors",
+      "purl": "pkg:nuget/Iced@1.17.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/icedland/iced",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/icedland/iced",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microcharts@0.9.5.9",
+      "authors": [
+        {
+          "name": "Alo\u00EFs Deniel, Ed Lomonaco"
+        }
+      ],
+      "name": "Microcharts",
+      "version": "0.9.5.9",
+      "description": "Simple, cross-platform chart library.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "00F5987F9FC6CF15AC918BD606D2A46455CC66CD0CF35F92A77B7543468477C68FBCE9F9C1DB62179CDE25DED329F913DACAABEC16AA1C80B873B058EBD911C9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2020",
+      "purl": "pkg:nuget/Microcharts@0.9.5.9",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet-ad/Microcharts/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MicroCom.Runtime@0.11.0",
+      "authors": [
+        {
+          "name": "MicroCom.Runtime"
+        }
+      ],
+      "name": "MicroCom.Runtime",
+      "version": "0.11.0",
+      "description": "IDL-based COM interop codegen. Consumes MIDL-like IDL file, generates efficient cross-platform C# interop and C\u002B\u002B header files.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C00731176E34EA7B936AD58A38639843C790B027B714ED5D3EA828B85EA94B14A502DED52CA7F60BB10C0AC0E744BD6E62FDCCE0108EBAAF9731C408EECE031E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2021 \u00A9 Nikita Tsukanov",
+      "purl": "pkg:nuget/MicroCom.Runtime@0.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/kekekeks/MicroCom",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Bcl.AsyncInterfaces",
+      "version": "1.1.0",
+      "description": "Provides the IAsyncEnumerable\u003CT\u003E and IAsyncDisposable interfaces and helper types for .NET Standard 2.0. This package is not required starting with .NET Standard 2.1 and .NET Core 3.0.\n\nCommonly Used Types:\nSystem.IAsyncDisposable\nSystem.Collections.Generic.IAsyncEnumerable\nSystem.Collections.Generic.IAsyncEnumerator\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4277CE265233E5EBF15370E7D42CF8574C1FCE715A892EADBEBA136136DBC36BA4D78B4090E55217293F8421F2EB84BCFDC9343DE42A2D5E06B8FF5B00D0723D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/corefx",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeAnalysis.Analyzers@3.3.3",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.CodeAnalysis.Analyzers",
+      "version": "3.3.3",
+      "description": "Analyzers for consumers of Microsoft.CodeAnalysis NuGet package, i.e. extensions and applications built on top of .NET Compiler Platform (Roslyn). This package is included as a development dependency of Microsoft.CodeAnalysis NuGet package and does not need to be installed separately if you are referencing Microsoft.CodeAnalysis NuGet package.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0D4896DB8AFF9D731C5B1C8F73A4B37460C3F08080FBEAC0ECF169ABF5BDFF9C9A994778F453816B888E939D9D0D615245C91A2E4BA31F85D2EA8DE222767104"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.Analyzers@3.3.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/roslyn-analyzers",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/roslyn-analyzers",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeAnalysis.Common@4.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.CodeAnalysis.Common",
+      "version": "4.1.0",
+      "description": "A shared package used by the Microsoft .NET Compiler Platform (\u0022Roslyn\u0022).\n      Do not install this package manually, it will be added as a prerequisite by other packages that require it.\n    \n      More details at https://aka.ms/roslyn-packages\n      This package was built from the source at https://github.com/dotnet/roslyn/commit/260d16a8ee0ab42d94d8dfdfe85a1279c85dcffd.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "006F100F9F2B1CE676BA8FFEC6EEE5019CEBA0ECD0FDC109FE92584A0697EBAD58E75BA3C96ADE6298487588C5D66AA24AE6195118F48BB9F16E27E42C3DD299"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.Common@4.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/roslyn",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/roslyn",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeAnalysis.CSharp@4.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.CodeAnalysis.CSharp",
+      "version": "4.1.0",
+      "description": ".NET Compiler Platform (\u0022Roslyn\u0022) support for C#, Microsoft.CodeAnalysis.CSharp.dll.\n    \n      More details at https://aka.ms/roslyn-packages\n      This package was built from the source at https://github.com/dotnet/roslyn/commit/260d16a8ee0ab42d94d8dfdfe85a1279c85dcffd.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FCF8A01DCB5097390D4D75405DE3F637356BA9ACB4BD208AC2BF28E01C14FEED09A1D2B84C801A59DF6B94CF0E386FBA2865729B1C339BC29381E1EF1F06D8EA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.CSharp@4.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/roslyn",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/roslyn",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeCoverage@17.11.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.CodeCoverage",
+      "version": "17.11.0",
+      "description": "Microsoft.CodeCoverage package brings infra for collecting code coverage from vstest.console.exe and \u0022dotnet test\u0022.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "54ED2D5DC07D71D3DEDCB8DD0AC4C6639D04E75B7541E6FF4C5D106BB4F71535463B45D6939DAB6B1C63D17D5FDEC298F96CBED4CE59EE1779BE32120BF55987"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeCoverage@17.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Diagnostics.NETCore.Client@0.2.251802",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Diagnostics.NETCore.Client",
+      "version": "0.2.251802",
+      "description": ".NET Core Diagnostics Client Library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "553336BE495E4D899318256FDF085E7800E6CD01A50BA561A3FB879D12F75BD42D58383BDB7B0E679D6F9BA7414B9B5B9D07DED6150A57651E16D1E95CD804A4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Diagnostics.NETCore.Client@0.2.251802",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/diagnostics",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/diagnostics",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Diagnostics.Runtime@2.2.332302",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Diagnostics.Runtime",
+      "version": "2.2.332302",
+      "description": "ClrMD is a set of advanced APIs for programmatically inspecting a crash dump of a .NET program much in the same way that the SOS Debugging Extensions (SOS) do. This allows you to write automated crash analysis for your applications as well as automate many common debugger tasks. In addition to reading crash dumps ClrMD also allows supports attaching to live processes.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7B682033F65F6AE06F8C63D6D607551861E1F36045CD670F8B39E28786958C5E7DA10426F9CE13762A9A88EDB8AA2E730C0A7D04455A61E3E014327AB06DDE18"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Diagnostics.Runtime@2.2.332302",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Microsoft/clrmd",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Microsoft/clrmd",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Diagnostics.Tracing.TraceEvent@3.1.8",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Diagnostics.Tracing.TraceEvent",
+      "version": "3.1.8",
+      "description": "TraceEvent is a .NET Framework library for capturing and analyzing ETW events.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "39A908456E95E262606C33CC132C0C090571DD89521C25A01F11C657F25A2D27AEBFA5CE1315AB359CBFC77E2C760DB2213F4C8EA0F2D48D70090CC657B9CEF3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Diagnostics.Tracing.TraceEvent@3.1.8",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Microsoft/perfview",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.DotNet.PlatformAbstractions@3.1.6",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.DotNet.PlatformAbstractions",
+      "version": "3.1.6",
+      "description": "Abstractions for making code that uses file system and environment testable.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "55B87F544874686BED96889953B7E99E43426B79B0FAC31CC452E0F4A27CA5CC08522C0AC967BF9DF649F7C04137A5E2553D134AD79D5C1E69578367C2B4B4C6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.DotNet.PlatformAbstractions@3.1.6",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/core-setup",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration@2.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Configuration",
+      "version": "2.1.1",
+      "description": "Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration. Includes the memory configuration provider.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "EDE33EDE2F538757A8AD6C607E374080D510010E5E1C716CC11980B32FDA72C5F9B6E9A505CDB4EA082256C95662854604972A33E5B82E5E63F30B67FD3F04C5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/aspnet/Home/2.0.0/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aspnet/Configuration",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@2.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "2.1.1",
+      "description": "Abstractions of key-value pair based configuration.\nCommonly used types:\nMicrosoft.Extensions.Configuration.IConfiguration\nMicrosoft.Extensions.Configuration.IConfigurationBuilder\nMicrosoft.Extensions.Configuration.IConfigurationProvider\nMicrosoft.Extensions.Configuration.IConfigurationRoot\nMicrosoft.Extensions.Configuration.IConfigurationSection",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "EE6ACC03F6F030F0F1DF7F515A83AA43F18B50355D7951324566A0EB22CEC06AEC67A1291D268B8A0F9D2201F5B455B33ABAAD516393E6DD11E9939DD801FF82"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/aspnet/Home/2.0.0/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aspnet/Configuration",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@2.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Configuration.Binder",
+      "version": "2.1.1",
+      "description": "Functionality to bind an object to data in configuration providers for Microsoft.Extensions.Configuration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FAF0C073239B014DE6C3B2EDF61B7CA72B655CA96A678A405C6E511162485E446D75FE63B82B807A900470245B1F3E68F4B7AC4BE8AE14D89F4F21E615DC6B55"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/aspnet/Home/2.0.0/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aspnet/Configuration",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@2.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "2.1.1",
+      "description": "Abstractions for dependency injection.\nCommonly used types:\nMicrosoft.Extensions.DependencyInjection.IServiceCollection",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "026D9465857A9EE07121A85ABB15F525014E8CDAB89F3F4EFB80DD4DDAD07CF643AF2CBA82BEBD1100C5C61A4DAC459AD6F534ABC560799737AD909CA140E5AF"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/aspnet/Home/2.0.0/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aspnet/DependencyInjection",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging@2.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Logging",
+      "version": "2.1.1",
+      "description": "Logging infrastructure default implementation for Microsoft.Extensions.Logging.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1C1988872213742DAD197F4309436334CDB517721CEF1B3B3F72B689520D1F846B10398DED82389F45D9669CE6CED4EF0C72DFFF93E109ACE75C7BBD4E569B05"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/aspnet/Home/2.0.0/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aspnet/Logging",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@2.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "2.1.1",
+      "description": "Logging abstractions for Microsoft.Extensions.Logging.\nCommonly used types:\nMicrosoft.Extensions.Logging.ILogger\nMicrosoft.Extensions.Logging.ILoggerFactory\nMicrosoft.Extensions.Logging.ILogger\u003CTCategoryName\u003E\nMicrosoft.Extensions.Logging.LogLevel\nMicrosoft.Extensions.Logging.Logger\u003CT\u003E\nMicrosoft.Extensions.Logging.LoggerMessage\nMicrosoft.Extensions.Logging.Abstractions.NullLogger",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7EB031114A70AF9F9FE82D84935CADEDEB3BD9A9C60E00C914D741CF0D52B9F854CB82ABBF294B2494E46603B14DECA2C4B5E2CB39591DF990E7F79B3A327091"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/aspnet/Home/2.0.0/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aspnet/Logging",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Options@2.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Options",
+      "version": "2.1.1",
+      "description": "Provides a strongly typed way of specifying and accessing settings using dependency injection.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "55C72F83C97892406B5C00DA965B84198373F475D23188A52A849A2DD69600DEB48029B2488072CF987857CD8627AFB353065C3A8C81AE38A7AF4BAF4F897EE5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/aspnet/Home/2.0.0/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Options@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aspnet/Options",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Primitives@2.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "2.1.1",
+      "description": "Primitives shared by framework extensions. Commonly used types include:\nMicrosoft.Extensions.Primitives.IChangeToken\nMicrosoft.Extensions.Primitives.StringValues\nMicrosoft.Extensions.Primitives.StringSegment",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4C24E6B4CDEDD5E7928BEBD95C82EA4FDBCD068A0E7AE07D54284445F78FF973E2EC108957AF1E0F51090C2FCBA579006FEDD92B615DF27A3B53790797AA3391"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.githubusercontent.com/aspnet/Home/2.0.0/LICENSE.txt"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Primitives@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aspnet/Common",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.11.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "17.11.0",
+      "description": "The MSbuild targets and properties for building .NET test projects.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AF282BF4368356AEF9E607CD81B808A024A3AF916DA98B2AC781B48B54B94440F1F171F8BA2499ADF4847AF50E7656270EABDD73E0FFE68BBA8F05B503068B75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NET.Test.Sdk@17.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "1.1.0",
+      "description": "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6BF892C274596FE2C7164E3D8503B24E187F64D0B7BEC6D9B05EB95F04086FCEB7A85EA6B2685D42DC465C52F6F0E6F636C0B3FDDAC48F6F0125DFD83E92D106"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "5.0.0",
+      "description": "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8493FE11648C7ECC20B6530490D30FD63744961345C0501A7A10B11046661DA09B783DDCEB8B3208AE52A72A8A94CAFDCE8DC1BD6073C32081E30D0E7407F174"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.TestPlatform.ObjectModel",
+      "version": "17.11.0",
+      "description": "The Microsoft Test Platform Object Model.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "50E6E5729950971352D630D29CC7A1B6B74BE16F42FE0C901A824E5621DC223149AE678C74F3D5B32EF2525463BA9471C58A662F31C37A3E1146597F2E8087A4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.11.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.TestPlatform.TestHost",
+      "version": "17.11.0",
+      "description": "Testplatform host executes the test using specified adapter.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "EF0BE428D478070ECB8C327EB0953F768939D3CEE45364F76D6CF73A2B217E43C72980186744EF7965A673A509ABED734FBAC84FE021E6FDB94CDDB593400F83"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Win32.Registry",
+      "version": "5.0.0",
+      "description": "Provides support for accessing and modifying the Windows Registry.\n\nCommonly Used Types:\nMicrosoft.Win32.RegistryKey\nMicrosoft.Win32.Registry\nMicrosoft.Win32.RegistryValueKind\nMicrosoft.Win32.RegistryHive\nMicrosoft.Win32.RegistryView\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "471E66567CE59CC86475AECE7815D05261264CE114E0C1688BA2551DD51494901FA72DD7A8F74F8E8F0F3DBA74AF8595F177552F3C06ABB4BFCE76692197076E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NETStandard.Library@2.0.3",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "NETStandard.Library",
+      "version": "2.0.3",
+      "description": "A set of standard .NET APIs that are prescribed to be used and supported together. \n18a36291e48808fa7ef2d00a764ceb1ec95645a5 \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "E78F0CEA69C14895B1B089644077DBCE8631A626055D96522F4D29E061D8BFC3E48AA1419E74FAF265B998612C03F721F5F0CEF4690F824150A5689764DEE601"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/standard/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": ".NET Foundation and Contributors",
+      "purl": "pkg:nuget/NETStandard.Library@2.0.3",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "authors": [
+        {
+          "name": "James Newton-King"
+        }
+      ],
+      "name": "Newtonsoft.Json",
+      "version": "13.0.1",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83731B662EAF05379A23F8446EF47BBC111349DD4358B7BD8B51383FE9CF637E2FE62F78CEA52A0D7BDD582DC6FBBB5837D4A7B1D53DCF37A0AE7473E21EE7B1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 James Newton-King 2008",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.newtonsoft.com/json",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit@4.2.1",
+      "authors": [
+        {
+          "name": "Charlie Poole, Rob Prouse"
+        }
+      ],
+      "name": "NUnit",
+      "version": "4.2.1",
+      "description": "NUnit is a unit-testing framework for all .NET languages with a strong TDD focus.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "E10E20B9DB269D2CB0F67854ABFCDB85E0659A2995074C6A5C753A17AD6E78AC2E048EE99B7E2F948E10C8E6431EB5E5428FC71EB34FBEEB78B42ADA0A3A2474"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) Charlie Poole, Rob Prouse and Contributors. MIT License.",
+      "purl": "pkg:nuget/NUnit@4.2.1",
+      "externalReferences": [
+        {
+          "url": "https://nunit.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit3TestAdapter@4.6.0",
+      "authors": [
+        {
+          "name": "Charlie Poole, Terje Sandstrom"
+        }
+      ],
+      "name": "NUnit3TestAdapter",
+      "version": "4.6.0",
+      "description": "NUnit3 adapter for running tests in Visual Studio and DotNet. Works with NUnit 3.x, use the NUnit 2 adapter for 2.x tests.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4E489DEA089CBF32E01B74105003EAF64A11E11A488AEFBA50553F856AFDE2940A2659D0017055B8A86A7AA79247D5572BEE41B497CEB0EFE7074E8B9C86294A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2011-2021 Charlie Poole, 2014-2024 Terje Sandstrom",
+      "purl": "pkg:nuget/NUnit3TestAdapter@4.6.0",
+      "externalReferences": [
+        {
+          "url": "https://docs.nunit.org/articles/vs-test-adapter/Index.html",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit3-vs-adapter",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Perfolizer@0.3.17",
+      "authors": [
+        {
+          "name": "Andrey Akinshin"
+        }
+      ],
+      "name": "Perfolizer",
+      "version": "0.3.17",
+      "description": "Performance analysis toolkit",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C66EF81A4CEDBEE659EE54FEC138B4AF50C1B53171195773D39C0A3F0CBB48AFE415E8577E271D7BE76262BEBE530AD907E8D2E20A6E3E97176ED5B5E034BD86"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (C) 2020-2023 Andrey Akinshin",
+      "purl": "pkg:nuget/Perfolizer@0.3.17",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AndreyAkinshin/perfolizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AndreyAkinshin/perfolizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/ReactiveUI@18.3.1",
+      "authors": [
+        {
+          "name": ".NET Foundation and Contributors"
+        }
+      ],
+      "name": "ReactiveUI",
+      "version": "18.3.1",
+      "description": "A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. This is the base package with the base platform implementations",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "79089217F546251AC5937DF380F5A7C25AEB73A8C2CA9BCD764914D2FAF955E8341C270F6FF29CE21AC9668FC491F2EF3612A7B58B26B11FEBB92573F7BC2A46"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/ReactiveUI@18.3.1",
+      "externalReferences": [
+        {
+          "url": "https://reactiveui.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/reactiveui/reactiveui",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/ScottPlot@5.0.37",
+      "authors": [
+        {
+          "name": "Scott Harden"
+        }
+      ],
+      "name": "ScottPlot",
+      "version": "5.0.37",
+      "description": "ScottPlot is a free and open-source plotting library for .NET. This package can be used to create static plots, and user controls for displaying plots interactively are available as separate NuGet packages.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1F0172C02C624DEFF7CEB679EE658E4C86B23C0D0FD12B910853E8FBD9645840AB5FD69312BC9AD336B17CDA665A7FB08FA8A52CB7C83E351246EBA991E2E9C0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/ScottPlot@5.0.37",
+      "externalReferences": [
+        {
+          "url": "https://scottplot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/ScottPlot/ScottPlot.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/ShimSkiaSharp@2.0.0",
+      "authors": [
+        {
+          "name": "Wies\u0142aw \u0160olt\u00E9s"
+        }
+      ],
+      "name": "ShimSkiaSharp",
+      "version": "2.0.0",
+      "description": "SkiaSharp picture recorder object model shim.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B461D8A41568B612B5D13EC04894D3620FB7FE1888B69B64AF031DD2722E1D561993D12D3F8E9F5076ED3B509492D28226C1DB6A101030AFBCBAEE2FB8D618BD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 Wies\u0142aw \u0160olt\u00E9s 2024",
+      "purl": "pkg:nuget/ShimSkiaSharp@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/wieslawsoltes/Svg.Skia",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/wieslawsoltes/Svg.Skia",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SkiaSharp@2.88.8",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "SkiaSharp",
+      "version": "2.88.8",
+      "description": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms that can be used across mobile, server and desktop models to render images.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "52B0661B38146357EE5F92153D9223B03D4E043DB8C811773470725A81F4EC0171FC22A644EE70636F8793AC60432222A5395777615CA63B4D44D5095A331B35"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/SkiaSharp@2.88.8",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SkiaSharp.HarfBuzz@2.88.8",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "SkiaSharp.HarfBuzz",
+      "version": "2.88.8",
+      "description": "This package adds text shaping support to SkiaSharp via HarfBuzz.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "84286FAA7CC0EBA7AD05B3E8FCF8ECCEB9C47EC69E628B586FDA269F4C63BC9E5BE16F03B693F93E642A8FDBA7E2E8CCC093D8A21F5500E092F062695232CD37"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/SkiaSharp.HarfBuzz@2.88.8",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SkiaSharp.NativeAssets.Linux@2.88.7",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "SkiaSharp.NativeAssets.Linux",
+      "version": "2.88.7",
+      "description": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms that can be used across mobile, server and desktop models to render images.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4F7DB81EE10C07DB2D824813DACF0189BAFD0E30DCB3087FFEBFAB9927976F67C2CDE71C1A22345718D83FA32193303CF9D578E7D9D6FA30964CA1BF8C8127D7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/SkiaSharp.NativeAssets.Linux@2.88.7",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SkiaSharp.NativeAssets.Linux.NoDependencies@2.88.8",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+      "version": "2.88.8",
+      "description": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms that can be used across mobile, server and desktop models to render images.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "16E75AAC920191EF12F7D93C9ED187B413D7AAE571A71EE8513EC37CE25C075A220B529F474F3E9893CE1C4154DC250EEBB5B595AD40B0C73CE09B2B009A0224"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/SkiaSharp.NativeAssets.Linux.NoDependencies@2.88.8",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SkiaSharp.NativeAssets.macOS@2.88.8",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "SkiaSharp.NativeAssets.macOS",
+      "version": "2.88.8",
+      "description": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms that can be used across mobile, server and desktop models to render images.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "EAC30F293B6DA9CB2260B59ABC99FFC4124669BE585A26080B333AC3DECCE150AFD490133C595CBEA33CB63C34E6565D3BED28C2630C8431AAC5DDC3ACF1F1DF"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/SkiaSharp.NativeAssets.macOS@2.88.8",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SkiaSharp.NativeAssets.WebAssembly@2.88.7",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "SkiaSharp.NativeAssets.WebAssembly",
+      "version": "2.88.7",
+      "description": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms that can be used across mobile, server and desktop models to render images.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "BEE40D258B80A0EA1E849D77C8FD7D594643AC24C666AA9575473462009CDFD1C33E1D4148848187BEBC239CED3EB37652B3C7558A597C6959604AABF44498A4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/SkiaSharp.NativeAssets.WebAssembly@2.88.7",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SkiaSharp.NativeAssets.Win32@2.88.8",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "SkiaSharp.NativeAssets.Win32",
+      "version": "2.88.8",
+      "description": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms that can be used across mobile, server and desktop models to render images.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CF469D9B57E03BD775035DB8DA878241C7BFCA0917195665FCCF8F73DE4D8B5BDF95613421C2FC3DC12C88D05163FA7E8F4CC7CA382CB4288302258CCFE88BE8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://go.microsoft.com/fwlink/?linkid=868514"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/SkiaSharp.NativeAssets.Win32@2.88.8",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/mono/SkiaSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Splat@14.4.1",
+      "authors": [
+        {
+          "name": ".NET Foundation and Contributors"
+        }
+      ],
+      "name": "Splat",
+      "version": "14.4.1",
+      "description": "A library to make things cross-platform that should be.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3471598D228CA11026E39E85556AA852CFA42B00A841F93477D4815CFDEB492BE328B8415ABE655E789F45B5DF14D8073E88FF44C61068B6AA7704196C6BE3A7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Splat@14.4.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/reactiveui/splat/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/reactiveui/splat",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Svg.Custom@2.0.0",
+      "authors": [
+        {
+          "name": "Wies\u0142aw \u0160olt\u00E9s"
+        }
+      ],
+      "name": "Svg.Custom",
+      "version": "2.0.0",
+      "description": "Custom build of the SVG rendering library.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8EEA6DBDCF7372B5202B7E74DF5801823A9A49E57BF867194AF5CD28FC23F0A652BB273CB339DE513D8B882360424E8ED9214503EA53EC174754CFDD8B3E5A98"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MS-PL"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 Wies\u0142aw \u0160olt\u00E9s 2024",
+      "purl": "pkg:nuget/Svg.Custom@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/wieslawsoltes/Svg.Skia",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/wieslawsoltes/Svg.Skia",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Svg.Model@2.0.0",
+      "authors": [
+        {
+          "name": "Wies\u0142aw \u0160olt\u00E9s"
+        }
+      ],
+      "name": "Svg.Model",
+      "version": "2.0.0",
+      "description": "An SVG rendering object model library.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "06A19A86778BCD54ED127713EEB2DB60B7150C836DCE6AAFB0850CD998144A7E7C13AA6CBADCD057E4363D2E7553C5A53F822BCFDFC68DB656F7C7E7CD181C42"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 Wies\u0142aw \u0160olt\u00E9s 2024",
+      "purl": "pkg:nuget/Svg.Model@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/wieslawsoltes/Svg.Skia",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/wieslawsoltes/Svg.Skia",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Svg.Skia@2.0.0",
+      "authors": [
+        {
+          "name": "Wies\u0142aw \u0160olt\u00E9s"
+        }
+      ],
+      "name": "Svg.Skia",
+      "version": "2.0.0",
+      "description": "An SVG rendering library.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "87E8EAC4A66DBB00EB477E31C02211AE468AAB83EB878D5AD0A3C7AE9CB906E61F91EF627934D84DE38C53312BC50EA9B13473D330A93920235CC1BB64C53BB7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 Wies\u0142aw \u0160olt\u00E9s 2024",
+      "purl": "pkg:nuget/Svg.Skia@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/wieslawsoltes/Svg.Skia",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/wieslawsoltes/Svg.Skia",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.CodeDom@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.CodeDom",
+      "version": "5.0.0",
+      "description": "Provides types that can be used to model the structure of a source code document and to output source code for that model in a supported language.\n\nCommonly Used Types:\nSystem.CodeDom.CodeObject\nSystem.CodeDom.Compiler.CodeDomProvider\nMicrosoft.CSharp.CSharpCodeProvider\nMicrosoft.VisualBasic.VBCodeProvider\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "150A20DD314A4CF96AC538A48E67B529A8453D17164646BCCE9DC04A46D923E12EEBEA9583746AD66D0F400705118383992AC9CF7BA31563B886180913527438"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.CodeDom@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Collections.Immutable@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Collections.Immutable",
+      "version": "5.0.0",
+      "description": "This package provides collections that are thread safe and guaranteed to never change their contents, also known as immutable collections. Like strings, any methods that perform modifications will not change the existing instance but instead return a new instance. For efficiency reasons, the implementation uses a sharing mechanism to ensure that newly created instances share as much data as possible with the previous instance while ensuring that operations have a predictable time complexity.\n\nCommonly Used Types:\nSystem.Collections.Immutable.ImmutableArray\nSystem.Collections.Immutable.ImmutableArray\u003CT\u003E\nSystem.Collections.Immutable.ImmutableDictionary\nSystem.Collections.Immutable.ImmutableDictionary\u003CTKey,TValue\u003E\nSystem.Collections.Immutable.ImmutableHashSet\nSystem.Collections.Immutable.ImmutableHashSet\u003CT\u003E\nSystem.Collections.Immutable.ImmutableList\nSystem.Collections.Immutable.ImmutableList\u003CT\u003E\nSystem.Collections.Immutable.ImmutableQueue\nSystem.Collections.Immutable.ImmutableQueue\u003CT\u003E\nSystem.Collections.Immutable.ImmutableSortedDictionary\nSystem.Collections.Immutable.ImmutableSortedDictionary\u003CTKey,TValue\u003E\nSystem.Collections.Immutable.ImmutableSortedSet\nSystem.Collections.Immutable.ImmutableSortedSet\u003CT\u003E\nSystem.Collections.Immutable.ImmutableStack\nSystem.Collections.Immutable.ImmutableStack\u003CT\u003E",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "726F8DB7D179714CF0EFEB0FC02FCEBE7B4755762902E391E77CF78671DD5D5F364C7CF4CE3545B51CC7F37327D12D1500BA19F4B934F0E8BB69A6A347C0BBFD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Collections.Immutable@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.ComponentModel.Annotations@4.5.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.ComponentModel.Annotations",
+      "version": "4.5.0",
+      "description": "Provides attributes that are used to define metadata for objects used as data sources.\n\nCommonly Used Types:\nSystem.ComponentModel.DataAnnotations.ValidationResult\nSystem.ComponentModel.DataAnnotations.IValidatableObject\nSystem.ComponentModel.DataAnnotations.ValidationAttribute\nSystem.ComponentModel.DataAnnotations.RequiredAttribute\nSystem.ComponentModel.DataAnnotations.StringLengthAttribute\nSystem.ComponentModel.DataAnnotations.DisplayAttribute\nSystem.ComponentModel.DataAnnotations.RegularExpressionAttribute\nSystem.ComponentModel.DataAnnotations.DataTypeAttribute\nSystem.ComponentModel.DataAnnotations.RangeAttribute\nSystem.ComponentModel.DataAnnotations.KeyAttribute\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7F5029507196ABF9490BC3D913B26A6C0DED898ED99E06503B699B61F086D0995055552AAA654C032D1F32F03012E1BADFD338EC42DD3FA3D0C5CE4E228EA2E8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.ComponentModel.Annotations@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Configuration.ConfigurationManager@4.4.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Configuration.ConfigurationManager",
+      "version": "4.4.0",
+      "description": "Provides types that support using configuration files.\n\nCommonly Used Types:\nSystem.Configuration.Configuration\nSystem.Configuration.ConfigurationManager\n \n8321c729934c0f8be754953439b88e6e1c120c24 \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "44B601DD83A6773F5D137CCC841146BF7185EF8BA91A31F49C5D06F6514544B34BB0210C2298AE42C306BF6A84D2A769D4976179534EF11211A5429DA2488AFA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Configuration.ConfigurationManager@4.4.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.Pipelines@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.IO.Pipelines",
+      "version": "6.0.0",
+      "description": "Single producer single consumer byte buffer management.\n\nCommonly Used Types:\nSystem.IO.Pipelines.Pipe\nSystem.IO.Pipelines.PipeWriter\nSystem.IO.Pipelines.PipeReader",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C5983B4510BC8AE4116133FFB9B280FE61D99D47EF52DD78E5BFD03E090901896D5D5FD738DAE57006B971840A4D9422BDED33DDEFA5E927D75D309EF1F70DEA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.IO.Pipelines@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Management@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Management",
+      "version": "5.0.0",
+      "description": "Provides access to a rich set of management information and management events about the system, devices, and applications instrumented to the Windows Management Instrumentation (WMI) infrastructure.\n\nCommonly Used Types:\nSystem.Management.ManagementClass\nSystem.Management.ManagementObject\nSystem.Management.SelectQuery\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6BF4B8E2E0836B03F5FF9FA8F2BB1BB9B1D1D46985C8B0BFEDA05FA87E030F7A3C2C064DBA317A1E280A57FE729739D2A674A62C73DAD2E2CC0DAF3E8775FD02"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Management@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Memory@4.5.4",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Memory",
+      "version": "4.5.4",
+      "description": "Provides types for efficient representation and pooling of managed, stack, and native memory segments and sequences of such segments, along with primitives to parse and format UTF-8 encoded text stored in those memory segments.\n\nCommonly Used Types:\nSystem.Span\nSystem.ReadOnlySpan\nSystem.Memory\nSystem.ReadOnlyMemory\nSystem.Buffers.MemoryPool\nSystem.Buffers.ReadOnlySequence\nSystem.Buffers.Text.Utf8Parser\nSystem.Buffers.Text.Utf8Formatter\n \n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8ECE5491EB0FE332BC190F40CF76B3BEEE0C5F996325034861BE221FDB0FF02FD59E4F7020B3C4A1F29A457F76FF76C4C95D46D38555E4F48C7A3BF172D87966"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Memory@4.5.4",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Numerics.Vectors@4.5.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Numerics.Vectors",
+      "version": "4.5.0",
+      "description": "Provides hardware-accelerated numeric types, suitable for high-performance processing and graphics applications.\n\nCommonly Used Types:\nSystem.Numerics.Matrix3x2\nSystem.Numerics.Matrix4x4\nSystem.Numerics.Plane\nSystem.Numerics.Quaternion\nSystem.Numerics.Vector2\nSystem.Numerics.Vector3\nSystem.Numerics.Vector4\nSystem.Numerics.Vector\nSystem.Numerics.Vector\u003CT\u003E\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9C04EC0530F608AAF801837A791B33857E2CA6D2265A6049C01FD4E972825967E709CAD3070F174829B7400F608E9A641D3AFC3A45D4636D4C47DD43DD0657B3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Numerics.Vectors@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reactive@5.0.0",
+      "authors": [
+        {
+          "name": ".NET Foundation and Contributors"
+        }
+      ],
+      "name": "System.Reactive",
+      "version": "5.0.0",
+      "description": "Reactive Extensions (Rx) for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "23156E017B081B88ABA7D9462438E09024003C61874E9798D389841A0F215CAB63BDC69AB25D0AD3F1BF75D65D76771810F9D0184C338FD96C0B5C1E21DF9590"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors.",
+      "purl": "pkg:nuget/System.Reactive@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/reactive",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/reactive",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Reflection.Metadata",
+      "version": "1.6.0",
+      "description": "This packages provides a low-level .NET (ECMA-335) metadata reader and writer. It\u0027s geared for performance and is the ideal choice for building higher-level libraries that intend to provide their own object model, such as compilers.\n\nCommonly Used Types:\nSystem.Reflection.Metadata.MetadataReader\nSystem.Reflection.PortableExecutable.PEReader\nSystem.Reflection.Metadata.Ecma335.MetadataBuilder\nSystem.Reflection.PortableExecutable.PEBuilder\nSystem.Reflection.PortableExecutable.ManagedPEBuilder\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F5227666EDC6BB1DA78B8A8E86A68E9BD647CAA2EC6A1580C14A4A5E1FE5CFDE3BDAF0D8C23DC210C405A55F83CEB6ADD1A9ADAB149DC065B38CFDDC9B01BA20"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Metadata@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Reflection.Metadata",
+      "version": "5.0.0",
+      "description": "This packages provides a low-level .NET (ECMA-335) metadata reader and writer. It\u0027s geared for performance and is the ideal choice for building higher-level libraries that intend to provide their own object model, such as compilers.\n\nCommonly Used Types:\nSystem.Reflection.Metadata.MetadataReader\nSystem.Reflection.PortableExecutable.PEReader\nSystem.Reflection.Metadata.Ecma335.MetadataBuilder\nSystem.Reflection.PortableExecutable.PEBuilder\nSystem.Reflection.PortableExecutable.ManagedPEBuilder\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3B74E3E491EEE87A8410F5B9A2E556233D9919267F6A054DA7A4C9C34B6916B07C77EA9EF8CCEB5B7C3361E7394E502CC3C9A09247C6A06BB58509E82554E527"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Reflection.Metadata@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Runtime.CompilerServices.Unsafe",
+      "version": "5.0.0",
+      "description": "Provides the System.Runtime.CompilerServices.Unsafe class, which provides generic, low-level functionality for manipulating pointers.\n\nCommonly Used Types:\nSystem.Runtime.CompilerServices.Unsafe\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "23226C503B06ABECEE5A9604A6E4DD3DABCDF921F55D6AA6DAD2BAB1CA12A001C7866AF5A6DE01CC9B4ACE54E5C8EE1D5C2FD29DD9DFD7EDA3ED86F9B35FA59F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.AccessControl",
+      "version": "5.0.0",
+      "description": "Provides base classes that enable managing access and audit control lists on securable objects.\n\nCommonly Used Types:\nSystem.Security.AccessControl.AccessRule\nSystem.Security.AccessControl.AuditRule\nSystem.Security.AccessControl.ObjectAccessRule\nSystem.Security.AccessControl.ObjectAuditRule\nSystem.Security.AccessControl.ObjectSecurity\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AE6B03AD029D3EB6818A6C8BB56CF4904013FA535A67B8E621B783A029DD88AA2E471E002CBC7D720381AD8BC8C6B93111A08F6CE2D271AF6D974BF4D02B6C81"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.ProtectedData@4.4.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Cryptography.ProtectedData",
+      "version": "4.4.0",
+      "description": "Provides access to Windows Data Protection Api.\n\nCommonly Used Types:\nSystem.Security.Cryptography.DataProtectionScope\nSystem.Security.Cryptography.ProtectedData\n \n8321c729934c0f8be754953439b88e6e1c120c24 \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5B011EC6F05DFB5EF27D8EDF712F9F04697E1C00C47C226E29E0C9A814FB0FA8FABCAC18BDF2F21AEAB6CBF326ACA3910BA99B630B61EE48E29CED663E14CBDE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Cryptography.ProtectedData@4.4.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Principal.Windows",
+      "version": "5.0.0",
+      "description": "Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.\n\nCommonly Used Types:\nSystem.Security.Principal.WindowsIdentity\nSystem.Security.Principal.SecurityIdentifier\nSystem.Security.Principal.NTAccount\nSystem.Security.Principal.WindowsPrincipal\nSystem.Security.Principal.IdentityReference\nSystem.Security.Principal.IdentityNotMappedException\nSystem.Security.Principal.WindowsBuiltInRole\nSystem.Security.Principal.WellKnownSidType\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "44A920AAAF22B2172D41319BB57AB2B8E1A4531D5F02192A6F53A81D875125195B60BA0B5A44A45981D137FD7B0F3A65B12959B5FD97AFC0578CD84EF27467CD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding.CodePages@4.5.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Encoding.CodePages",
+      "version": "4.5.1",
+      "description": "Provides support for code-page based encodings, including Windows-1252, Shift-JIS, and GB2312.\n\nCommonly Used Types:\nSystem.Text.CodePagesEncodingProvider\n \n99ce22c306b07f99ddae60f443d23a983ae78f7b \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "12EDDDC9452A0C592EB24AEB2B9E152D60B8D44540349368E6FCE3A239C6029847F8557ADCD260DF3B39C744EF45A6034D9DB2FBCE9E20E2B8DC78363578B0EF"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encoding.CodePages@4.5.1",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Threading.Tasks.Extensions",
+      "version": "4.5.4",
+      "description": "Provides additional types that simplify the work of writing concurrent and asynchronous code.\n\nCommonly Used Types:\nSystem.Threading.Tasks.ValueTask\u003CTResult\u003E\n \n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "68052086E77D3C7198737A3DA163D67740B7C44F93250C39659B3BF21B6547A9ABF64CBF40481F5C78F24361AF3AAF47D52D188B371554A0928A7F7665C1FC14"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.ValueTuple@4.5.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.ValueTuple",
+      "version": "4.5.0",
+      "description": "Provides the System.ValueTuple structs, which implement the underlying types for tuples in C# and Visual Basic.\n\nCommonly Used Types:\nSystem.ValueTuple\nSystem.ValueTuple\u003CT1\u003E\nSystem.ValueTuple\u003CT1, T2\u003E\nSystem.ValueTuple\u003CT1, T2, T3\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6, T7\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6, T7, TRest\u003E\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FA00EBB5045D12C51274F64411C551981BECEB1266A8606A4731063109B95EA1F15939197BF3D2BA899DB61E593DC39BFCE876908BBA34286823525093AE3D8E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.ValueTuple@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Tmds.DBus.Protocol@0.15.0",
+      "authors": [
+        {
+          "name": "Tom Deseyn"
+        }
+      ],
+      "name": "Tmds.DBus.Protocol",
+      "version": "0.15.0",
+      "description": "Tmds.DBus.Protocol Library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "45958A88536D1DAA769934986B3AC514CDC1104A936BC404DBDEC550C958847E7408AF621350C09FA51BC4B837FB88471EC6E6056C4AAA2CEBF30F044CD834E9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Tom Deseyn",
+      "purl": "pkg:nuget/Tmds.DBus.Protocol@0.15.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/tmds/Tmds.DBus.git",
+          "type": "vcs"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:nuget/Avalonia.Angle.Windows.Natives@2.1.0.2023020321",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.BuildServices@0.0.29",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.Desktop@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13",
+        "pkg:nuget/Avalonia.Native@11.0.13",
+        "pkg:nuget/Avalonia.Skia@11.0.13",
+        "pkg:nuget/Avalonia.Win32@11.0.13",
+        "pkg:nuget/Avalonia.X11@11.0.13"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.Fonts.Inter@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.FreeDesktop@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13",
+        "pkg:nuget/Tmds.DBus.Protocol@0.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.Native@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.ReactiveUI@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13",
+        "pkg:nuget/ReactiveUI@18.3.1",
+        "pkg:nuget/System.Reactive@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.Remote.Protocol@11.0.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.Skia@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13",
+        "pkg:nuget/HarfBuzzSharp@7.3.0",
+        "pkg:nuget/HarfBuzzSharp.NativeAssets.Linux@7.3.0",
+        "pkg:nuget/HarfBuzzSharp.NativeAssets.WebAssembly@7.3.0",
+        "pkg:nuget/SkiaSharp@2.88.8",
+        "pkg:nuget/SkiaSharp.NativeAssets.Linux@2.88.7",
+        "pkg:nuget/SkiaSharp.NativeAssets.WebAssembly@2.88.7"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.Themes.Fluent@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.Win32@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13",
+        "pkg:nuget/Avalonia.Angle.Windows.Natives@2.1.0.2023020321",
+        "pkg:nuget/System.Numerics.Vectors@4.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia.X11@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia@11.0.13",
+        "pkg:nuget/Avalonia.FreeDesktop@11.0.13",
+        "pkg:nuget/Avalonia.Skia@11.0.13"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Avalonia@11.0.13",
+      "dependsOn": [
+        "pkg:nuget/Avalonia.BuildServices@0.0.29",
+        "pkg:nuget/Avalonia.Remote.Protocol@11.0.13",
+        "pkg:nuget/MicroCom.Runtime@0.11.0",
+        "pkg:nuget/System.ComponentModel.Annotations@4.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/BenchmarkDotNet.Annotations@0.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/BenchmarkDotNet@0.14.0",
+      "dependsOn": [
+        "pkg:nuget/BenchmarkDotNet.Annotations@0.14.0",
+        "pkg:nuget/CommandLineParser@2.9.1",
+        "pkg:nuget/Gee.External.Capstone@2.3.0",
+        "pkg:nuget/Iced@1.17.0",
+        "pkg:nuget/Microsoft.CodeAnalysis.CSharp@4.1.0",
+        "pkg:nuget/Microsoft.Diagnostics.Runtime@2.2.332302",
+        "pkg:nuget/Microsoft.Diagnostics.Tracing.TraceEvent@3.1.8",
+        "pkg:nuget/Microsoft.DotNet.PlatformAbstractions@3.1.6",
+        "pkg:nuget/Perfolizer@0.3.17",
+        "pkg:nuget/System.Management@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/CommandLineParser@2.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/DynamicData@7.9.5",
+      "dependsOn": [
+        "pkg:nuget/System.Reactive@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/ExCSS@4.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/FluentAssertions@6.12.0",
+      "dependsOn": [
+        "pkg:nuget/System.Configuration.ConfigurationManager@4.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Gee.External.Capstone@2.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.Linux@7.3.0",
+      "dependsOn": [
+        "pkg:nuget/HarfBuzzSharp@7.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.macOS@7.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.macOS@7.3.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.WebAssembly@7.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.Win32@7.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/HarfBuzzSharp.NativeAssets.Win32@7.3.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/HarfBuzzSharp@7.3.0",
+      "dependsOn": [
+        "pkg:nuget/HarfBuzzSharp.NativeAssets.Win32@7.3.0",
+        "pkg:nuget/HarfBuzzSharp.NativeAssets.macOS@7.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/HarfBuzzSharp@7.3.0.2",
+      "dependsOn": [
+        "pkg:nuget/HarfBuzzSharp.NativeAssets.Win32@7.3.0.2",
+        "pkg:nuget/HarfBuzzSharp.NativeAssets.macOS@7.3.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Iced@1.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microcharts@0.9.5.9",
+      "dependsOn": [
+        "pkg:nuget/SkiaSharp@2.88.8",
+        "pkg:nuget/System.ValueTuple@4.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/MicroCom.Runtime@0.11.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeAnalysis.Analyzers@3.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeAnalysis.Common@4.1.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CodeAnalysis.Analyzers@3.3.3",
+        "pkg:nuget/System.Collections.Immutable@5.0.0",
+        "pkg:nuget/System.Memory@4.5.4",
+        "pkg:nuget/System.Reflection.Metadata@5.0.0",
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@5.0.0",
+        "pkg:nuget/System.Text.Encoding.CodePages@4.5.1",
+        "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeAnalysis.CSharp@4.1.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CodeAnalysis.Common@4.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeCoverage@17.11.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Diagnostics.NETCore.Client@0.2.251802",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.0",
+        "pkg:nuget/Microsoft.Extensions.Logging@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Diagnostics.Runtime@2.2.332302",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Diagnostics.NETCore.Client@0.2.251802",
+        "pkg:nuget/System.Collections.Immutable@5.0.0",
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Diagnostics.Tracing.TraceEvent@3.1.8",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.DotNet.PlatformAbstractions@3.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@2.1.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Primitives@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@2.1.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration@2.1.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging@2.1.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Binder@2.1.1",
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@2.1.1",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@2.1.1",
+        "pkg:nuget/Microsoft.Extensions.Options@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Options@2.1.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@2.1.1",
+        "pkg:nuget/Microsoft.Extensions.Primitives@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Primitives@2.1.1",
+      "dependsOn": [
+        "pkg:nuget/System.Memory@4.5.4",
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.11.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CodeCoverage@17.11.0",
+        "pkg:nuget/Microsoft.TestPlatform.TestHost@17.11.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+      "dependsOn": [
+        "pkg:nuget/System.Reflection.Metadata@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.11.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+        "pkg:nuget/Newtonsoft.Json@13.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Security.AccessControl@5.0.0",
+        "pkg:nuget/System.Security.Principal.Windows@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NETStandard.Library@2.0.3",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit@4.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit3TestAdapter@4.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Perfolizer@0.3.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/ReactiveUI@18.3.1",
+      "dependsOn": [
+        "pkg:nuget/DynamicData@7.9.5",
+        "pkg:nuget/Splat@14.4.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/ScottPlot@5.0.37",
+      "dependsOn": [
+        "pkg:nuget/SkiaSharp@2.88.8",
+        "pkg:nuget/SkiaSharp.NativeAssets.Linux.NoDependencies@2.88.8"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/ShimSkiaSharp@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/SkiaSharp.HarfBuzz@2.88.8",
+      "dependsOn": [
+        "pkg:nuget/HarfBuzzSharp@7.3.0.2",
+        "pkg:nuget/SkiaSharp@2.88.8"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/SkiaSharp.NativeAssets.Linux.NoDependencies@2.88.8",
+      "dependsOn": [
+        "pkg:nuget/SkiaSharp@2.88.8"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/SkiaSharp.NativeAssets.Linux@2.88.7",
+      "dependsOn": [
+        "pkg:nuget/SkiaSharp@2.88.8"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/SkiaSharp.NativeAssets.macOS@2.88.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/SkiaSharp.NativeAssets.WebAssembly@2.88.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/SkiaSharp.NativeAssets.Win32@2.88.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/SkiaSharp@2.88.8",
+      "dependsOn": [
+        "pkg:nuget/SkiaSharp.NativeAssets.Win32@2.88.8",
+        "pkg:nuget/SkiaSharp.NativeAssets.macOS@2.88.8"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Splat@14.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Svg.Custom@2.0.0",
+      "dependsOn": [
+        "pkg:nuget/ExCSS@4.2.3"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Svg.Model@2.0.0",
+      "dependsOn": [
+        "pkg:nuget/ShimSkiaSharp@2.0.0",
+        "pkg:nuget/Svg.Custom@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Svg.Skia@2.0.0",
+      "dependsOn": [
+        "pkg:nuget/SkiaSharp@2.88.8",
+        "pkg:nuget/SkiaSharp.HarfBuzz@2.88.8",
+        "pkg:nuget/Svg.Custom@2.0.0",
+        "pkg:nuget/Svg.Model@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.CodeDom@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Collections.Immutable@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.ComponentModel.Annotations@4.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Configuration.ConfigurationManager@4.4.0",
+      "dependsOn": [
+        "pkg:nuget/System.Security.Cryptography.ProtectedData@4.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.IO.Pipelines@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Management@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+        "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+        "pkg:nuget/System.CodeDom@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Memory@4.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Numerics.Vectors@4.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Reactive@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Reflection.Metadata@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+        "pkg:nuget/System.Security.Principal.Windows@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Cryptography.ProtectedData@4.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Encoding.CodePages@4.5.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.ValueTuple@4.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Tmds.DBus.Protocol@0.15.0",
+      "dependsOn": [
+        "pkg:nuget/System.IO.Pipelines@6.0.0"
+      ]
+    },
+    {
+      "ref": "QuestPDF@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/NETStandard.Library@2.0.3",
+        "pkg:nuget/BenchmarkDotNet@0.14.0",
+        "pkg:nuget/Microsoft.NET.Test.Sdk@17.11.0",
+        "pkg:nuget/NUnit@4.2.1",
+        "pkg:nuget/NUnit3TestAdapter@4.6.0",
+        "pkg:nuget/SkiaSharp@2.88.8",
+        "pkg:nuget/SkiaSharp.NativeAssets.Linux.NoDependencies@2.88.8",
+        "pkg:nuget/SkiaSharp.NativeAssets.macOS@2.88.8",
+        "pkg:nuget/SkiaSharp.NativeAssets.Win32@2.88.8",
+        "pkg:nuget/Avalonia.Desktop@11.0.13",
+        "pkg:nuget/Avalonia.Fonts.Inter@11.0.13",
+        "pkg:nuget/Avalonia.ReactiveUI@11.0.13",
+        "pkg:nuget/Avalonia.Skia@11.0.13",
+        "pkg:nuget/Avalonia.Themes.Fluent@11.0.13",
+        "pkg:nuget/FluentAssertions@6.12.0",
+        "pkg:nuget/Microcharts@0.9.5.9",
+        "pkg:nuget/ScottPlot@5.0.37",
+        "pkg:nuget/Svg.Skia@2.0.0"
+      ]
+    }
+  ]
+}

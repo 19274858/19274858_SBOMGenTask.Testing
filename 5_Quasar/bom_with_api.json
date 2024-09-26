@@ -1,0 +1,123 @@
+﻿[
+    {
+        "Soup":  "ILRepack.Lib.MSBuild.Task",
+        "Author":  "RBSoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "2.0.18.2",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "2.0.34.2",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "MSBuild task for ILRepack which is an open-source alternative to ILMerge.",
+        "ExternalReferences":  "https://github.com/ravibpatel/ILRepack.Lib.MSBuild.Task"
+    },
+    {
+        "Soup":  "Microsoft.CodeCoverage",
+        "Author":  "Microsoft",
+        "LicenseType":  "Unknown - See URL, https://aka.ms/deprecateLicenseUrl",
+        "UsedVersion":  "17.3.2",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "17.11.1.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Microsoft.CodeCoverage package brings infra for collecting code coverage from vstest.console.exe and \"dotnet test\".",
+        "ExternalReferences":  "https://github.com/microsoft/vstest/, https://github.com/microsoft/vstest"
+    },
+    {
+        "Soup":  "Microsoft.NET.Test.Sdk",
+        "Author":  "Microsoft",
+        "LicenseType":  "Unknown - See URL, https://aka.ms/deprecateLicenseUrl",
+        "UsedVersion":  "17.3.2",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "17.11.1.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "The MSbuild targets and properties for building .NET test projects.",
+        "ExternalReferences":  "https://github.com/microsoft/vstest/, https://github.com/microsoft/vstest"
+    },
+    {
+        "Soup":  "Mono.Cecil",
+        "Author":  "Jb Evain",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "0.11.4",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "0.11.5.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Cecil is a library written by Jb Evain to generate and inspect programs and libraries in the ECMA CIL format.",
+        "ExternalReferences":  "http://github.com/jbevain/cecil/"
+    },
+    {
+        "Soup":  "MouseKeyHook",
+        "Author":  "George Mamaladze",
+        "LicenseType":  "Unknown - See URL, https://github.com/gmamaladze/globalmousekeyhook/blob/master/LICENSE.txt",
+        "UsedVersion":  "5.6.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "5.7.1.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "This library allows you to tap keyboard and mouse, to detect and record their activity even when an application is inactive and runs in background.",
+        "ExternalReferences":  "https://github.com/gmamaladze/globalmousekeyhook"
+    },
+    {
+        "Soup":  "MSTest.TestAdapter",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "2.2.10",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "3.6.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "The adapter to discover and execute MSTest Framework based tests.\n\n      Supported platforms:\n      - .NET 4.5.0+\n      - .NET Core 1.0+ (Universal Windows Apps 10+) (Visual Studio 2017)\n      - .NET 5.0 (Visual Studio 2019)\n      - .NET 5.0 Windows.18362+ (WinUI Desktop Apps) (Visual Studio 2019)\n      - ASP.NET Core 1.0+ (Visual Studio 2017)",
+        "ExternalReferences":  "https://github.com/microsoft/testfx, https://github.com/microsoft/testfx"
+    },
+    {
+        "Soup":  "MSTest.TestFramework",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "2.2.10",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "3.6.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "This is MSTest V2, the evolution of Microsoft\u0027s Test Framework.",
+        "ExternalReferences":  "https://github.com/microsoft/testfx, https://github.com/microsoft/testfx"
+    },
+    {
+        "Soup":  "Open.NAT",
+        "Author":  "Alan McGovern, Ben Motmans, Lucas Ontivero",
+        "LicenseType":  "Unknown - See URL, http://opensource.org/licenses/MIT",
+        "UsedVersion":  "2.1.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "2.1.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Library to allow port forwarding in NAT devices that support UPNP and/or PMP.",
+        "ExternalReferences":  "https://github.com/lontivero/Open.NAT"
+    },
+    {
+        "Soup":  "Portable.BouncyCastle",
+        "Author":  "Claire Novotny",
+        "LicenseType":  "Unknown - See URL, https://www.bouncycastle.org/csharp/licence.html",
+        "UsedVersion":  "1.9.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "1.9.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "BouncyCastle portable version with support for .NET 4, .NET Standard 2.0",
+        "ExternalReferences":  "https://www.bouncycastle.org/csharp/, https://github.com/novotnyllc/bc-csharp"
+    },
+    {
+        "Soup":  "protobuf-net",
+        "Author":  "Marc Gravell",
+        "LicenseType":  "Apache-2.0",
+        "UsedVersion":  "2.4.8",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "3.2.30.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Provides simple access to fast and efficient \"Protocol Buffers\" serialization from .NET applications",
+        "ExternalReferences":  "https://github.com/mgravell/protobuf-net, https://github.com/mgravell/protobuf-net"
+    },
+    {
+        "Soup":  "Vestris.ResourceLib",
+        "Author":  "dblock, icnocop, thoemmi",
+        "LicenseType":  "Unknown - See URL, https://github.com/resourcelib/resourcelib/blob/master/LICENSE",
+        "UsedVersion":  "2.1.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "2.2.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "C# File Resource Management Library",
+        "ExternalReferences":  "https://github.com/resourcelib/resourcelib, https://github.com/resourcelib/resourcelib"
+    }
+]

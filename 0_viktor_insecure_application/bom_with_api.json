@@ -1,0 +1,99 @@
+﻿[
+    {
+        "Soup":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "8.0.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "9.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Abstractions for dependency injection.\n\nCommonly Used Types:\nMicrosoft.Extensions.DependencyInjection.IServiceCollection",
+        "ExternalReferences":  "https://dot.net/, https://github.com/dotnet/runtime"
+    },
+    {
+        "Soup":  "Microsoft.Extensions.Logging.Abstractions",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "8.0.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "9.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Logging abstractions for Microsoft.Extensions.Logging.\n\nCommonly Used Types:\nMicrosoft.Extensions.Logging.ILogger\nMicrosoft.Extensions.Logging.ILoggerFactory\nMicrosoft.Extensions.Logging.ILogger\u003cTCategoryName\u003e\nMicrosoft.Extensions.Logging.LogLevel\nMicrosoft.Extensions.Logging.Logger\u003cT\u003e\nMicrosoft.Extensions.Logging.LoggerMessage\nMicrosoft.Extensions.Logging.Abstractions.NullLogger",
+        "ExternalReferences":  "https://dot.net/, https://github.com/dotnet/runtime"
+    },
+    {
+        "Soup":  "Microsoft.NETCore.Platforms",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "5.0.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "8.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+        "ExternalReferences":  "https://github.com/dotnet/runtime, git://github.com/dotnet/runtime"
+    },
+    {
+        "Soup":  "Microsoft.Win32.SystemEvents",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "5.0.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "9.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Provides access to Windows system event notifications.\n\nCommonly Used Types:\nMicrosoft.Win32.SystemEvents\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+        "ExternalReferences":  "https://github.com/dotnet/runtime, git://github.com/dotnet/runtime"
+    },
+    {
+        "Soup":  "Newtonsoft.Json",
+        "Author":  "James Newton-King",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "12.0.3",
+        "UsedVersionVulnerabilityInfo":  [
+                                             "https://github.com/advisories/GHSA-5crp-9r3c-p9vr"
+                                         ],
+        "LastStableVersion":  "13.0.3.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Json.NET is a popular high-performance JSON framework for .NET",
+        "ExternalReferences":  "https://www.newtonsoft.com/json, https://github.com/JamesNK/Newtonsoft.Json"
+    },
+    {
+        "Soup":  "Npgsql",
+        "Author":  "Shay Rojansky,Nikita Kazmin,Brar Piening,Nino Floris,Yoh Deadfall,Austin Drenski,Emil Lenngren,Francisco Figueiredo Jr.,Kenji Uno",
+        "LicenseType":  "PostgreSQL",
+        "UsedVersion":  "8.0.0",
+        "UsedVersionVulnerabilityInfo":  [
+                                             "https://github.com/advisories/GHSA-x9vc-6hfv-hg8c"
+                                         ],
+        "LastStableVersion":  "8.0.4.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Npgsql is the open source .NET data provider for PostgreSQL.",
+        "ExternalReferences":  "https://github.com/npgsql/npgsql, https://github.com/npgsql/npgsql"
+    },
+    {
+        "Soup":  "System.Drawing.Common",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "5.0.0",
+        "UsedVersionVulnerabilityInfo":  [
+                                             "https://github.com/advisories/GHSA-rxg9-xrhp-64gj"
+                                         ],
+        "LastStableVersion":  "9.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Provides access to GDI+ graphics functionality.\n\nCommonly Used Types:\nSystem.Drawing.Bitmap\nSystem.Drawing.BitmapData\nSystem.Drawing.Brush\nSystem.Drawing.Font\nSystem.Drawing.Graphics\nSystem.Drawing.Icon\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+        "ExternalReferences":  "https://github.com/dotnet/runtime, git://github.com/dotnet/runtime"
+    },
+    {
+        "Soup":  "TinyMCE",
+        "Author":  "Ephox Corporation DBA Tiny Technologies, Inc",
+        "LicenseType":  "GPL-2.0-or-later",
+        "UsedVersion":  "7.0.0",
+        "UsedVersionVulnerabilityInfo":  [
+                                             "https://github.com/advisories/GHSA-w9jx-4g6g-rp7x",
+                                             "https://github.com/advisories/GHSA-9hcv-j9pv-qmph"
+                                         ],
+        "LastStableVersion":  "7.3.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under GNU General Public License Version 2 or later by Tiny Technologies, Inc.",
+        "ExternalReferences":  "https://www.tiny.cloud/"
+    }
+]

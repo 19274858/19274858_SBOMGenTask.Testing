@@ -1,0 +1,6136 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:31b53b9e-4104-42ba-81da-82917cae0a5b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-26T11:52:11Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "4.0.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "ArchiSteamFarm@0.0.0",
+      "name": "ArchiSteamFarm",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/AngleSharp@1.1.2",
+      "authors": [
+        {
+          "name": "AngleSharp"
+        }
+      ],
+      "name": "AngleSharp",
+      "version": "1.1.2",
+      "description": "AngleSharp is the ultimate angle brackets parser library. It parses HTML5, CSS3, and XML to construct a DOM based on the official W3C specification.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4904154323C41F8E5CE5D702FF31DDFE3C131BEA3678A6E9E7FAB256B369AB72923E009ADF76B433F4F4995938BAA454CACE454376AAF38A75FFC64455E60D1F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright 2013-2024, AngleSharp.",
+      "purl": "pkg:nuget/AngleSharp@1.1.2",
+      "externalReferences": [
+        {
+          "url": "https://anglesharp.github.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AngleSharp/AngleSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/AngleSharp.XPath@2.0.4",
+      "authors": [
+        {
+          "name": "Denis Ivanov"
+        }
+      ],
+      "name": "AngleSharp.XPath",
+      "version": "2.0.4",
+      "description": "XPath support for AngleSharp",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F142D8E8C937203674BAD013D7825FBE27E95F202F1162CBF8952E9A6BAD870B470C666043F85C527C63826426550265F7DE00AEE6EEC466DC73B37EBF946B9D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/AngleSharp.XPath@2.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AngleSharp/AngleSharp.XPath/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/CryptSharpStandard@1.0.0",
+      "authors": [
+        {
+          "name": "Nyandika Donald"
+        }
+      ],
+      "name": "CryptSharpStandard",
+      "version": "1.0.0",
+      "description": "CryptSharp provides a number of password crypt algorithms - BCrypt, LDAP, MD5 (and Apache\u0027s htpasswd variant), PHPass (WordPress, phpBB, Drupal), SHA256, SHA512, and Traditional and Extended DES. Additionally it includes Blowfish, SCrypt, and PBKDF2 for any HMAC (.NET\u0027s built-in PBKDF2 implementation supports only SHA-1). If you are looking to store passwords, odds are CryptSharp has the algorithm you want.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3E70A8517E86408C64FC605CC267FEA900563137AB9039F29EF340BFA36DFCA78DBD6BA7E9635BF0D937C0780E08E18B6BAA9365E99271DBE9496FB07A6FBE72"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2011-2014 James F. Bellinger \u003Chttp://www.zer7.com/software/cryptsharp\u003E",
+      "purl": "pkg:nuget/CryptSharpStandard@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/nyandika/CryptSharp",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nyandika/CryptSharp",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5A91F1087098D699B714090DD09E1EE4C3A7D02DC1A59FEE82767A23EBC89B0C9ACE785AB8135F281B00583A97DDD6DB663FDC13C7EED05C642DF9DEC9C417E5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer core package that contains the library and the neutral language (English) resources",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "59ED988FBE24722A7B2343894F89825AAD3732CAF4FF0134B7B2FD4704FE65081632F40C7248230FD6EDB63E3B0D35480C61DE19B1C7D74005B477103EF5D3E6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.af@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.af",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Afrikaans (af)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AC2E89AE91FCA794AEA0E49EEDB7B651BEB94C66D5793378CC9EED0ECD14EE6EE1415AC5C7D0EA5D8007658217217D6D616C8A830DF2699A5DE4BA619CF9BE25"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.af@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.ar@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.ar",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Arabic (ar)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3CBDBE39785C66A29D87D5EACDA287AF36C1E680D79482F80F93D444BEDACA9F4C83CF681724C2F461EEDB999C20C4B08981D998B831230194D45DC35689D225"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.ar@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.az@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.az",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Azerbaijani (az)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "154571DDCC4179773F66ACF902FFDB9B6505779154A7BA7416514B046FCBF847779234C842BE387B67B3B96FF2D2568265AD8DC7A30B7C9621B986D877A6C359"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.az@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.bg@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.bg",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Bulgarian (bg)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ABD806A67566559D8B150DB452792D723F1250EEAFDDE1BD8D7EADFCB52B10F5F16BE9AD80314E4682078E88EE29FD6FE062CCB954D79E59222567127CF5DAE3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.bg@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.bn-BD@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.bn-BD",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Bangla (Bangladesh) (bn-BD)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "211EEAB1BCF0ABAB52B40B2373D16A015C83F1A892F27918D7B8CEF5667BA2A4E36F25AFBC92E2B64130643BF6B7D28326C1B19A8013B0E58DC963ADC4E40C79"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.bn-BD@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.cs@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.cs",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Czech (cs)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "920A9D913B41B76EC34731630529C09AB1780E9D0AED41A44E1616794F79E11713A65126B31DD03DD358EA4FB014441BBD4DA512B0086855BACD4F32620F0635"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.cs@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.da@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.da",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Danish (da)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "25AAECDEDC8370B6C3082C813F8E2B34E84FCE343F6B15F09C797D9DBCF924D66E5A8557C8DF06E903E87D9F1C759E008E6B088CA329E4FF7486066DD2569A82"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.da@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.de@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.de",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale German (de)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "405233302141ADB623CF6677FC2978DBC79563AF82E9C3A5E94B0DAD77BB2B3CB846C95AF988AAB71D4C53E805FA0DEA6FF6CB51D95D003B4CFC9A90416A64B4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.de@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.el@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.el",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Greek (el)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C507790382E59707EFC6530D45BA57C4C6DA2B6CE6185811EBE99DB7F3522939D13D5F1DC53708AD9D51635AF0AD71C9964C0991A1F3FE911306404D38F5E09C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.el@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.es@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.es",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Spanish (es)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2C308844AA20DB90196B30F41567D2BBE0D558859812745327C980F0AFFCFBCB533F3F25145AC3C38D3FD42E182FFB088B558AB1D5CC496145D355880F947BAD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.es@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.fa@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.fa",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Persian (fa)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "88FAED839D97EFCD1C569C0997A3EFE96F8BCD824F6B0DB2C1649C49F743B1BC8D4A5DB4A17BB042B9F7B87A43BE4131A7A061F65CE9A4B6455694EE217CFBC4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.fa@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.fi-FI@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.fi-FI",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Finnish (Finland) (fi-FI)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D471270AD459017FC04DC9E82A96B38E92FC66446A307888B259E28E56A08C15F663E50BBC8744286560737ADE0FC749409659840403E746022333209F95E5AA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.fi-FI@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.fr@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.fr",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale French (fr)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "247F673870A94776273D22A31771E46D7D02C712D7CBB9A5CC8EC7F8F880D41DF6135FD3A18DE343D7D83C49DB92BE19BE77315BE15DE20C17C1303F3DF2C1CE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.fr@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.fr-BE@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.fr-BE",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale French (Belgium) (fr-BE)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8069907071A0A5FAB4A81E13D6428E22693FD9D876EF849A954051AE8DF74CEDC66F5790B6FF7790426A0E59489A419C1C8949732021EACE6C000BD5735AF028"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.fr-BE@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.he@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.he",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Hebrew (he)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "206C808722135E41E40FBEA3ED53F12CB9776116E84CC6F9262AA4444A28DFA8DBF55A81AAFB14BEA11898A1F62445D4E1A10BF2DEE98E78A3C86D170C3549B5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.he@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.hr@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.hr",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Croatian (hr)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "51BCB3CAC393867C3B1C3A2436E6EBF44E1AAB5927A195665B57AAD0A9C4C3CB969B0CA845830A1B6ABF26B3DE9683B8CF90D0557BCDEEE9EE3C178E4B7F3051"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.hr@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.hu@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.hu",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Hungarian (hu)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C8C2DDC3073B98B9617536A47BAEA4E41833C66A685E3BC0990A2E93563994B814F9A3647A16ACCE7B1ED72417320E1C3BE3804DAD3E94617CE8C95B7CE45525"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.hu@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.hy@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.hy",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Armenian (hy)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0AE2E9A0CFF0643E6829795A806FE01F3A29B1A2D8327771EB6D5FC36C2A4428EFDF5D67F1A8D963654BF28AB1739B98EDF3F04280FF95F560E7EA478D132D6C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.hy@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.id@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.id",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Indonesian (id)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "911CEE25ECD72B071E869E688CE4141150FCA1AE6E006E732C1C5DE0C0245A8D0B94ACB1A3321D3835625D74FBC98F599220359E58B1F8FDBB4B71BEF19A83ED"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.id@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.is@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.is",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Icelandic (is)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "074211FF30D3AEA2DCA5B67F8D3A37E87959499101AEDF97B809A3A8F19FE2AEC1821F408173138EAC6C2236D029007F21387789CE9295888D54D9BB600B3A78"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.is@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.it@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.it",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Italian (it)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "857C7FDAF051871CDFFB52CE4CEDB7A124B2B82594B1571AC58DA633B5630F0498B87F34D7C18EAACDDAD4B0302B9901C7344E3045B41CE14CA0455C6BFC772B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.it@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.ja@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.ja",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Japanese (ja)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7095C80A9459503FC2EAEB70965C57EB136630665EEA46D7987F00E6F01A5D0117371517F13435308612BBF29BDD1E6061ACFB11DBA6D15BD28A7BEAEEA3CC01"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.ja@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.ko-KR@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.ko-KR",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Korean (South Korea) (ko-KR)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3D1C3695C4B71A43EFD7BA1ED2046E92E576E91A977C3BB5E6DF79959148C0EDB8F89C8FBB12EEA00A7E1BE43A0CCE342852660A6C35A2B7AF3E6C6F7BA5BBF8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.ko-KR@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.ku@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.ku",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Central Kurdish (ku)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "BC30920322D757AB8DC4C842B74FC3C860F4079A99C4320285A80B3A63B9535327150349B9D1F20342875633CFDA74914101085403CE8C9D675D30A7B19119C1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.ku@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.lb@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.lb",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Luxembourgish (lb)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0005AD7D18527514C7B56CAA56C545229BFC6E8CAFB90FD9F4353923C84F8D8D0327EE7AA723218E85DB051F409EE041F4ACDE0C76F4EFC512B7396CA37E803E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.lb@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.lt@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.lt",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Lithuanian (lt)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7822A707244AC69E7EDC4F943FE150665A68392E9E8A0628FBCF971810C32DEBBF6673A21119CED47285AA30FF7748878F46D7CBA9CD2ECC7FA804FC7530C46D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.lt@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.lv@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.lv",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Latvian (lv)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "71D797C19CBB9F2BE1496A47252A752AAF3C6F18AEE390E3C45BD8A70237A6116DE05CC57DE7DACDCFC48DD1F70558190615F4AFFE0382999EB38E407B7CB1A2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.lv@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.ms-MY@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.ms-MY",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Malay (Malaysia) (ms-MY)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9950080771410E8D251955FCE1477A3032AEC2A6374F3B4000F7BF1DCAD7E9C7BC617B307F0189E6D951940360CA8AB2F9E038DB4EECDF98A7ACA4248CCF821B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.ms-MY@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.mt@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.mt",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Maltese (mt)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "513B0CD5F4E23059216EBABF5FA43D1EE3B1E0BD4B28113DA3AF6530E4184FA349ADACC39A365978117194AE34C32FF5B57A88F7F7F7C83AA03C2C67F5BBD61C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.mt@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.nb@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.nb",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Norwegian Bokm\u00E5l (nb)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CDAFD363F13694509914A256BD16F46A64DAC91F33069F2365713E7B6C510277AC40AF8617ABE67201AA960B6DA911D8ACB8213B744CC998F6B261A5B60EEA47"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.nb@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.nb-NO@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.nb-NO",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Norwegian Bokm\u00E5l (Norway) (nb-NO)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6D6FD73DFDE7AB914C84BE0A8DB4917A10D2413F76DE116A8798C138CD3B9BBB8743AA6BE47DE3E114B4B7127E81D7A0FBB7CF20D78C8F70A2A5A31A0A474E8A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.nb-NO@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.nl@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.nl",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Dutch (nl)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9801C3B1A4FBB679781896803D8297B8550F861800A1AD8A25EEB43362CA07C70D100722F798CD75E772C50DE68408FDAABE879F8678EE5D0E0B41955D5E2C18"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.nl@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.pl@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.pl",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Polish (pl)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0ACCD61A0077B26933C55DB75F65467148F6744B2AC14C0A85149F14762D65508A10C3B769BA58B72B673978E734DFD8E9CC82EE18118D81AC0D1571000C865F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.pl@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.pt@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.pt",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Portuguese (pt)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "36E67763679AFFE5846B5898712A744ED0ABCFFD6DA36EED87416DFC88C63701E54CCB17E98BD66A43ACEC350181D701649BAD172075C4DBEC7EE246680615EC"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.pt@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.ro@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.ro",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Romanian (ro)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "90C58AD3C4F86D3B4672553F384C9D504A8C320A6BFE90B8E70CC79BE55946EB6C3EEFD498D7B57A261430D0EC9FDC09F95A6A88BAD3FA2232A3AA519AB97EE4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.ro@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.ru@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.ru",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Russian (ru)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "24C3869131C48A8712300989F456CB356F425F3DB78B334B82836231C73CE7B191401D81698788EBCF03E9837BF6806DC473B775E6930B5AE2F855C7685BBC36"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.ru@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.sk@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.sk",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Slovak (sk)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7BF383336864AED8835F2EDDDE5D2ADF36462D38BE9D8B7E2E46297D672CAF54B549EF27CC5479839C15F42FA0946FA05ECA2A43720C14F0CAC33716C25810EB"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.sk@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.sl@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.sl",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Slovenian (sl)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "E49524B0351FDFD0239B02F3FB15E7B38F9541C060A8693B4244B2B0C1B48F08F9AA60D293679A89F70F68F878BC88947F8E95EB03CE87D0BD7628A56D649746"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.sl@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.sr@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.sr",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Serbian (sr)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "329397420F667E1EF414F1D40A79748A0288847EF3A37F69C1B0E64E02FE737F235D759CE2434B18753A65A8CF99AD7042F67E3D17417AC55C293B1BD583D44B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.sr@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.sr-Latn@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.sr-Latn",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Serbian (sr-Latn)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "341A24DB0F7ECD8065D7F382020CD26470C69A04F28ACDD443EF692E101367DA0105830ADE6325FC022AB27A50AE554F0546FB4A4FDC7F258C916508CBD20117"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.sr-Latn@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.sv@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.sv",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Swedish (sv)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "888E201442AEEB1DF172B3C708219F3BE802B2FBFCBC2849E2C03F07541B9E799F91DAE17EBC981C9994963A67251F81C020712E527B37EACC847206CBB08679"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.sv@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.th-TH@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.th-TH",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Thai (Thailand) (th-TH)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "539333984B1F1F0A3F5C16AF8E4846563C0E78AAB610CA931F804B570679B83458D7B280398F7710CAE5B0789B1740E33F4273E88F2403000C56E5A0C5BB1B8E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.th-TH@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.tr@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.tr",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Turkish (tr)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "22846F904C650116EA97736EA96CFBFAC5CA14C19349AB4CF84290256946010F6B14AFB6767167DCF8F75152D34E9F47D5DE463F0B5494A69BA73E6CFEE52632"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.tr@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.uk@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.uk",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Ukrainian (uk)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "E208BD5E59C7B67E0A3AEB42F959FD2F69854E4880DD491D0455D7A57687B22D2A10F85A3AAD920D14DF8ABD924BE1D57B322A3EE04685365E925288C2C8AF79"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.uk@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.uz-Cyrl-UZ@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.uz-Cyrl-UZ",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Uzbek (Cyrillic, Uzbekistan) (uz-Cyrl-UZ)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "57D32DC498ABDDC4153DCCF5C19FE1796C5095A2A67E4A52B07F4EA2B92A4DF00778BB68C4951E7B7BBE7EE9D1485B8BDDE6744A208E4FCCD79EF307CD9F3446"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.uz-Cyrl-UZ@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.uz-Latn-UZ@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.uz-Latn-UZ",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Uzbek (Latin, Uzbekistan) (uz-Latn-UZ)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "43DA90487DD392951812E7080DD433FEC7A443D127961A49A4A8116E8C1941D6AB8DF45D29075A4AF7C33733EF605640FADCD90BAAFDB8728FADC64AD82739CD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.uz-Latn-UZ@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.vi@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.vi",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Vietnamese (vi)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CB874635F001BA7C83A98476A1435ABA4C0B5252408C177144E0082520FF051A93D3E973EB7293BED334BD9EBFE280A463F70D3658F50E0DB8D212BC61A37529"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.vi@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.zh-CN@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.zh-CN",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Chinese (China) (zh-CN)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7BC5E95616F4D6301154253058EE56EF125B8C68C6FAF7046A8299A9157EEDC3CA36FC61D44B819CDAEFE314175FBC9D627501287868D5AACB54CA5B8F1262DD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.zh-CN@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.zh-Hans@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.zh-Hans",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Chinese (zh-Hans)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AE1AA9BA0A5AFFD6214003EB723DAD19BA9A1F9DCC86A15EEFFFD3A128CAD808472757E68567E58ABA7159BEF1B42D5FC7E5C936C2059BFC031E8C86931B9EE2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.zh-Hans@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Humanizer.Core.zh-Hant@3.0.0-beta.54",
+      "authors": [
+        {
+          "name": "Mehdi Khalili, Claire Novotny"
+        }
+      ],
+      "name": "Humanizer.Core.zh-Hant",
+      "version": "3.0.0-beta.54",
+      "description": "Humanizer Locale Chinese (zh-Hant)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AC3C03188155BBAE075A5DF2E6E12165B00ED149FB617118163695BFF3CA4B348CD232B05BDCFB2DD83D794FF461B311240A796A1D354F7E2ADD69A17BA524D4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors",
+      "purl": "pkg:nuget/Humanizer.Core.zh-Hant@3.0.0-beta.54",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Humanizr/Humanizer",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/JetBrains.Annotations@2024.2.0",
+      "authors": [
+        {
+          "name": "JetBrains"
+        }
+      ],
+      "name": "JetBrains.Annotations",
+      "version": "2024.2.0",
+      "description": "Annotations to increase accuracy of JetBrains Rider and ReSharper code inspections",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "354ED2A27A41A7DFCE085CCFB5544A2B67EAA92BF965864F13669FD915D3863AB5327EE94FBCB0FBD6232F401D7FD7BDA5159A0877E4F405FC381D1A2BCD934C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016-2024 JetBrains s.r.o.",
+      "purl": "pkg:nuget/JetBrains.Annotations@2024.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.jetbrains.com/help/resharper/Code_Analysis__Code_Annotations.html",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JetBrains/JetBrains.Annotations.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Markdig.Signed@0.37.0",
+      "authors": [
+        {
+          "name": "Alexandre Mutel"
+        }
+      ],
+      "name": "Markdig.Signed",
+      "version": "0.37.0",
+      "description": "A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET with 20\u002B builtin extensions (pipetables, footnotes, definition lists... etc.)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "19F627DB224C24687E8780C3586A260A0EC4F38F14293168C7139138D923AF683C0A20F984DB2CEB57D83D2883225B0674F11D5979A146B57B1CD29509636DB6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "copyright": "Alexandre Mutel",
+      "purl": "pkg:nuget/Markdig.Signed@0.37.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lunet-io/markdig",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/xoofx/markdig",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.ApplicationInsights@2.22.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.ApplicationInsights",
+      "version": "2.22.0",
+      "description": "Application Insights Base API. This package provides core functionality for transmission of all Application Insights Telemetry Types and is a dependent package for all other Application Insights packages. Please install the platform specific package for the best experience. Privacy statement: https://go.microsoft.com/fwlink/?LinkId=512156",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3E3D036C471F7BBDB121FEEE896F1DCD44F2D3A5C3CF76E44D8CA85399E2F7E6B9855AACB38EEECA9B02101092EA175E5E6A0E5B76B42904683ABEA0572C61D2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.ApplicationInsights@2.22.0",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?LinkId=392727",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Microsoft/ApplicationInsights-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Bcl.AsyncInterfaces",
+      "version": "6.0.0",
+      "description": "Provides the IAsyncEnumerable\u003CT\u003E and IAsyncDisposable interfaces and helper types for .NET Standard 2.0. This package is not required starting with .NET Standard 2.1 and .NET Core 3.0.\n\nCommonly Used Types:\nSystem.IAsyncDisposable\nSystem.Collections.Generic.IAsyncEnumerable\nSystem.Collections.Generic.IAsyncEnumerator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "221A05A0C910F7A87B620D8F3831ED392B4EB95D112BEE274D35F27009AD2A26445DE9D7CD235FE6FB4A03F2550874BDA3BE3DDDD96EDAF9C0852A9C23D7B099"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Bcl.TimeProvider@8.0.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Bcl.TimeProvider",
+      "version": "8.0.1",
+      "description": "Provides support for system time abstraction primitives for .NET Framework and .NET Standard.\n\nCommonly Used Types:\nSystem.TimeProvider\nSystem.ITimer",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9720E7D4BC367B16DD07D1ED45F0BA54DC9FCBFC4333D7F8F0EAB7B2197551F781A3204A94F97FE296AC83CF36CF1CD7D0C5FD24871691BAC60E878657A2E90A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Bcl.TimeProvider@8.0.1",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeAnalysis.ResxSourceGenerator@3.11.0-beta1.24415.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.CodeAnalysis.ResxSourceGenerator",
+      "version": "3.11.0-beta1.24415.1",
+      "description": "Source generator for resource files",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D0BC9753F130D74807C81A46E7443FCAA157367171942F78E78E5C0A0E9832827D0CF8E1B04A488AB3815DABE24686F6F8D784BE311334627D14006E81649871"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.ResxSourceGenerator@3.11.0-beta1.24415.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/roslyn-analyzers",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/roslyn-analyzers",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeCoverage@17.11.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.CodeCoverage",
+      "version": "17.11.0",
+      "description": "Microsoft.CodeCoverage package brings infra for collecting code coverage from vstest.console.exe and \u0022dotnet test\u0022.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "54ED2D5DC07D71D3DEDCB8DD0AC4C6639D04E75B7541E6FF4C5D106BB4F71535463B45D6939DAB6B1C63D17D5FDEC298F96CBED4CE59EE1779BE32120BF55987"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeCoverage@17.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.ApiDescription.Server@6.0.5",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.ApiDescription.Server",
+      "version": "6.0.5",
+      "description": "MSBuild tasks and targets for build-time Swagger and OpenApi document generation\n\nThis package was built from the source code at https://github.com/dotnet/aspnetcore/tree/e5f183b656a0e8bc087108130a5a9b54ae94494e",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "A3BE8B26AB3758D547DEB560CA418FF238D5C3DA07BAE5BDEA31FFC5876837DB356E0A5B55493286C8386F3E1AD6AA5BC7960D7B9128119CB0B6EFF314B60B1C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.ApiDescription.Server@6.0.5",
+      "externalReferences": [
+        {
+          "url": "https://asp.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/aspnetcore",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Configuration",
+      "version": "8.0.0",
+      "description": "Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration. Includes the memory configuration provider.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DA48A8EF3B4CD2A6BEB78008382D9FCCDCDD42FF3A71D9EFC5AC69D4020421294AC95B07CF11520341A69EE241925CD040D49A382DF243E2FA194F6896EF9734"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "8.0.0",
+      "description": "Provides abstractions of key-value pair based configuration. Interfaces defined in this package are implemented by classes in Microsoft.Extensions.Configuration and other configuration packages.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3316170910A94290C8DF4FED26FA884A47DD9BF974EB7AD22368D5A63308660A01D2DAB4A44662061DACAECCF4BA09CDABFCCD4636F76AB3178BECEC5AD31A2F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Configuration.Binder",
+      "version": "8.0.0",
+      "description": "Provides the functionality to bind an object to data in configuration providers for Microsoft.Extensions.Configuration. This package enables you to represent the configuration data as strongly-typed classes defined in the application code. To bind a configuration, use the Microsoft.Extensions.Configuration.ConfigurationBinder.Get extension method on the IConfiguration object. To use this package, you also need to install a package for the configuration provider, for example, Microsoft.Extensions.Configuration.Json for the JSON provider.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9A5931E9D417B8CD4903FE8B94AA8EC07A1F0D43386717BE38171A5EB432B1765D7DA95E7F092E6997ECCF3F4828D5716317A68FCC8FED32F0AD4F1F82BB7223"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.DependencyInjection",
+      "version": "8.0.0",
+      "description": "Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "96391AF4AE0542F4AE96C8009C9FFBF304ACADF476CDA262A8EA73E33B172529541044186C59D656377BB2DE42C9F5925E0632A81F6E7516F2A646E8916F16EC"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "8.0.0",
+      "description": "Abstractions for dependency injection.\n\nCommonly Used Types:\nMicrosoft.Extensions.DependencyInjection.IServiceCollection",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "94BC05ED29755109565D9CDFC901087EE1FA08302DDA393106BC9A0BD7384F0DC2B6C2F123C1BD53FCE06BABDBFA845DC6D22A163C4B0646C5251DCC5AEAC282"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "version": "8.0.0",
+      "description": "Diagnostic abstractions for Microsoft.Extensions.Diagnostics.\n\nCommonly Used Types:\nMicrosoft.Extensions.Diagnostics.Metrics.IMetricsBuilder\nMicrosoft.Extensions.Diagnostics.Metrics.IMetricsListener\nMicrosoft.Extensions.Diagnostics.Metrics.InstrumentRule\nMicrosoft.Extensions.Diagnostics.Metrics.MeterScope\nMicrosoft.Extensions.Diagnostics.Metrics.MetricsBuilderExtensions\nMicrosoft.Extensions.Diagnostics.Metrics.MetricsOptions",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "A75DD040E3E03E90C8BAA006BD569DB9FD09983CF9C27BFCB246D96A73E2595CEA7AEE6116438989F8DF31B56BC7FE6ADAA7A7FCB6AB95EC5B1D64D0B17FF617"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.FileProviders.Abstractions",
+      "version": "8.0.0",
+      "description": "Abstractions of files and directories.\n\nCommonly Used Types:\nMicrosoft.Extensions.FileProviders.IDirectoryContents\nMicrosoft.Extensions.FileProviders.IFileInfo\nMicrosoft.Extensions.FileProviders.IFileProvider",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FE9AA18F2E819694F20E322C93E075E27BEE2D57DDD5380624FC48A95669C526C270AB5C74F58C6A4721D18ECDB5B2FEBF0315F8794585AE65617831459E2A0B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Hosting.Abstractions",
+      "version": "8.0.0",
+      "description": "Hosting and startup abstractions for applications.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6788C16C139BA241CF2C65E4DED10B8AD8B38602B4490A5FF27DD52B02C90083B7CD40C7B4FAC48AED94742F6545DA959870B5D889B41078B22708ACD761DA66"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Logging",
+      "version": "8.0.0",
+      "description": "Logging infrastructure default implementation for Microsoft.Extensions.Logging.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AA30576C428DFF69BAC5F5D71721AF6C4EF583BC524EDBD0A94B49CBD80F698905021260E1A432C32E6D48CE5A30F6822C209F11DCF7C819ABA1FA8347925B06"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "8.0.0",
+      "description": "Logging abstractions for Microsoft.Extensions.Logging.\n\nCommonly Used Types:\nMicrosoft.Extensions.Logging.ILogger\nMicrosoft.Extensions.Logging.ILoggerFactory\nMicrosoft.Extensions.Logging.ILogger\u003CTCategoryName\u003E\nMicrosoft.Extensions.Logging.LogLevel\nMicrosoft.Extensions.Logging.Logger\u003CT\u003E\nMicrosoft.Extensions.Logging.LoggerMessage\nMicrosoft.Extensions.Logging.Abstractions.NullLogger",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "50A0ADD96D30D90580FB8E02A25CEA0AA15F4D22744279B5ACFE18CC8568B74402AA062D5DB13CC5887A08BFD24E07CBC88B2FC10EE8EEC2C37EDF3BCDA7F8A7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Configuration@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Logging.Configuration",
+      "version": "8.0.0",
+      "description": "Configuration support for Microsoft.Extensions.Logging.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "A6C7487B0DAABBF7987496ECE736B3A2C504298DA762C30093982850FC3786D7DF6EFD92DA5FE78D7EF194AD7D3E2632C8F5398CA70EA6C9EBCC1FC1C7BCA41B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Configuration@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Options@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Options",
+      "version": "8.0.0",
+      "description": "Provides a strongly typed way of specifying and accessing settings using dependency injection.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1C004082A132E7B75A0C95ACEF3578A4D5DB42C55E0996E40B95B663E9A83C5A20ED481A85DB7567FFF7E3DE3DBBA6A7D4FE5C825DC7CE95DE956689AFA16C5A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Options@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "version": "8.0.0",
+      "description": "Provides additional configuration specific functionality related to Options.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5C32AE67AE4E873216BBBEC15554778E0ACBEBC283862A2DEBCB11A995C42A5FD75F9436C8DA421AA51BC5C12DB4E6C4E82F12DA1FF942BC5A6E1A8CF3C77A7D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "8.0.0",
+      "description": "Primitives shared by framework extensions. Commonly used types include:\n\nCommonly Used Types:\nMicrosoft.Extensions.Primitives.IChangeToken\nMicrosoft.Extensions.Primitives.StringValues\nMicrosoft.Extensions.Primitives.StringSegment",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1F5475CA3D3CE18463456DD135AFAC502D6F82FEA6E4E4814A61F86616C348DECF28B73D15C2BB276D1A3C039EA6064F75E1329F6F3A64CAA3520D70AB92C32D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Abstractions@8.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.Abstractions",
+      "version": "8.1.0",
+      "description": "A package containing thin abstractions for Microsoft.IdentityModel.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C191F9378578C9DBF2B23104561DAC0238E90592600D121DCEAA6471109F756F9E803140DEA78B98CA26CCDD7554868569FF8C19501DB607F754E8A8F5D9F872"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Abstractions@8.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@8.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "version": "8.1.0",
+      "description": "Includes types that provide support for creating, serializing and validating JSON Web Tokens. This is a newer, faster version of System.IdentityModel.Tokens.Jwt that has additional functionality.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "81CB067C5F090EA385A9161B1CD8A5C53AE2C8CA0127B17877731CC4DDFC49269C4DD6AEA07B58483510CA04062B1C29ADB307B8574E24D5E449C17506A56DD1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@8.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Logging@8.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.Logging",
+      "version": "8.1.0",
+      "description": "Includes Event Source based logging support.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B630C5F62DC553156FB65B3795323836B4F176E1B240BD467CF25E75399C39F7360D76D80D855D6699FE8B8605F4FD7E882BA161D7B3BE225248B3591E93FE6B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Logging@8.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@8.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.Tokens",
+      "version": "8.1.0",
+      "description": "Includes types that provide support for SecurityTokens, Cryptographic operations: Signing, Verifying Signatures, Encryption.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CEB83AD0F5E334D6DF437F9D33DD427B7BD568778425F146B0AF3ECE30513A75AB975C6FA3F92B412EAD3900367773554396FC06A8BBF4D3FAF86E1B37AA5475"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Tokens@8.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.11.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "17.11.0",
+      "description": "The MSbuild targets and properties for building .NET test projects.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AF282BF4368356AEF9E607CD81B808A024A3AF916DA98B2AC781B48B54B94440F1F171F8BA2499ADF4847AF50E7656270EABDD73E0FFE68BBA8F05B503068B75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NET.Test.Sdk@17.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "5.0.0",
+      "description": "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8493FE11648C7ECC20B6530490D30FD63744961345C0501A7A10B11046661DA09B783DDCEB8B3208AE52A72A8A94CAFDCE8DC1BD6073C32081E30D0E7407F174"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.OpenApi@1.6.14",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.OpenApi",
+      "version": "1.6.14",
+      "description": ".NET models with JSON and YAML writers for OpenAPI specification",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B2E69A1A2E90205446AABEA36C34751E941836E267E9AB10F5430EF3C631568BE5276C5F2060BBC353E36F9905D47C993BDC27E06359606B9B077A1712A96E75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.OpenApi@1.6.14",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Microsoft/OpenAPI.NET",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Microsoft/OpenAPI.NET",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Testing.Extensions.Telemetry@1.4.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Testing.Extensions.Telemetry",
+      "version": "1.4.0",
+      "description": "Microsoft Testing is a set of platform, framework and protocol intended to make it possible to run any test on any target or device.\n\nThis package provides telemetry for the platform.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3921683241572FFA1E07C9A26B97632EF7170CC8DA22AB0A56B2344093650DE0F0C4A46FBEA75D8D7B679E34311252212829341DE6557A0BEEC7AB0AB3FB5B5B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Testing.Extensions.Telemetry@1.4.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Testing.Extensions.TrxReport.Abstractions@1.4.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+      "version": "1.4.0",
+      "description": "Package Description",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AF59DC0BA168BB6DD34085B8C73798C21ACDB9630A7C495B365A7AE38D905716FAAB4C303E31B1D3D7BBD34995902FB9653A8C29AED8A5CDF74BDA787474E76F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Testing.Extensions.TrxReport.Abstractions@1.4.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Testing.Extensions.VSTestBridge@1.4.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Testing.Extensions.VSTestBridge",
+      "version": "1.4.0",
+      "description": "Microsoft Testing is a set of platform, framework and protocol intended to make it possible to run any test on any target or device.\n\nThis package provides a bridge integration for test adapters wanting to target both VSTest and Microsoft.Testing.Platform test platforms.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "75F70476C620CF53BAE3F9C5F6DD537181252BDFF5FE98C3CF741630B570EE95E1A967C177E5EE60D68D20D10CFD3194F86C54E9944A36E58F0F7130E753975D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Testing.Extensions.VSTestBridge@1.4.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Testing.Platform@1.4.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Testing.Platform",
+      "version": "1.4.0",
+      "description": "Microsoft Testing is a set of platform, framework and protocol intended to make it possible to run any test on any target or device.\n\nThis package provides the core platform and the .NET implementation of the protocol.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2A5EDE69CF5F61A90858E84AF0C4199DFF831AEB6A533BE2A82E462C39DE462159B42069C80A3D9DEDFA0C09D6CF25A861499869CF05E5C6AFA6C9000C829EBC"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Testing.Platform@1.4.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Testing.Platform.MSBuild@1.4.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Testing.Platform.MSBuild",
+      "version": "1.4.0",
+      "description": "Microsoft Testing is a set of platform, framework and protocol intended to make it possible to run any test on any target or device.\n\nThis package provides MSBuild integration of the platform, its extensions and configuration files.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "59D7FD30F37320BB595D55C81A2A7CC647D06B0BB85B29CBA4706FCC94C8C15064D1FD6349FFF68EB225B47E38E0E8B19245974B03B629C17A433698B084ADA7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Testing.Platform.MSBuild@1.4.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.TestPlatform.ObjectModel",
+      "version": "17.11.0",
+      "description": "The Microsoft Test Platform Object Model.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "50E6E5729950971352D630D29CC7A1B6B74BE16F42FE0C901A824E5621DC223149AE678C74F3D5B32EF2525463BA9471C58A662F31C37A3E1146597F2E8087A4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.11.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.TestPlatform.TestHost",
+      "version": "17.11.0",
+      "description": "Testplatform host executes the test using specified adapter.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "EF0BE428D478070ECB8C327EB0953F768939D3CEE45364F76D6CF73A2B217E43C72980186744EF7965A673A509ABED734FBAC84FE021E6FDB94CDDB593400F83"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.11.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Win32.Registry",
+      "version": "5.0.0",
+      "description": "Provides support for accessing and modifying the Windows Registry.\n\nCommonly Used Types:\nMicrosoft.Win32.RegistryKey\nMicrosoft.Win32.Registry\nMicrosoft.Win32.RegistryValueKind\nMicrosoft.Win32.RegistryHive\nMicrosoft.Win32.RegistryView\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "471E66567CE59CC86475AECE7815D05261264CE114E0C1688BA2551DD51494901FA72DD7A8F74F8E8F0F3DBA74AF8595F177552F3C06ABB4BFCE76692197076E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MSTest@3.6.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "MSTest",
+      "version": "3.6.0",
+      "description": "MSTest is Microsoft supported Test Framework.\n\n      This package is a meta package to simplify test projects. It includes MSTest.TestFramework and MSTest.TestAdapter.\n\n      Supported platforms:\n      - .NET 4.6.2\u002B\n      - .NET Core 3.1\u002B\n      - .NET 6.0\u002B\n      - .NET 6.0 Windows.18362\u002B\n      - UWP 10.0.16299",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DFE5B49BAA42573556D49B7FA4F7FFA54B701DBDFF357FEDB668416C4E6B28A4D8253E408CFFA283321895D87AF111AC6BE60E19CB816397B147EC794F931538"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/MSTest@3.6.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MSTest.Analyzers@3.6.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "MSTest.Analyzers",
+      "version": "3.6.0",
+      "description": "MSTest is Microsoft supported Test Framework.\n\n      This package includes code analyzers and code fixes for MSTest.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "48A09EDE5DF8CF455B8A7B8287C93984C2C6303DE246CED953AD5AB76467624F0B06650CE9E017D9C665E84F838D21BEC9EC03054184D4499B1B93F92C353E3C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/MSTest.Analyzers@3.6.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MSTest.TestAdapter@3.6.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "MSTest.TestAdapter",
+      "version": "3.6.0",
+      "description": "MSTest is Microsoft supported Test Framework.\n\n      This package includes the adapter logic to discover and run tests. For access to the testing framework, install the MSTest.TestFramework package.\n\n      Supported platforms:\n      - .NET 4.6.2\u002B\n      - .NET Core 3.1\u002B\n      - .NET 6.0\n      - .NET 6.0 Windows.18362\u002B\n      - UWP 10.0.16299",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B9EFFC44C5FF6F07DBE741977935D49D2137868FE5B6F9D0D961B6F0D8ECB70D4104021AFB1AA2FF75B044C44D19E3AB96F85BE3FB7289C89FB548A0E0D0AF0D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/MSTest.TestAdapter@3.6.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MSTest.TestFramework@3.6.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "MSTest.TestFramework",
+      "version": "3.6.0",
+      "description": "MSTest is Microsoft supported Test Framework.\n\n      This package includes the libraries for writing tests with MSTest. To ensure discovery and execution of your tests, install the MSTest.TestAdapter package.\n\n      Supported platforms:\n      - .NET 4.6.2\u002B\n      - .NET Core 3.1\u002B\n      - .NET 6.0\n      - .NET 6.0 Windows.18362\u002B\n      - UWP 10.0.16299",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3480028D9891AA4CA48073D160F85A4DE68BD306997E90232BFE8B404632D9852A1BC9BB3847F193710AF7837CDC312A6C0A184763EFE41E599757D2362C664B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/MSTest.TestFramework@3.6.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/testfx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "authors": [
+        {
+          "name": "James Newton-King"
+        }
+      ],
+      "name": "Newtonsoft.Json",
+      "version": "13.0.1",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83731B662EAF05379A23F8446EF47BBC111349DD4358B7BD8B51383FE9CF637E2FE62F78CEA52A0D7BDD582DC6FBBB5837D4A7B1D53DCF37A0AE7473E21EE7B1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 James Newton-King 2008",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.newtonsoft.com/json",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Nito.AsyncEx.Coordination@5.1.2",
+      "authors": [
+        {
+          "name": "Stephen Cleary"
+        }
+      ],
+      "name": "Nito.AsyncEx.Coordination",
+      "version": "5.1.2",
+      "description": "Asynchronous coordination primitives.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0293F5FA5F33C1BCFCF44FC53119FCA4FA5421853091EB1D11465538FA73CED049FA7A9A2D6DBD727208BDAB646DEB97D152897C52381DC6C8DF3E0FC9A485D7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Nito.AsyncEx.Coordination@5.1.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/StephenCleary/AsyncEx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/StephenCleary/AsyncEx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Nito.AsyncEx.Tasks@5.1.2",
+      "authors": [
+        {
+          "name": "Stephen Cleary"
+        }
+      ],
+      "name": "Nito.AsyncEx.Tasks",
+      "version": "5.1.2",
+      "description": "Common helper methods for tasks as used in asynchronous programming.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "58B5D35D0D8AADA464B467F87080A4372C568816B40969E71C596637565C9CF33E9103CDA6FF295C22228DF31CC33CD6222F598B7090C54F17BF6E1A04E9EF27"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Nito.AsyncEx.Tasks@5.1.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/StephenCleary/AsyncEx",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/StephenCleary/AsyncEx",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Nito.Collections.Deque@1.1.1",
+      "authors": [
+        {
+          "name": "Stephen Cleary"
+        }
+      ],
+      "name": "Nito.Collections.Deque",
+      "version": "1.1.1",
+      "description": "A double-ended queue.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "329D539E9E5E9BF4C75165903E1D9856F43E9EB7EF017D322375F6E7F7DCA2C6CA9344B87877552DD7E646AFF411C2739C73813505D5465D7D3F4685977A1890"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Nito.Collections.Deque@1.1.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/StephenCleary/Deque",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/StephenCleary/Deque",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Nito.Disposables@2.2.1",
+      "authors": [
+        {
+          "name": "Stephen Cleary"
+        }
+      ],
+      "name": "Nito.Disposables",
+      "version": "2.2.1",
+      "description": "IDisposable and IAsyncDisposable helper types.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "909E2D8B952127D6274CB2793A9826848A6673D2E8958E260BFA46048E5FD717406D33959C76F110D190AFA4B0A6D0D492B64F69C7C2A0BB6EBFDA284C9CF2ED"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Nito.Disposables@2.2.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/StephenCleary/Disposables",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/StephenCleary/Disposables",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NLog@5.3.4",
+      "authors": [
+        {
+          "name": "Jarek Kowalski,Kim Christensen,Julian Verdurmen"
+        }
+      ],
+      "name": "NLog",
+      "version": "5.3.4",
+      "description": "NLog is a logging platform for .NET with rich log routing and management capabilities.\nNLog supports traditional logging, structured logging and the combination of both.\n\nSupported platforms:\n\n- .NET 5, 6, 7 and 8\n- .NET Core 1, 2 and 3\n- .NET Standard 1.3\u002B and 2.0\u002B\n- .NET Framework 3.5 - 4.8\n- Xamarin Android \u002B iOS (.NET Standard)\n- Mono 4\n\nFor ASP.NET Core, check: https://www.nuget.org/packages/NLog.Web.AspNetCore",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "A863CC5A778119B99569F9F8A97F8E8063A8DB58A9A908041709E8F1FE66D491DD9108EFDCD343505516F6BDC47F742B14FA1E1ABA381D57E48FAD3BD24F2A1D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2004-2024 NLog Project - https://nlog-project.org/",
+      "purl": "pkg:nuget/NLog@5.3.4",
+      "externalReferences": [
+        {
+          "url": "https://nlog-project.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/NLog/NLog.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NLog.Extensions.Logging@5.3.13",
+      "authors": [
+        {
+          "name": "Julian Verdurmen"
+        }
+      ],
+      "name": "NLog.Extensions.Logging",
+      "version": "5.3.13",
+      "description": "NLog LoggerProvider for Microsoft.Extensions.Logging for logging in .NET Standard libraries and .NET Core applications.\n\nFor ASP.NET Core, check: https://www.nuget.org/packages/NLog.Web.AspNetCore",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8A2D81466DCC20EC73C6FA71E985754827FE01514558B23E3BBDC9A1A673D5EFBB81CBCE7D0EBA48EE93C39821DE34FDD21D334466ECF7EAA3AA20D5CA385196"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2004-2024 NLog Project - https://nlog-project.org/",
+      "purl": "pkg:nuget/NLog.Extensions.Logging@5.3.13",
+      "externalReferences": [
+        {
+          "url": "https://github.com/NLog/NLog.Extensions.Logging",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/NLog/NLog.Extensions.Logging.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NLog.Web.AspNetCore@5.3.14",
+      "authors": [
+        {
+          "name": "Julian Verdurmen"
+        }
+      ],
+      "name": "NLog.Web.AspNetCore",
+      "version": "5.3.14",
+      "description": "Integrates NLog as provider for Microsoft.Extensions.Logging, and provides NLog LayoutRenderers to enrich logging output with details from HttpContext.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "82B9B78CCBD63E9145B033995AD98A49477D704E405628DFE3A4F164C4C651A125F10660F72E28A2798BE66E6A4B057B959299444BE07F6C086FEC3681BC8EFB"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2015-2024 NLog Project - https://nlog-project.org/",
+      "purl": "pkg:nuget/NLog.Web.AspNetCore@5.3.14",
+      "externalReferences": [
+        {
+          "url": "https://github.com/NLog/NLog.Web",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/NLog/NLog.Web",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTelemetry@1.9.0",
+      "authors": [
+        {
+          "name": "OpenTelemetry Authors"
+        }
+      ],
+      "name": "OpenTelemetry",
+      "version": "1.9.0",
+      "description": "OpenTelemetry .NET SDK",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CC743FCE9599D59EEDFB5FCAAFF4B369290108BE40E2560473CCF575AAE0A5B55AAF4850F4FA73A4CA77A9385F8FDB01686106B5F81F23644C4D625D22029BFA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright The OpenTelemetry Authors",
+      "purl": "pkg:nuget/OpenTelemetry@1.9.0",
+      "externalReferences": [
+        {
+          "url": "https://opentelemetry.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/open-telemetry/opentelemetry-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTelemetry.Api@1.9.0",
+      "authors": [
+        {
+          "name": "OpenTelemetry Authors"
+        }
+      ],
+      "name": "OpenTelemetry.Api",
+      "version": "1.9.0",
+      "description": "OpenTelemetry .NET API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DE882979582F68E63E58771C2C2D288299FF1B46DB1800315F54FA030438768A3D4529BAB4E3C7CADEFFA22D5C7CE153116C5106783E9F9EA95C46DA50BE057F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright The OpenTelemetry Authors",
+      "purl": "pkg:nuget/OpenTelemetry.Api@1.9.0",
+      "externalReferences": [
+        {
+          "url": "https://opentelemetry.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/open-telemetry/opentelemetry-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTelemetry.Api.ProviderBuilderExtensions@1.9.0",
+      "authors": [
+        {
+          "name": "OpenTelemetry Authors"
+        }
+      ],
+      "name": "OpenTelemetry.Api.ProviderBuilderExtensions",
+      "version": "1.9.0",
+      "description": "Contains extensions to register OpenTelemetry in applications using Microsoft.Extensions.DependencyInjection",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "04D4FA13A7D7A80EC1B55FF993D2E8E6193F48EDC38F342F675E71F1F2756F6E1C51FDA80AAED72B80450E5D87A8CAE84BFA2934CD24F6DB3E3877594FFEF14C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright The OpenTelemetry Authors",
+      "purl": "pkg:nuget/OpenTelemetry.Api.ProviderBuilderExtensions@1.9.0",
+      "externalReferences": [
+        {
+          "url": "https://opentelemetry.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/open-telemetry/opentelemetry-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTelemetry.Exporter.Prometheus.AspNetCore@1.9.0-beta.2",
+      "authors": [
+        {
+          "name": "OpenTelemetry Authors"
+        }
+      ],
+      "name": "OpenTelemetry.Exporter.Prometheus.AspNetCore",
+      "version": "1.9.0-beta.2",
+      "description": "ASP.NET Core middleware for hosting OpenTelemetry .NET Prometheus Exporter",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5BAB85E0EFD168C6E717F6B433EB1C3F3D5439429DFB9EA736018497741A10DEC2293921080B819C4DB3F62E0B102EF5DF83722F8C2590D03163BD98B508003E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright The OpenTelemetry Authors",
+      "purl": "pkg:nuget/OpenTelemetry.Exporter.Prometheus.AspNetCore@1.9.0-beta.2",
+      "externalReferences": [
+        {
+          "url": "https://opentelemetry.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/open-telemetry/opentelemetry-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTelemetry.Extensions.Hosting@1.9.0",
+      "authors": [
+        {
+          "name": "OpenTelemetry Authors"
+        }
+      ],
+      "name": "OpenTelemetry.Extensions.Hosting",
+      "version": "1.9.0",
+      "description": "Contains extensions to start OpenTelemetry in applications using Microsoft.Extensions.Hosting",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "E9459A219D9D8BAB4BD3647622EF7187A4C9F673C1B28A4E81B1E5307E0440A78C5CFC242B2C9E59236CF30673FBA27C6A2AD955D49DC9584303D244AC41CDB7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright The OpenTelemetry Authors",
+      "purl": "pkg:nuget/OpenTelemetry.Extensions.Hosting@1.9.0",
+      "externalReferences": [
+        {
+          "url": "https://opentelemetry.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/open-telemetry/opentelemetry-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTelemetry.Instrumentation.AspNetCore@1.9.0",
+      "authors": [
+        {
+          "name": "OpenTelemetry authors"
+        }
+      ],
+      "name": "OpenTelemetry.Instrumentation.AspNetCore",
+      "version": "1.9.0",
+      "description": "ASP.NET Core instrumentation for OpenTelemetry .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "54E0626E76175DF26F3230802B0989B4507F82016120068D70D94AAA4E48FDE60805E6413769E2481C4F4AD9068DDF85FF53F32EF8E6EC170080DB4C2B67CC0B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright The OpenTelemetry Authors",
+      "purl": "pkg:nuget/OpenTelemetry.Instrumentation.AspNetCore@1.9.0",
+      "externalReferences": [
+        {
+          "url": "https://opentelemetry.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/open-telemetry/opentelemetry-dotnet-contrib",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTelemetry.Instrumentation.Http@1.9.0",
+      "authors": [
+        {
+          "name": "OpenTelemetry authors"
+        }
+      ],
+      "name": "OpenTelemetry.Instrumentation.Http",
+      "version": "1.9.0",
+      "description": "Http instrumentation for OpenTelemetry .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "17295A868F0094EF4C4B3A0A5A1E4B2359955B4DCFDE3AF988952F1AD4C0473EB94F185C021DB9241DEFB38701AD047F7559CB547BBB3DADE71F7407DEC64677"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright The OpenTelemetry Authors",
+      "purl": "pkg:nuget/OpenTelemetry.Instrumentation.Http@1.9.0",
+      "externalReferences": [
+        {
+          "url": "https://opentelemetry.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/open-telemetry/opentelemetry-dotnet-contrib",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTelemetry.Instrumentation.Runtime@1.9.0",
+      "authors": [
+        {
+          "name": "OpenTelemetry authors"
+        }
+      ],
+      "name": "OpenTelemetry.Instrumentation.Runtime",
+      "version": "1.9.0",
+      "description": "dotnet runtime instrumentation for OpenTelemetry .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CB4DD49CEAB81D128852A6081FFA1B45FEDDBF42587D8A1AE70308F57FC6CEA7F24A1A28DA4A688145CFEE9B31E8EC001E27F355673D47FE8EEF2FC9AF85F7DD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright The OpenTelemetry Authors",
+      "purl": "pkg:nuget/OpenTelemetry.Instrumentation.Runtime@1.9.0",
+      "externalReferences": [
+        {
+          "url": "https://opentelemetry.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/open-telemetry/opentelemetry-dotnet-contrib",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/protobuf-net@3.2.30",
+      "authors": [
+        {
+          "name": "Marc Gravell"
+        }
+      ],
+      "name": "protobuf-net",
+      "version": "3.2.30",
+      "description": "Provides simple access to fast and efficient \u0022Protocol Buffers\u0022 serialization from .NET applications",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3DCD5D8C337D8E96C67A71DEEDF7B6490E96F902BE5BE47EC9BF913DFD9CB7BCE58E673AFDF6BEBB037470FE4E9E7AD4022179BA4FA056D1034B937A4DB5F4B5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "See https://github.com/protobuf-net/protobuf-net",
+      "purl": "pkg:nuget/protobuf-net@3.2.30",
+      "externalReferences": [
+        {
+          "url": "https://github.com/protobuf-net/protobuf-net",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/protobuf-net/protobuf-net",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/protobuf-net.Core@3.2.30",
+      "authors": [
+        {
+          "name": "Marc Gravell"
+        }
+      ],
+      "name": "protobuf-net.Core",
+      "version": "3.2.30",
+      "description": "Provides simple access to fast and efficient \u0022Protocol Buffers\u0022 serialization from .NET applications",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "826118B347A1678A2212EFE77B7002333B3E494741D72583A05F4F63F24B594675D2B18CE2F323F862350B6350427FA24508A5FAEB16A3A34FAD20039D7D53A0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "See https://github.com/protobuf-net/protobuf-net",
+      "purl": "pkg:nuget/protobuf-net.Core@3.2.30",
+      "externalReferences": [
+        {
+          "url": "https://github.com/protobuf-net/protobuf-net",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/protobuf-net/protobuf-net",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/SteamKit2@3.0.0-Beta.3",
+      "authors": [
+        {
+          "name": "SteamKit2"
+        }
+      ],
+      "name": "SteamKit2",
+      "version": "3.0.0-Beta.3",
+      "description": ".NET library that aims to interoperate with the Steam network.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F666DC04ADD15BA0EC7D6AA032D428577BE8A1D5FD0FAA633C02F6DEFAA9EF7746E0EEF3955670E29DEDFB46CA934B9A12DE2A90677CC38FF02BFA4A1FF24BA7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/SteamKit2@3.0.0-Beta.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/SteamRE/SteamKit",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/SteamRE/SteamKit",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore@6.8.0",
+      "authors": [
+        {
+          "name": "domaindrivendev"
+        }
+      ],
+      "name": "Swashbuckle.AspNetCore",
+      "version": "6.8.0",
+      "description": "Swagger tools for documenting APIs built on ASP.NET Core",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0693B0CA5FFF86C959C71D5FB5BC3A101D3D6F0A2684D1361EABCD24EE9D3258F6473FD92A776A9703A7F9AA5191E05DC66711AC636CAA4BFCACE0C1DF651CF4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore@6.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore.Annotations@6.8.0",
+      "authors": [
+        {
+          "name": "domaindrivendev"
+        }
+      ],
+      "name": "Swashbuckle.AspNetCore.Annotations",
+      "version": "6.8.0",
+      "description": "Provides custom attributes that can be applied to controllers, actions and models to enrich the generated Swagger",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "A0CAC1257187850644A05D83F2BDC9B1F231ECCF2F0F85D43F38C0561E16419CE11FC18A6387438FB14040601BA1A13D47BDA0D98753941D5E3DF89AB3D866C1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016-2024 Richard Morris",
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore.Annotations@6.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.8.0",
+      "authors": [
+        {
+          "name": "domaindrivendev"
+        }
+      ],
+      "name": "Swashbuckle.AspNetCore.Swagger",
+      "version": "6.8.0",
+      "description": "Middleware to expose Swagger JSON endpoints from APIs built on ASP.NET Core",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C9521078DC4CD5EDF72FB1E1A7BFDF79D2271F39C73D4CD18FB2F447F07A5336F5241889BBB1F36D27F79F6F36812F5DE8D99352B5687BF44DE3F86D8C984AE1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016-2024 Richard Morris",
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.8.0",
+      "authors": [
+        {
+          "name": "domaindrivendev"
+        }
+      ],
+      "name": "Swashbuckle.AspNetCore.SwaggerGen",
+      "version": "6.8.0",
+      "description": "Swagger Generator for APIs built on ASP.NET Core",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8C3E84B08D7015DDEA6B6CEBD86A16C374C412B4AA18FF52BB7EFCAE0E9C381D81CF68C6567C6AD2E7D8C8EC88D6A515BBA1BDE78B301191C0A76A1C5017A3C1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016-2024 Richard Morris",
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerUI@6.8.0",
+      "authors": [
+        {
+          "name": "domaindrivendev"
+        }
+      ],
+      "name": "Swashbuckle.AspNetCore.SwaggerUI",
+      "version": "6.8.0",
+      "description": "Middleware to expose an embedded version of the swagger-ui from an ASP.NET Core application",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D7CB58ED39555E765D54FA579E9B657A974DA7C18B300477726ADAC8D68CBDEF33F35AECD01CB924EA98E1B7C1C0DABCC97C64AE5E23F676BCB37FC1F4DB9DBB"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2016-2024 Richard Morris",
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerUI@6.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Collections.Immutable@7.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Collections.Immutable",
+      "version": "7.0.0",
+      "description": "This package provides collections that are thread safe and guaranteed to never change their contents, also known as immutable collections. Like strings, any methods that perform modifications will not change the existing instance but instead return a new instance. For efficiency reasons, the implementation uses a sharing mechanism to ensure that newly created instances share as much data as possible with the previous instance while ensuring that operations have a predictable time complexity.\n\nThe System.Collections.Immutable library is built-in as part of the shared framework in .NET Runtime. The package can be installed when you need to use it in other target frameworks.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F084AFC9395D74B4F252C47B7D0E378E676D6B8B6033A68636B648B58805E3772DD22FF1DED05D3C8C8553D2E7685B29B753FE1CBB5A333F018ABE6422A3EBFA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Collections.Immutable@7.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Composition@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Composition",
+      "version": "8.0.0",
+      "description": "This package provides a version of the Managed Extensibility Framework (MEF) that is lightweight and specifically optimized for high throughput scenarios, such as the web.\n\nCommonly Used Types:\nSystem.Composition.ExportAttribute\nSystem.Composition.ImportAttribute\nSystem.Composition.Convention.ConventionBuilder\nSystem.Composition.Hosting.CompositionHost\nSystem.Composition.CompositionContext\nSystem.Composition.CompositionContextExtensions",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FC067F4BEB17E9AC2249E4AF3AFEFDF7B6A2C1B53A1C270E0490CB79C7584098C3A3EE27602AD6C16290408677F1567A04B875A4399C6053D9A1C908BA844863"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Composition@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Composition.AttributedModel@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Composition.AttributedModel",
+      "version": "8.0.0",
+      "description": "Provides common attributes used by System.Composition types.\n\nCommonly Used Types:\nSystem.Composition.ExportAttribute\nSystem.Composition.ImportAttribute\nSystem.Composition.Convention.AttributedModelProvider",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "826130A705F3F8238FB6E00048AFA2721020F3ED2840068F395E7D83A7C3767B752966EBCA6762C409F4E9B35B91D09419C0576FC457E64EFD72A8341EA96FD6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Composition.AttributedModel@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Composition.Convention@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Composition.Convention",
+      "version": "8.0.0",
+      "description": "Provides types that support using Managed Extensibility Framework with a convention-based configuration model.\n\nCommonly Used Types:\nSystem.Composition.Convention.ConventionBuilder\nSystem.Composition.Convention.ExportConventionBuilder\nSystem.Composition.Convention.ImportConventionBuilder\nSystem.Composition.Convention.PartConventionBuilder\nSystem.Composition.Convention.ParameterImportConventionBuilder",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "30FEEA31A75019470C384C8638DE5D9B2F53F8E5EE6EF231D389051EF4D53DF67FF7E9ECF1DAA6153A31A05EC80F32554969AD3901C350FD9F2F5C7C17AB254C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Composition.Convention@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Composition.Hosting@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Composition.Hosting",
+      "version": "8.0.0",
+      "description": "Provides Managed Extensibility Framework types that are useful to developers of extensible applications, or hosts.\n\nCommonly Used Types:\nSystem.Composition.Hosting.CompositionHost",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1CAEA658DDFC4CB5E8D2340ECD1EACA3C707D49F3FE8CCC27D2B104B5E5B59B14460A7A89CA44064AC930B613DDA8FB007528292870DA4ECB4D62C7AD499D68D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Composition.Hosting@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Composition.Runtime@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Composition.Runtime",
+      "version": "8.0.0",
+      "description": "Contains runtime components of the Managed Extensibility Framework.\n\nCommonly Used Types:\nSystem.Composition.CompositionContext",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "860180DCA0C8C7D14DDD6624A4CBF2D2952A580BA5F414DE866AAAE3D76A3F1BB913E31B50AAA092C5395D13FC33D2E804F6456BC16A05B29E160099DEB8DADB"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Composition.Runtime@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Composition.TypedParts@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Composition.TypedParts",
+      "version": "8.0.0",
+      "description": "Provides some extension methods for the Managed Extensibility Framework.\n\nCommonly Used Types:\nSystem.Composition.CompositionContextExtensions\nSystem.Composition.Hosting.ContainerConfiguration",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ACABB419D678258396505EDBAF55BB510148FD4833593534DC21D8EAD9D32D95C232D87A612003189451418ACBCE9C21DBE36E35C048BAFEDAEF1F09D71B1F77"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Composition.TypedParts@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.DiagnosticSource@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Diagnostics.DiagnosticSource",
+      "version": "5.0.0",
+      "description": "Provides Classes that allow you to decouple code logging rich (unserializable) diagnostics/telemetry (e.g. framework) from code that consumes it (e.g. tools)\n\nCommonly Used Types:\nSystem.Diagnostics.DiagnosticListener\nSystem.Diagnostics.DiagnosticSource\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "BA21118BAD3B362FC480708C71E239368D4BCCBF2B2E0E5C83577D54205DB26B162F46E24B4FB846B641EBE80F4FA341790B0AEC8E725A0978F01B165E3BDDD7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Diagnostics.DiagnosticSource@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.DiagnosticSource@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Diagnostics.DiagnosticSource",
+      "version": "8.0.0",
+      "description": "Provides Classes that allow you to decouple code logging rich (unserializable) diagnostics/telemetry (e.g. framework) from code that consumes it (e.g. tools)\n\nCommonly Used Types:\nSystem.Diagnostics.DiagnosticListener\nSystem.Diagnostics.DiagnosticSource",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "86E32C62E9773DBA192A63BFF0E2FFCD57826ED1123C9261FA8C9229F9D1DC26962B3740FB025F6AD5C139162575A6C493B213A9EF3FC1747D15CA0EDD0C5878"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Diagnostics.DiagnosticSource@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.Hashing@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.IO.Hashing",
+      "version": "8.0.0",
+      "description": "Provides non-cryptographic hash algorithms, such as CRC-32.\n\nCommonly Used Types:\nSystem.IO.Hashing.Crc32\nSystem.IO.Hashing.XxHash32",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "842B1DFF4B1DCB484689F244A93B1F65FA94DA7082D11736A65080E669353CDD6A95CA18214B9A79C94B635FE8CEC13057B0DBF0D6B8D67A4A79AACA5C7534EC"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.IO.Hashing@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Linq.Async@6.0.1",
+      "authors": [
+        {
+          "name": ".NET Foundation and Contributors"
+        }
+      ],
+      "name": "System.Linq.Async",
+      "version": "6.0.1",
+      "description": "Provides support for Language-Integrated Query (LINQ) over IAsyncEnumerable\u003CT\u003E sequences.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "792B7B14A6FCC52F88CC0475A2BA8A694399393FA602446FE23FA6D39D782C16F908B4BC3ACD58454554932B7A41056D84424B5FD66F0FE6E3C00178EB3D8A1A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) .NET Foundation and Contributors.",
+      "purl": "pkg:nuget/System.Linq.Async@6.0.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/reactive",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/reactive",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Memory@4.5.5",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Memory",
+      "version": "4.5.5",
+      "description": "Provides types for efficient representation and pooling of managed, stack, and native memory segments and sequences of such segments, along with primitives to parse and format UTF-8 encoded text stored in those memory segments.\n\nCommonly Used Types:\nSystem.Span\nSystem.ReadOnlySpan\nSystem.Memory\nSystem.ReadOnlyMemory\nSystem.Buffers.MemoryPool\nSystem.Buffers.ReadOnlySequence\nSystem.Buffers.Text.Utf8Parser\nSystem.Buffers.Text.Utf8Formatter\n \n32b491939fbd125f304031c35038b1e14b4e3958 \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "E8C8E536C97B94AC3443C940B30DAD43CF6E97DC7A8C3D989371048FE74E168606384F5E0143BDC0D86F7783BF9FDEE8417964CB3A8A5D752713E90B125172DC"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Memory@4.5.5",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Reflection.Metadata",
+      "version": "1.6.0",
+      "description": "This packages provides a low-level .NET (ECMA-335) metadata reader and writer. It\u0027s geared for performance and is the ideal choice for building higher-level libraries that intend to provide their own object model, such as compilers.\n\nCommonly Used Types:\nSystem.Reflection.Metadata.MetadataReader\nSystem.Reflection.PortableExecutable.PEReader\nSystem.Reflection.Metadata.Ecma335.MetadataBuilder\nSystem.Reflection.PortableExecutable.PEBuilder\nSystem.Reflection.PortableExecutable.ManagedPEBuilder\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F5227666EDC6BB1DA78B8A8E86A68E9BD647CAA2EC6A1580C14A4A5E1FE5CFDE3BDAF0D8C23DC210C405A55F83CEB6ADD1A9ADAB149DC065B38CFDDC9B01BA20"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.AccessControl",
+      "version": "5.0.0",
+      "description": "Provides base classes that enable managing access and audit control lists on securable objects.\n\nCommonly Used Types:\nSystem.Security.AccessControl.AccessRule\nSystem.Security.AccessControl.AuditRule\nSystem.Security.AccessControl.ObjectAccessRule\nSystem.Security.AccessControl.ObjectAuditRule\nSystem.Security.AccessControl.ObjectSecurity\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AE6B03AD029D3EB6818A6C8BB56CF4904013FA535A67B8E621B783A029DD88AA2E471E002CBC7D720381AD8BC8C6B93111A08F6CE2D271AF6D974BF4D02B6C81"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.ProtectedData@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Cryptography.ProtectedData",
+      "version": "8.0.0",
+      "description": "Provides access to Windows Data Protection Api.\n\nCommonly Used Types:\nSystem.Security.Cryptography.DataProtectionScope\nSystem.Security.Cryptography.ProtectedData",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "86F71767F211F8A5F163D942F52DA2CF0E7F7C6628383251DABF64412BECE6FFC75009C146E61864F26B1F3693D02783449CC89BC04725BD59AF01D0E7D8F7B9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Cryptography.ProtectedData@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Principal.Windows",
+      "version": "5.0.0",
+      "description": "Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.\n\nCommonly Used Types:\nSystem.Security.Principal.WindowsIdentity\nSystem.Security.Principal.SecurityIdentifier\nSystem.Security.Principal.NTAccount\nSystem.Security.Principal.WindowsPrincipal\nSystem.Security.Principal.IdentityReference\nSystem.Security.Principal.IdentityNotMappedException\nSystem.Security.Principal.WindowsBuiltInRole\nSystem.Security.Principal.WellKnownSidType\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "44A920AAAF22B2172D41319BB57AB2B8E1A4531D5F02192A6F53A81D875125195B60BA0B5A44A45981D137FD7B0F3A65B12959B5FD97AFC0578CD84EF27467CD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding.CodePages@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Encoding.CodePages",
+      "version": "8.0.0",
+      "description": "Provides support for code-page based encodings, including Windows-1252, Shift-JIS, and GB2312.\n\nCommonly Used Types:\nSystem.Text.CodePagesEncodingProvider",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "77DADF6B1A73EEEFB50507A6D76F5E3A20E0AE7D3F550C349265AE4E0D55F0AE4F0EF1B41BE08DD810798A8E01DBBA74E2CAAC746B5158B8E23D722523D473ED"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encoding.CodePages@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.ValueTuple@4.5.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.ValueTuple",
+      "version": "4.5.0",
+      "description": "Provides the System.ValueTuple structs, which implement the underlying types for tuples in C# and Visual Basic.\n\nCommonly Used Types:\nSystem.ValueTuple\nSystem.ValueTuple\u003CT1\u003E\nSystem.ValueTuple\u003CT1, T2\u003E\nSystem.ValueTuple\u003CT1, T2, T3\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6, T7\u003E\nSystem.ValueTuple\u003CT1, T2, T3, T4, T5, T6, T7, TRest\u003E\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "FA00EBB5045D12C51274F64411C551981BECEB1266A8606A4731063109B95EA1F15939197BF3D2BA899DB61E593DC39BFCE876908BBA34286823525093AE3D8E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.ValueTuple@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "ArchiSteamFarm@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/AngleSharp.XPath@2.0.4",
+        "pkg:nuget/CryptSharpStandard@1.0.0",
+        "pkg:nuget/Humanizer@3.0.0-beta.54",
+        "pkg:nuget/JetBrains.Annotations@2024.2.0",
+        "pkg:nuget/Markdig.Signed@0.37.0",
+        "pkg:nuget/Microsoft.CodeAnalysis.ResxSourceGenerator@3.11.0-beta1.24415.1",
+        "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@8.1.0",
+        "pkg:nuget/Nito.AsyncEx.Coordination@5.1.2",
+        "pkg:nuget/NLog.Web.AspNetCore@5.3.14",
+        "pkg:nuget/SteamKit2@3.0.0-Beta.3",
+        "pkg:nuget/Swashbuckle.AspNetCore@6.8.0",
+        "pkg:nuget/Swashbuckle.AspNetCore.Annotations@6.8.0",
+        "pkg:nuget/System.Composition@8.0.0",
+        "pkg:nuget/System.Composition.AttributedModel@8.0.0",
+        "pkg:nuget/System.Linq.Async@6.0.1",
+        "pkg:nuget/System.Security.Cryptography.ProtectedData@8.0.0",
+        "pkg:nuget/MSTest@3.6.0",
+        "pkg:nuget/OpenTelemetry.Exporter.Prometheus.AspNetCore@1.9.0-beta.2",
+        "pkg:nuget/OpenTelemetry.Extensions.Hosting@1.9.0",
+        "pkg:nuget/OpenTelemetry.Instrumentation.AspNetCore@1.9.0",
+        "pkg:nuget/OpenTelemetry.Instrumentation.Http@1.9.0",
+        "pkg:nuget/OpenTelemetry.Instrumentation.Runtime@1.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/AngleSharp.XPath@2.0.4",
+      "dependsOn": [
+        "pkg:nuget/AngleSharp@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/AngleSharp@1.1.2",
+      "dependsOn": [
+        "pkg:nuget/System.Text.Encoding.CodePages@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/CryptSharpStandard@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.af@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.ar@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.az@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.bg@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.bn-BD@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.cs@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.da@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.de@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.el@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.es@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.fa@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.fi-FI@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.fr-BE@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.fr@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.he@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.hr@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.hu@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.hy@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.id@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.is@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.it@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.ja@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.ko-KR@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.ku@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.lb@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.lt@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.lv@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.ms-MY@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.mt@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.nb-NO@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.nb@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.nl@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.pl@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.pt@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.ro@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.ru@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.sk@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.sl@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.sr-Latn@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.sr@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.sv@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.th-TH@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.tr@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.uk@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.uz-Cyrl-UZ@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.uz-Latn-UZ@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.vi@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.zh-CN@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.zh-Hans@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core.zh-Hant@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer.Core@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/System.Memory@4.5.5",
+        "pkg:nuget/System.ValueTuple@4.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Humanizer@3.0.0-beta.54",
+      "dependsOn": [
+        "pkg:nuget/Humanizer.Core.af@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.ar@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.az@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.bg@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.bn-BD@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.cs@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.da@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.de@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.el@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.es@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.fa@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.fi-FI@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.fr@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.fr-BE@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.he@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.hr@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.hu@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.hy@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.id@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.is@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.it@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.ja@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.ko-KR@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.ku@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.lb@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.lt@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.lv@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.ms-MY@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.mt@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.nb@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.nb-NO@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.nl@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.pl@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.pt@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.ro@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.ru@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.sk@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.sl@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.sr@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.sr-Latn@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.sv@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.th-TH@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.tr@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.uk@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.uz-Cyrl-UZ@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.uz-Latn-UZ@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.vi@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.zh-CN@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.zh-Hans@3.0.0-beta.54",
+        "pkg:nuget/Humanizer.Core.zh-Hant@3.0.0-beta.54"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/JetBrains.Annotations@2024.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Markdig.Signed@0.37.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.ApplicationInsights@2.22.0",
+      "dependsOn": [
+        "pkg:nuget/System.Diagnostics.DiagnosticSource@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Bcl.TimeProvider@8.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeAnalysis.ResxSourceGenerator@3.11.0-beta1.24415.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeCoverage@17.11.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.ApiDescription.Server@6.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.0",
+        "pkg:nuget/System.Diagnostics.DiagnosticSource@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging.Configuration@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Options@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Abstractions@8.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@8.1.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Bcl.TimeProvider@8.0.1",
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@8.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Logging@8.1.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Abstractions@8.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@8.1.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Bcl.TimeProvider@8.0.1",
+        "pkg:nuget/Microsoft.IdentityModel.Logging@8.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.11.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CodeCoverage@17.11.0",
+        "pkg:nuget/Microsoft.TestPlatform.TestHost@17.11.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.OpenApi@1.6.14",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Testing.Extensions.Telemetry@1.4.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.ApplicationInsights@2.22.0",
+        "pkg:nuget/Microsoft.Testing.Platform@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Testing.Extensions.TrxReport.Abstractions@1.4.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Testing.Platform@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Testing.Extensions.VSTestBridge@1.4.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.ApplicationInsights@2.22.0",
+        "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+        "pkg:nuget/Microsoft.Testing.Extensions.Telemetry@1.4.0",
+        "pkg:nuget/Microsoft.Testing.Extensions.TrxReport.Abstractions@1.4.0",
+        "pkg:nuget/Microsoft.Testing.Platform@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Testing.Platform.MSBuild@1.4.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Testing.Platform@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Testing.Platform@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+      "dependsOn": [
+        "pkg:nuget/System.Reflection.Metadata@1.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.11.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.11.0",
+        "pkg:nuget/Newtonsoft.Json@13.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Security.AccessControl@5.0.0",
+        "pkg:nuget/System.Security.Principal.Windows@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/MSTest.Analyzers@3.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/MSTest.TestAdapter@3.6.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Testing.Extensions.VSTestBridge@1.4.0",
+        "pkg:nuget/Microsoft.Testing.Platform.MSBuild@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/MSTest.TestFramework@3.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/MSTest@3.6.0",
+      "dependsOn": [
+        "pkg:nuget/MSTest.Analyzers@3.6.0",
+        "pkg:nuget/MSTest.TestAdapter@3.6.0",
+        "pkg:nuget/MSTest.TestFramework@3.6.0",
+        "pkg:nuget/Microsoft.NET.Test.Sdk@17.11.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Nito.AsyncEx.Coordination@5.1.2",
+      "dependsOn": [
+        "pkg:nuget/Nito.AsyncEx.Tasks@5.1.2",
+        "pkg:nuget/Nito.Collections.Deque@1.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Nito.AsyncEx.Tasks@5.1.2",
+      "dependsOn": [
+        "pkg:nuget/Nito.Disposables@2.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Nito.Collections.Deque@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Nito.Disposables@2.2.1",
+      "dependsOn": [
+        "pkg:nuget/System.Collections.Immutable@7.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NLog.Extensions.Logging@5.3.13",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging@8.0.0",
+        "pkg:nuget/NLog@5.3.4"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NLog.Web.AspNetCore@5.3.14",
+      "dependsOn": [
+        "pkg:nuget/NLog.Extensions.Logging@5.3.13"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NLog@5.3.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/OpenTelemetry.Api.ProviderBuilderExtensions@1.9.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+        "pkg:nuget/OpenTelemetry.Api@1.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/OpenTelemetry.Api@1.9.0",
+      "dependsOn": [
+        "pkg:nuget/System.Diagnostics.DiagnosticSource@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/OpenTelemetry.Exporter.Prometheus.AspNetCore@1.9.0-beta.2",
+      "dependsOn": [
+        "pkg:nuget/OpenTelemetry@1.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/OpenTelemetry.Extensions.Hosting@1.9.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@8.0.0",
+        "pkg:nuget/OpenTelemetry@1.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/OpenTelemetry.Instrumentation.AspNetCore@1.9.0",
+      "dependsOn": [
+        "pkg:nuget/OpenTelemetry.Api.ProviderBuilderExtensions@1.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/OpenTelemetry.Instrumentation.Http@1.9.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.0",
+        "pkg:nuget/OpenTelemetry.Api.ProviderBuilderExtensions@1.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/OpenTelemetry.Instrumentation.Runtime@1.9.0",
+      "dependsOn": [
+        "pkg:nuget/OpenTelemetry.Api@1.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/OpenTelemetry@1.9.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging.Configuration@8.0.0",
+        "pkg:nuget/OpenTelemetry.Api.ProviderBuilderExtensions@1.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/protobuf-net.Core@3.2.30",
+      "dependsOn": [
+        "pkg:nuget/System.Collections.Immutable@7.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/protobuf-net@3.2.30",
+      "dependsOn": [
+        "pkg:nuget/protobuf-net.Core@3.2.30"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/SteamKit2@3.0.0-Beta.3",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Win32.Registry@5.0.0",
+        "pkg:nuget/System.IO.Hashing@8.0.0",
+        "pkg:nuget/protobuf-net@3.2.30"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Swashbuckle.AspNetCore.Annotations@6.8.0",
+      "dependsOn": [
+        "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.8.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.OpenApi@1.6.14"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.8.0",
+      "dependsOn": [
+        "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerUI@6.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Swashbuckle.AspNetCore@6.8.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.ApiDescription.Server@6.0.5",
+        "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.8.0",
+        "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.8.0",
+        "pkg:nuget/Swashbuckle.AspNetCore.SwaggerUI@6.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Collections.Immutable@7.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Composition.AttributedModel@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Composition.Convention@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Composition.AttributedModel@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Composition.Hosting@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Composition.Runtime@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Composition.Runtime@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Composition.TypedParts@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Composition.AttributedModel@8.0.0",
+        "pkg:nuget/System.Composition.Hosting@8.0.0",
+        "pkg:nuget/System.Composition.Runtime@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Composition@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Composition.AttributedModel@8.0.0",
+        "pkg:nuget/System.Composition.Convention@8.0.0",
+        "pkg:nuget/System.Composition.Hosting@8.0.0",
+        "pkg:nuget/System.Composition.Runtime@8.0.0",
+        "pkg:nuget/System.Composition.TypedParts@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Diagnostics.DiagnosticSource@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Diagnostics.DiagnosticSource@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.IO.Hashing@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Linq.Async@6.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Memory@4.5.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Security.AccessControl@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@5.0.0",
+        "pkg:nuget/System.Security.Principal.Windows@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Cryptography.ProtectedData@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Encoding.CodePages@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.ValueTuple@4.5.0",
+      "dependsOn": []
+    }
+  ]
+}

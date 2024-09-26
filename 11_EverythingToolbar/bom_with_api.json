@@ -1,0 +1,112 @@
+﻿[
+    {
+        "Soup":  "Castle.Core",
+        "Author":  "Castle Project Contributors",
+        "LicenseType":  "Unknown - See URL, http://www.apache.org/licenses/LICENSE-2.0.html",
+        "UsedVersion":  "4.2.1",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "5.1.1.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Castle Core, including DynamicProxy, Logging Abstractions and DictionaryAdapter",
+        "ExternalReferences":  "http://www.castleproject.org/, https://github.com/castleproject/Core"
+    },
+    {
+        "Soup":  "Config.Net",
+        "Author":  "Ivan Gavryliuk (@aloneguid)",
+        "LicenseType":  "Unknown - See URL, https://github.com/aloneguid/config/blob/master/LICENSE",
+        "UsedVersion":  "4.13.7",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "5.2.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Super simple configuration framework for .NET focused on developer ergonomics and strong typing. Supports multiple configuration sources such as .ini, .json, .xml files, as well as external providers pluggable by other NuGet packages.",
+        "ExternalReferences":  "https://github.com/aloneguid/config, https://github.com/aloneguid/config"
+    },
+    {
+        "Soup":  "Microsoft.Windows.SDK.Contracts",
+        "Author":  "Microsoft",
+        "LicenseType":  "Unknown - See URL, https://aka.ms/WinSDKLicenseURL",
+        "UsedVersion":  "10.0.22621.755",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "10.0.26100.1",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "The Windows WinRT API Pack enables you to add the latest Windows Runtime APIs support to your .NET Framework 4.6+ and .NET Core 3.0+ libraries and apps.",
+        "ExternalReferences":  "https://aka.ms/WinSDKProjectURL"
+    },
+    {
+        "Soup":  "Microsoft.Xaml.Behaviors.Wpf",
+        "Author":  "Microsoft",
+        "LicenseType":  "MIT",
+        "UsedVersion":  "1.1.39",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "1.1.135.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Easily add interactivity to your apps using XAML Behaviors for WPF. Behaviors encapsulate reusable functionalities for elements that can be easily added to your XAML without the need for more imperative code.",
+        "ExternalReferences":  "https://github.com/Microsoft/XamlBehaviorsWpf, https://github.com/microsoft/XamlBehaviorsWpf"
+    },
+    {
+        "Soup":  "NHotkey",
+        "Author":  "Thomas Levesque",
+        "LicenseType":  "Apache-2.0",
+        "UsedVersion":  "2.1.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "3.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "A managed library to handle global hotkeys in Windows Forms and WPF applications. NOTE: this package doesn\u0027t contain a concrete HotkeyManager implementation; you should add either the NHotkey.Wpf or NHotkey.WindowsForms package to get one.",
+        "ExternalReferences":  "https://github.com/thomaslevesque/NHotkey, https://github.com/thomaslevesque/NHotkey.git"
+    },
+    {
+        "Soup":  "NHotkey.Wpf",
+        "Author":  "Thomas Levesque",
+        "LicenseType":  "Apache-2.0",
+        "UsedVersion":  "2.1.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "3.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "A managed library to handle global hotkeys in WPF applications. This package contains the concrete HotkeyManager implementation for WPF.",
+        "ExternalReferences":  "https://github.com/thomaslevesque/NHotkey, https://github.com/thomaslevesque/NHotkey.git"
+    },
+    {
+        "Soup":  "NLog",
+        "Author":  "Jarek Kowalski,Kim Christensen,Julian Verdurmen",
+        "LicenseType":  "BSD-3-Clause",
+        "UsedVersion":  "5.1.1",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "5.3.4.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "NLog is a logging platform for .NET with rich log routing and management capabilities.\nNLog supports traditional logging, structured logging and the combination of both.\n\nSupported platforms:\n\n- .NET 5, 6 and 7\n- .NET Core 1, 2 and 3\n- .NET Standard 1.3+ and 2.0+\n- .NET Framework 3.5 - 4.8\n- Xamarin Android + iOS (.NET Standard)\n- Mono 4\n\nFor ASP.NET Core, check: https://www.nuget.org/packages/NLog.Web.AspNetCore",
+        "ExternalReferences":  "https://nlog-project.org/, https://github.com/NLog/NLog.git"
+    },
+    {
+        "Soup":  "System.Runtime.InteropServices.WindowsRuntime",
+        "Author":  "Microsoft",
+        "LicenseType":  "Unknown - See URL, http://go.microsoft.com/fwlink/?LinkId=329770",
+        "UsedVersion":  "4.3.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "4.3.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Provides classes that support interoperation between managed code and the Windows Runtime, and that enable the creation of Windows Runtime types with managed code.\n\nCommonly Used Types:\nSystem.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal\nSystem.Runtime.InteropServices.WindowsRuntime.ReadOnlyArrayAttribute\nSystem.Runtime.InteropServices.WindowsRuntime.WriteOnlyArrayAttribute\nSystem.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+        "ExternalReferences":  "https://dot.net/"
+    },
+    {
+        "Soup":  "System.Runtime.WindowsRuntime",
+        "Author":  "Microsoft",
+        "LicenseType":  "Unknown - See URL, https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+        "UsedVersion":  "4.6.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "5.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Provides extensions methods that improve interoperation between managed code and the Windows Runtime.\n\nCommonly Used Types:\nSystem.WindowsRuntimeSystemExtensions\nSystem.IO.WindowsRuntimeStorageExtensions\nSystem.IO.WindowsRuntimeStreamExtensions\nSystem.Runtime.InteropServices.WindowsRuntime.AsyncInfo\nSystem.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeBuffer\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+        "ExternalReferences":  "https://github.com/dotnet/corefx"
+    },
+    {
+        "Soup":  "System.Runtime.WindowsRuntime.UI.Xaml",
+        "Author":  "Microsoft",
+        "LicenseType":  "Unknown - See URL, https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+        "UsedVersion":  "4.6.0",
+        "UsedVersionVulnerabilityInfo":  null,
+        "LastStableVersion":  "5.0.0.0",
+        "LastStableVersionVulnerabilityInfo":  null,
+        "Description":  "Provides managed equivalents of Extensible Application Markup Language (XAML) UI types from Windows Runtime.\n\nCommonly Used Types:\nWindows.UI.Xaml.CornerRadius\nWindows.UI.Xaml.Duration\nWindows.UI.Xaml.DurationType\nWindows.UI.Xaml.GridLength\nWindows.UI.Xaml.GridUnitType\nWindows.UI.Xaml.Thickness\nWindows.UI.Xaml.Media.Matrix\nWindows.UI.Xaml.Media.Animation.KeyTime\nWindows.UI.Xaml.Media.Animation.RepeatBehavior\nWindows.UI.Xaml.Media.Animation.RepeatBehaviorType\nWindows.UI.Xaml.Media.Media3D.Matrix3D\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+        "ExternalReferences":  "https://github.com/dotnet/corefx"
+    }
+]

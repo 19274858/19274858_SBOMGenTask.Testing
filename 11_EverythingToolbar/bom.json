@@ -1,0 +1,414 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:12200fa7-8410-4fa8-a844-427340e21e7b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-17T21:20:08Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "3.0.8.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "EverythingToolbar@0.0.0",
+      "name": "EverythingToolbar",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Castle.Core@4.2.1",
+      "author": "Castle Project Contributors",
+      "name": "Castle.Core",
+      "version": "4.2.1",
+      "description": "Castle Core, including DynamicProxy, Logging Abstractions and DictionaryAdapter",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B4B94CE1753E6A3D27F137648871E657FE3C1A94EE1443D08A61631D36460FD5D35910922D072707AACE7EDA9A51209778149B99658419E2CF4CB1B7B224EB73"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2004-2017 Castle Project - http://www.castleproject.org/",
+      "purl": "pkg:nuget/Castle.Core@4.2.1",
+      "externalReferences": [
+        {
+          "url": "http://www.castleproject.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/castleproject/Core",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Config.Net@4.13.7",
+      "author": "Ivan Gavryliuk (@aloneguid)",
+      "name": "Config.Net",
+      "version": "4.13.7",
+      "description": "Super simple configuration framework for .NET focused on developer ergonomics and strong typing. Supports multiple configuration sources such as .ini, .json, .xml files, as well as external providers pluggable by other NuGet packages.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8119EFEAED41AB4704D7752780FEFAB91563306A1B870CC75DD8FD768A8500EF2D83A905173551AC3CC7DE7661B8FCB286FF1CB17A612A570623953FF27CA9C4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/aloneguid/config/blob/master/LICENSE"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2015-2019 by Ivan Gavryliuk",
+      "purl": "pkg:nuget/Config.Net@4.13.7",
+      "externalReferences": [
+        {
+          "url": "https://github.com/aloneguid/config",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aloneguid/config",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Windows.SDK.Contracts@10.0.22621.755",
+      "author": "Microsoft",
+      "name": "Microsoft.Windows.SDK.Contracts",
+      "version": "10.0.22621.755",
+      "description": "The Windows WinRT API Pack enables you to add the latest Windows Runtime APIs support to your .NET Framework 4.6\u002B and .NET Core 3.0\u002B libraries and apps.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "20BEF4D8EA6E03DFC1CF326763C8821E1CD514F0DE2795CD342E7B804BB2A6B406540EDAAB152E3DA945F6861E73F8B3F6ED7008AA056298B14D2EF932CDB6DE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/WinSDKLicenseURL"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Windows.SDK.Contracts@10.0.22621.755",
+      "externalReferences": [
+        {
+          "url": "https://aka.ms/WinSDKProjectURL",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Xaml.Behaviors.Wpf@1.1.39",
+      "author": "Microsoft",
+      "name": "Microsoft.Xaml.Behaviors.Wpf",
+      "version": "1.1.39",
+      "description": "Easily add interactivity to your apps using XAML Behaviors for WPF. Behaviors encapsulate reusable functionalities for elements that can be easily added to your XAML without the need for more imperative code.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9B0E085A38F338BE646CC92E9BBF27C892EAF9A2BF5B71A5AE0DA1B5916AF83F5D57ECEDF70B0771B9C30817BCE05B3C21B319AAD3E2EC3B98F39DFB94331A8F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Xaml.Behaviors.Wpf@1.1.39",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Microsoft/XamlBehaviorsWpf",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/XamlBehaviorsWpf",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NHotkey@2.1.0",
+      "author": "Thomas Levesque",
+      "name": "NHotkey",
+      "version": "2.1.0",
+      "description": "A managed library to handle global hotkeys in Windows Forms and WPF applications. NOTE: this package doesn\u0027t contain a concrete HotkeyManager implementation; you should add either the NHotkey.Wpf or NHotkey.WindowsForms package to get one.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "81FC298B2AC5A57C4BE3340C62BC427B0F836AFDC7B23802C52CA129373C8D27F06608C2A1915A73F38C88C478DD31A93925071B4F6C0488422A1CA0D4400D12"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/NHotkey@2.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/thomaslevesque/NHotkey",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/thomaslevesque/NHotkey.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NHotkey.Wpf@2.1.0",
+      "author": "Thomas Levesque",
+      "name": "NHotkey.Wpf",
+      "version": "2.1.0",
+      "description": "A managed library to handle global hotkeys in WPF applications. This package contains the concrete HotkeyManager implementation for WPF.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "DE47D2D0D466D449CFEF03D7C69F6EA8CA25008A571A8A341DD203B013A191628D60BAD8FF1E5F62246E19EDE9A848EF43F146D3C4C35286123CEE13BFA3ABD6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/NHotkey.Wpf@2.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/thomaslevesque/NHotkey",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/thomaslevesque/NHotkey.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NLog@5.1.1",
+      "author": "Jarek Kowalski,Kim Christensen,Julian Verdurmen",
+      "name": "NLog",
+      "version": "5.1.1",
+      "description": "NLog is a logging platform for .NET with rich log routing and management capabilities.\nNLog supports traditional logging, structured logging and the combination of both.\n\nSupported platforms:\n\n- .NET 5, 6 and 7\n- .NET Core 1, 2 and 3\n- .NET Standard 1.3\u002B and 2.0\u002B\n- .NET Framework 3.5 - 4.8\n- Xamarin Android \u002B iOS (.NET Standard)\n- Mono 4\n\nFor ASP.NET Core, check: https://www.nuget.org/packages/NLog.Web.AspNetCore",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "87F27740ABC4CBDEFF83D1B378FCE16E6D496E9E9A1213E6101910ECF97C8E711678FDA3634D1338D9940E5C7A3BCE4CBC704C25D7EE66370722F6AA0C65EEF5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2004-2022 NLog Project - https://nlog-project.org/",
+      "purl": "pkg:nuget/NLog@5.1.1",
+      "externalReferences": [
+        {
+          "url": "https://nlog-project.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/NLog/NLog.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.InteropServices.WindowsRuntime@4.3.0",
+      "author": "Microsoft",
+      "name": "System.Runtime.InteropServices.WindowsRuntime",
+      "version": "4.3.0",
+      "description": "Provides classes that support interoperation between managed code and the Windows Runtime, and that enable the creation of Windows Runtime types with managed code.\n\nCommonly Used Types:\nSystem.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal\nSystem.Runtime.InteropServices.WindowsRuntime.ReadOnlyArrayAttribute\nSystem.Runtime.InteropServices.WindowsRuntime.WriteOnlyArrayAttribute\nSystem.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "041E18E06E501FA8CF96723897C8290F44316DA505514CF9E3BF130767F12C1E298196C948A0CB41F0DA45E09BA293CF241E4B930B242E8F3A99706AD8ACE91E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime.InteropServices.WindowsRuntime@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.WindowsRuntime@4.6.0",
+      "author": "Microsoft",
+      "name": "System.Runtime.WindowsRuntime",
+      "version": "4.6.0",
+      "description": "Provides extensions methods that improve interoperation between managed code and the Windows Runtime.\n\nCommonly Used Types:\nSystem.WindowsRuntimeSystemExtensions\nSystem.IO.WindowsRuntimeStorageExtensions\nSystem.IO.WindowsRuntimeStreamExtensions\nSystem.Runtime.InteropServices.WindowsRuntime.AsyncInfo\nSystem.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeBuffer\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5B23E03A432C75D8AA3D26E0679410A1A0D411D4C0C19FDD7AF79D7E9531187737848672A6DAE7CA6A5259C6C1E294E520CE80D575BBC2B29AA04FA4E8F6975B"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime.WindowsRuntime@4.6.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/corefx",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.WindowsRuntime.UI.Xaml@4.6.0",
+      "author": "Microsoft",
+      "name": "System.Runtime.WindowsRuntime.UI.Xaml",
+      "version": "4.6.0",
+      "description": "Provides managed equivalents of Extensible Application Markup Language (XAML) UI types from Windows Runtime.\n\nCommonly Used Types:\nWindows.UI.Xaml.CornerRadius\nWindows.UI.Xaml.Duration\nWindows.UI.Xaml.DurationType\nWindows.UI.Xaml.GridLength\nWindows.UI.Xaml.GridUnitType\nWindows.UI.Xaml.Thickness\nWindows.UI.Xaml.Media.Matrix\nWindows.UI.Xaml.Media.Animation.KeyTime\nWindows.UI.Xaml.Media.Animation.RepeatBehavior\nWindows.UI.Xaml.Media.Animation.RepeatBehaviorType\nWindows.UI.Xaml.Media.Media3D.Matrix3D\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "667EF15A298E24E052F6074996452DE2B516135FBB592D18311DB702CEBCA82307B7C400C6D3973B3B32AB401445A3AC16CD65C2922321F58C8664B2CFF087BC"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime.WindowsRuntime.UI.Xaml@4.6.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/corefx",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "EverythingToolbar@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/Config.Net@4.13.7",
+        "pkg:nuget/Microsoft.Windows.SDK.Contracts@10.0.22621.755",
+        "pkg:nuget/Microsoft.Xaml.Behaviors.Wpf@1.1.39",
+        "pkg:nuget/NHotkey.Wpf@2.1.0",
+        "pkg:nuget/NLog@5.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Castle.Core@4.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Config.Net@4.13.7",
+      "dependsOn": [
+        "pkg:nuget/Castle.Core@4.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Windows.SDK.Contracts@10.0.22621.755",
+      "dependsOn": [
+        "pkg:nuget/System.Runtime.InteropServices.WindowsRuntime@4.3.0",
+        "pkg:nuget/System.Runtime.WindowsRuntime@4.6.0",
+        "pkg:nuget/System.Runtime.WindowsRuntime.UI.Xaml@4.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Xaml.Behaviors.Wpf@1.1.39",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NHotkey.Wpf@2.1.0",
+      "dependsOn": [
+        "pkg:nuget/NHotkey@2.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NHotkey@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NLog@5.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.InteropServices.WindowsRuntime@4.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.WindowsRuntime.UI.Xaml@4.6.0",
+      "dependsOn": [
+        "pkg:nuget/System.Runtime.WindowsRuntime@4.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.WindowsRuntime@4.6.0",
+      "dependsOn": []
+    }
+  ]
+}
